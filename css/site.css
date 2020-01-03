@@ -1,0 +1,12 @@
+/*set up font family*/
+body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* center site contents*/
+.site-contents {
+    margin: auto;
+    width: 64%;
+}
