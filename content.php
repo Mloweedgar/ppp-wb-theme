@@ -124,6 +124,26 @@
                 <h4>Standard Prequalification Document</h4>
                 <hr>
             </div>
+            <div>
+                <h4>Standard Invitation for Quotations</h4>
+                <hr>
+            </div>
+            <div>
+                <h4>Works</h4>
+                <hr>
+            </div>
+            <div>
+                <h4>Supply and Installation</h4>
+                <hr>
+            </div>
+            <div>
+                <h4>General Goods</h4>
+                <hr>
+            </div>
+            <div>
+                <h4>SBD for Disposal of Public Assets by Tender</h4>
+                <hr>
+            </div>
         </div>
     </div>
     <div class="col-4 ">
@@ -147,6 +167,26 @@
                 <h4>Determination of Major and Minor Deviation</h4>
                 <hr>
             </div>
+            <div>
+                <h4>Participation of Public Bodies in Public Procurement</h4>
+                <hr>
+            </div>
+            <div>
+                <h4>Participation of Special Groups in Public Procurement</h4>
+                <hr>
+            </div>
+            <div>
+                <h4>Advertisement and disclosure forms</h4>
+                <hr>
+            </div>
+            <div>
+                <h4>Circulars to Procuring Entities</h4>
+                <hr>
+            </div>
+            <div>
+                <h4>Evaluation of Tenders & Proposal</h4>
+                <hr>
+            </div>
         </div>
     </div>
     <div class="col-4 ">
@@ -155,23 +195,39 @@
         </div>
         <div class="docs">
             <div>
-                <h4>Ministry of Finance and Planning</h4>
+                <h4><a href="https://www.mof.go.tz/">Ministry of Finance and Planning</a></h4>
                 <hr>
             </div>
             <div>
-                <h4>Ministry of Finance and Planning</h4>
+                <h4><a href="https://www.tra.go.tz/">Tanzania Revenue Authority</a></h4>
                 <hr>
             </div>
             <div>
-                <h4>Bank of Tanzania</h4>
+                <h4><a href="https://www.bot.go.tz/">Bank of Tanzania</a></h4>
                 <hr>
             </div>
             <div>
-                <h4>Tanzania Private Sector Association</h4>
+                <h4><a href="https://www.bot.go.tz/">Tanzania Private Sector Association</a></h4>
                 <hr>
             </div>
             <div>
-                <h4>The World Bank</h4>
+                <h4><a href="https://www.worldbank.org/">The World Bank</a></h4>
+                <hr>
+            </div>
+            <div>
+                <h4><a href="https://www.gov.uk/government/organisations/department-for-international-development">DfID</a></h4>
+                <hr>
+            </div>
+            <div>
+                <h4><a href="https://www.uncdf.org/">United Nations Capital Development Fund</a></h4>
+                <hr>
+            </div>
+            <div>
+                <h4><a href="http://www.crb.go.tz/">Contractors Registration Board</a></h4>
+                <hr>
+            </div>
+            <div>
+                <h4><a href="https://www.aqrb.go.tz/firm.php">Architects and Quantity Surveyors Registration Board</a></h4>
                 <hr>
             </div>
         </div>
