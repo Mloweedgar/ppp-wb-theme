@@ -5,7 +5,12 @@
     height: 70vh;
 }
 
-.home-latest, .project-content {
+.events hr, .announcement hr, .docs hr {
+    margin-left: 1.5em;
+    margin-right: 0.5em;
+}
+
+.home-latest, .project-content, .news, .home-docs {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -14,19 +19,42 @@
     justify-content: space-between;
 }
 
-.home-latest {
+.home-latest, .home-docs {
     padding-top: 2em;
 }
 
+.home-latest .col-8{
+    width: 68%;
+}
+.home-latest .col-4{
+    width: 31%;
+}
 .col-8 {
     width: 66%;
+}
+
+.col-6 {
+    width: 49%;
 }
 
 .col-4 {
     width: 33%;
 }
 
-.home-latest h3 {
+.news .col-9 {
+    width: 80%;
+    margin-top: 1.5em;
+}
+
+.col-3 {
+    width: 20%;
+}
+
+.home-docs .col-4 {
+    width: 31%;
+}
+
+.home-latest h3, .home-docs h3 {
     text-transform: uppercase;
     color: #ffffff;
     padding-left: 1.5em;
@@ -41,14 +69,12 @@
     font-weight: 100;
 }
 
-.project-content .col-6, .announcement {
+.project-content .col-6, .announcement, .events, .news, .docs {
     background-color: #F7F8F8;
-    margin-top: 1em;
 }
 
-.col-6 {
-    /* flex:1 1 auto; */
-    width: 49%;
+.project-content .col-6 {
+    margin-top: 1em;
 }
 
 .project-content h2 {
@@ -57,19 +83,57 @@
     font-size: 1em;
     padding-left: 1.5em;
     margin: .5em 0;
+    line-height: 1.5;
+
 }
 
 .project-content p {
     padding-left: 1.5em;
     text-align: left;
+    letter-spacing: 0.3px;
+    line-height: 1.4;
+
 }
 
 /* announcement */
-#date{
+
+#date {
     color: #636363;
     padding-left: 1.5em;
 }
-.announcement h4{
+
+.news-date {
+    color: #636363;
+}
+
+.announcement h4, .events h4, .docs h4 {
     font-weight: 100;
     padding-left: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.announcement, .events {
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+}
+
+/* news */
+
+.news-box {
+    height: 80px;
+    width: 85px;
+    background-color: #E6E6E6;
+    margin-left: 1.5em;
+    margin-top: 1.2em;
+}
+
+.news h4 {
+    font-weight: 200;
+}
+
+/* document links */
+
+.docs {
+    padding: 0.2em 0;
 }
