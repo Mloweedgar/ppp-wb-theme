@@ -51,6 +51,9 @@
                 <div><a>TRAINING</a></div>
                 <div><a>E-LIBRARY</a></div>
             </nav>
-            <div>search input</div>
+            <div class="search-section">
+                <input type="search"/>
+                <button><img src="<?php echo get_bloginfo('template_directory'); ?>/images/icons-search.svg"/></button>
+            </div>
         </section>
     </header>
