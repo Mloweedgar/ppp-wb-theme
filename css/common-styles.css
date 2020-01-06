@@ -3,8 +3,24 @@
 .greysh-background {
     background: #f7f8f8 !important;
 }
+
+.dark-grey-background {
+    background: #636363 !important;
+}
+
+.black-background {
+    background: #242323 !important;
+}
 .bluish-text-color {
     color: #26a3dd !important;
+}
+
+.white-text-color {
+    color: #ffffff;
+}
+
+.dark-white-color {
+    color: #a3a3a3;
 }
 
 /*custom font sizes*/

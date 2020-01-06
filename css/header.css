@@ -1,6 +1,7 @@
 .navigation-bar {
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 /* styles for top navigation bar*/
@@ -75,10 +76,8 @@
     outline: none;
     padding: 5px 5px;
     border-left: 1px solid #e0e0e0;
-
 }
 
 .navigation-bar .search-section input, button {
     border: none;
-
 }
