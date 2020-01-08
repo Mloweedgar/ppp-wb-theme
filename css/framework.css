@@ -22,3 +22,63 @@
     background-color: rgba(0, 0, 0, 0.7);
     padding:20px 80px 120px 80px;
 }
+
+.ppp-legal-framework article h2 {
+    padding-top: 10px;
+}
+
+.ppp-legal-framework article p {
+    width: 65%;
+    line-height: 1.5;
+}
+
+.ppp-legal-framework section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ppp-legal-framework section article:nth-child(1) {
+    width: 50%;
+}
+
+.page-framework li {
+    list-style-type: none;
+}
+.ppp-legal-framework  li{
+    padding: 10px 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.ppp-legal-framework li:last-child {
+    border: none;
+}
+
+.ppp-legal-framework li a {
+    color: #26a3dd;
+}
+
+.ppp-legal-framework li:before {
+    color: #26a3dd;
+}
+
+.page-framework li:before {
+    margin-right: 10px;
+    content: "-";
+}
+
+.isolated-list li {
+    list-style-type: none;
+    padding: 10px 10px;
+    color: #26a3dd;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.isolated-list {
+    width: 50%;
+}
+
+.isolated-list li:before {
+    margin-right: 10px;
+    color: #26a3dd;
+    content: "-";
+}
