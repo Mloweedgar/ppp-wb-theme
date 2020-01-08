@@ -1,11 +1,13 @@
 <?php get_header(); ?>
-<section>
-    <div class="about-section"></div>
-    <div class="about-text">
-    <h2>Who we are</h2>
-    <p>Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services</p>
-    </div>
-  </section>
+  <section class="page-intro-section">
+            <article class="white-text-color">
+                <h1>Who we are</h1>
+                <p>Promoting partnerships between the government, private sector
+                 and development partners in order to foster efficient and quality 
+                 delivery of social goods and services
+                </p>
+            </article>
+        </section>
 <section class="bg-blue">
 <div class="about-content">
     <div class="about-vision">

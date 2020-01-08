@@ -65,3 +65,28 @@
 h2, h3, h4{
     letter-spacing: 1px;
 }
+
+/* page intro */
+.page-intro-section {
+    background-image:  url('../images/zanzibar-arial.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page-intro-section h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.page-intro-section p {
+    font-size: 1.2em;
+}
+
+.page-intro-section article {
+    margin: auto;
+    text-align: center;
+    line-height: 1.7;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding:20px 80px 120px 80px;
+}

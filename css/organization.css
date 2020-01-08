@@ -26,28 +26,6 @@
     padding-bottom: 3em;
 }
 
-.organization-text h2 {
-    text-transform: uppercase;
-}
-
-.organization-text p {
-    font-size: 18px;
-    opacity: 1;
-    padding: 3em;
-    line-height: 1.5;
-    font-weight: 500;
-}
-
-.organization-text {
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    text-align: center;
-}
-
 .org-structure h3 {
     text-align: center;
 }
@@ -58,7 +36,7 @@
     flex-wrap: wrap;
     margin-bottom: 0;
     position: relative;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin-block-start: 2em;
 }
 
@@ -77,6 +55,9 @@
     width: 25%;
 }
 
-.org-department .col-4>img {
+.org-department .col-4 > img {
     width: 95%;
+}
+.commissioner {
+    margin-inline-start: 12em;
 }

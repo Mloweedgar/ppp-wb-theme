@@ -1,11 +1,12 @@
 <?php get_header(); ?>
-<section>
-    <div class="about-section"></div>
-    <div class="organization-text">
-    <h2>Our ORGANIZATION STRUCTURE</h2>
-    <p>We take pride in good and effective leadership that provides us with a great way to achieve our goals as an organization and bring development to our community.</p>
-    </div>
-  </section>
+  <section class="page-intro-section">
+            <article class="white-text-color">
+                <h1>Our ORGANIZATION STRUCTURE</h1>
+                <p>We take pride in good and effective leadership that provides 
+                    us with a great way to achieve our goals as an organization
+                     and bring development to our community.</p>
+            </article>
+        </section>
 <section class="layout-content organization">
     <div class="col-8">
         <div class="org-content">
@@ -25,7 +26,7 @@
         <div class="org-structure">
             <h3>ZANZIBAR PPP DEPARTMENT SECRETARIAT</h3>
             <div class="org-department">
-            <div class="col-4">
+            <div class="col-4 commissioner">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/images/team.png" alt="">
                 <h5>Mr. John Doe </h5>
                 <p>Commissioner</p>
