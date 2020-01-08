@@ -5,11 +5,12 @@
     height: 70vh;
     /* margin-top: 1em; */
 }
-.home-latest .bg-blue,
-.home-docs .bg-blue{
+
+.home-latest .bg-blue, .home-docs .bg-blue {
     background-color: #00A3DD;
     padding: 1em 0;
 }
+
 .events hr, .announcement hr, .docs hr {
     margin-left: 1.5em;
     margin-right: 0.5em;

@@ -104,7 +104,7 @@
     </div>
 </section>
 <section class="layout-content home-docs">
-<div class="col-4 ">
+<div class="col-4">
         <div class="latest-docs bg-blue">
             <h3>STANDARD BIDDING DOCS</h3>
         </div>

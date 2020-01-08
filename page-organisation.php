@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section>
     <div class="about-section"></div>
-    <div class="about-text">
+    <div class="organization-text">
     <h2>Our ORGANIZATION STRUCTURE</h2>
     <p>We take pride in good and effective leadership that provides us with a great way to achieve our goals as an organization and bring development to our community.</p>
     </div>
@@ -9,15 +9,80 @@
 <section class="layout-content organization">
     <div class="col-8">
         <div class="org-content">
-            <h3>Overview</h3>
-            <p>Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services. Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services. Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services.</p>
-            <div class="overview">
-                <h4>Providing financial services to private sector through governments</h4>
-                <p>Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services. Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services. Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services.</p>
+            <h3>ZANZIBAR PPP DEPARTMENT</h3>
+            <p>
+                The Revolutionary Government of Zanzibar recognizes the role of
+                 private sector in bringing about socio-economic development 
+                 through investments. Public-Private Partnership (PPP) frameworks
+                  provides important instrument for attracting investment and 
+                  professional and managerial expertise to Zanzibar. PPPs can 
+                  enable the government to fulfill its responsibilities in 
+                  efficient delivery of socio-economic goods and services by 
+                  ensuring efficiency, effectiveness, accountability,
+                   quality and outreach of services.
+            </p>
+        </div>
+        <div class="org-structure">
+            <h3>ZANZIBAR PPP DEPARTMENT SECRETARIAT</h3>
+            <div class="org-department">
+            <div class="col-4">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/team.png" alt="">
+                <h5>Mr. John Doe </h5>
+                <p>Commissioner</p>
+            </div>
+            <div class="col-4">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/team.png" alt="">
+                <h5>Mr. John Doe </h5>
+                <p>Deputy Commissioner</p>
+            </div>
+            </div>
+            <div class="org-department">
+            <div class="col-4">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/team.png" alt="">
+                <h5>Mr. John Doe </h5>
+                <p>Commissioner</p>
+            </div>
+            <div class="col-4">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/team.png" alt="">
+                <h5>Mr. John Doe </h5>
+                <p>Deputy Commissioner</p>
+            </div>
+            <div class="col-4">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/team.png" alt="">
+                <h5>Mr. John Doe </h5>
+                <p>Deputy Commissioner</p>
+            </div>
+            <div class="col-4">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/team.png" alt="">
+                <h5>Mr. John Doe </h5>
+                <p>Deputy Commissioner</p>
+            </div>
+            </div>
+            <div class="org-department">
+            <div class="col-4">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/team.png" alt="">
+                <h5>Mr. John Doe </h5>
+                <p>Commissioner</p>
+            </div>
+            <div class="col-4">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/team.png" alt="">
+                <h5>Mr. John Doe </h5>
+                <p>Deputy Commissioner</p>
+            </div>
+            <div class="col-4">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/team.png" alt="">
+                <h5>Mr. John Doe </h5>
+                <p>Deputy Commissioner</p>
+            </div>
+            <div class="col-4">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/team.png" alt="">
+                <h5>Mr. John Doe </h5>
+                <p>Deputy Commissioner</p>
+            </div>
             </div>
         </div>
     </div>
-    <div class="col-4 ">
+    <div class="col-4">
         <div class="related-link">
             <h4>RELATED LINKS</h4>
         </div>

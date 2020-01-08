@@ -1,7 +1,82 @@
-.org-content{
-    background-color: #F7F8F8;
- 
+.organization {
+    margin-block-end: 3em;
 }
-.organization{
-    padding-top: 2em;
+
+.organization .related-link {
+    padding-top: 1.2em;
+}
+
+.organization .col-8 {
+    border-right: 0.3px solid #e0e0e0;
+}
+
+.org-content {
+    background-color: #F7F8F8;
+    margin-inline-end: 1em;
+    padding: 0 3em 0 2.5em;
+}
+
+.org-content h3, .org-structure h3 {
+    color: #00A3DD;
+    text-transform: uppercase;
+    padding-top: 1.5em;
+}
+
+.org-content p {
+    padding-bottom: 3em;
+}
+
+.organization-text h2 {
+    text-transform: uppercase;
+}
+
+.organization-text p {
+    font-size: 18px;
+    opacity: 1;
+    padding: 3em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.organization-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+.org-structure h3 {
+    text-align: center;
+}
+
+.org-department {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    position: relative;
+    justify-content: space-around;
+    margin-block-start: 2em;
+}
+
+.org-department>div h5 {
+    margin: 0;
+    text-align: center;
+}
+
+.org-department>div p {
+    margin: 0.4em 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.org-department .col-4 {
+    width: 25%;
+}
+
+.org-department .col-4>img {
+    width: 95%;
 }

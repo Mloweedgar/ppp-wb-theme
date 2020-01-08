@@ -53,3 +53,15 @@
     position: relative;
     justify-content: space-between;
 }
+
+.related-link {
+    text-transform: uppercase;
+    color: #00A3DD;
+    padding-inline-start: 1em;
+}
+.links {
+    padding-inline-start: 1em;
+}
+h2, h3, h4{
+    letter-spacing: 1px;
+}
