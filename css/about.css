@@ -1,0 +1,97 @@
+.about-section {
+    background-image: url(../images/about-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.about-text h2 {
+    text-transform: uppercase;
+}
+
+.about-text p {
+    font-size: 18px;
+    opacity: 1;
+    padding: 3em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.about-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    margin-bottom: 0;
+    position: relative;
+    justify-content: space-between;
+    padding: 1em 4em;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.about-vision, .about-mission {
+    padding: 0 2em;
+}
+
+.about-vision h2, .about-mission h2 {
+    text-align: left;
+    letter-spacing: 0.12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.about-overview {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    position: relative;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+.about-overview h3 {
+    text-transform: uppercase;
+}
+
+.related-link {
+    text-transform: uppercase;
+    color: #00A3DD;
+}
+
+.about-overview .col-8 {
+    border-right: 0.3px solid #e0e0e0;
+}
+
+.about-overview .col-4 {
+    width: 31%;
+}
+
+.col-4 p>a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.about-overview p {
+    padding-right: 0.5em;
+    line-height: 1.8;
+}
+
+.overview h4 {
+    padding-top: 2em;
+    letter-spacing: 0.04em;
+}
