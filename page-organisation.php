@@ -2,34 +2,20 @@
 <section>
     <div class="about-section"></div>
     <div class="about-text">
-    <h2>Who we are</h2>
-    <p>Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services</p>
+    <h2>Our ORGANIZATION STRUCTURE</h2>
+    <p>We take pride in good and effective leadership that provides us with a great way to achieve our goals as an organization and bring development to our community.</p>
     </div>
   </section>
-<section class="bg-blue">
-<div class="about-content">
-    <div class="about-vision">
-    <h2>OUR VISION</h2>
-    <p>Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services</p>
-    </div>
-    <div class="about-mission">
-    <h2>OUR MISSION</h2>
-    <p>Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services</p>
-    </div> 
-</section>
-<section class="layout-content about-overview">
+<section class="layout-content organization">
     <div class="col-8">
+        <div class="org-content">
             <h3>Overview</h3>
             <p>Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services. Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services. Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services.</p>
             <div class="overview">
                 <h4>Providing financial services to private sector through governments</h4>
                 <p>Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services. Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services. Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services.</p>
             </div>
-            <div class="overview">
-                 <h4>Promoting knowledge sharing through private sector</h4>
-                <p>Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services. Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services.</p>
-                <p>Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services. Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services. Promoting partnerships between the government, private sector and development partners in order to foster efficient and quality delivery of social goods and services.</p>
-            </div>
+        </div>
     </div>
     <div class="col-4 ">
         <div class="related-link">
