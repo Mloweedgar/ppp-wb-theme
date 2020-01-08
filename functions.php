@@ -9,6 +9,7 @@ function ppp_scripts() {
     wp_enqueue_style( 'framework', get_template_directory_uri() . '/css/framework.css' );
     wp_enqueue_style( 'about-styles', get_template_directory_uri() . '/css/about.css');
     wp_enqueue_style( 'organization', get_template_directory_uri() . '/css/organization.css');
+    wp_enqueue_style( 'training-program', get_template_directory_uri() . '/css/training-program.css');
     wp_enqueue_style( 'footer', get_template_directory_uri() . '/css/footer.css' );
     wp_enqueue_style( 'sidebar', get_template_directory_uri() . '/css/sidebar.css' );
 

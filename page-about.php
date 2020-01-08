@@ -7,7 +7,7 @@
                  delivery of social goods and services
                 </p>
             </article>
-        </section>
+    </section>
 <section class="bg-blue">
 <div class="about-content">
     <div class="about-vision">

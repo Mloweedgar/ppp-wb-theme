@@ -1,0 +1,49 @@
+.program {
+    margin: auto;
+    text-align: center;
+    line-height: 1.7;
+    padding: 20px 80px 80px 80px;
+}
+
+.program h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    padding-block-start: 1.5em;
+}
+
+.program p {
+    font-size: 1.2em;
+    padding: 1em 4em 0 4em;
+}
+
+.training-program .col-4 {
+    background-color: #F7F8F8;
+    width: 31%;
+}
+
+.training-module {
+    color: #00A3DD;
+    padding-left: 1.5em;
+}
+
+.training-program h3, .training-program h4 {
+    text-decoration: underline;
+}
+
+.modules h4>a, .modules p>a {
+    font-weight: 300;
+    color: #00A3DD;
+}
+
+.modules h4 {
+    margin-block-end: 0.9em;
+    padding-left: 1.5em;
+    font-size: 1em;
+}
+
+.modules p {
+    font-size: .85em;
+    padding-left: 3.5em;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.5em;
+}
