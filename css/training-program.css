@@ -1,0 +1,76 @@
+.program {
+    margin: auto;
+    text-align: center;
+    line-height: 1.7;
+    padding: 20px 80px 80px 80px;
+}
+
+.program h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    padding-block-start: 1.5em;
+}
+
+.program p {
+    font-size: 1.2em;
+    padding: 1em 4em 0 4em;
+}
+
+.training.col-4 {
+    background-color: #F7F8F8;
+    width: 31%;
+}
+.training-program .col-8{
+    padding-top: 1.5em;
+}
+.training-module {
+    color: #00A3DD;
+    padding-left: 1.5em;
+}
+
+.training-program h3, .training-program h4{
+    text-decoration: underline;
+}
+
+.modules h4>a, .modules p>a,#training-title > a{
+    font-weight: 300;
+    color: #00A3DD
+}
+
+.modules h4 {
+    margin-block-end: 0.9em;
+    padding-left: 1.5em;
+    font-size: 1em;
+}
+
+.modules p {
+    font-size: .85em;
+    padding-left: 3.5em;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.5em;
+}
+
+.training-instructor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    position: relative;
+    justify-content: space-around;
+    margin-block-start: 2em;
+}
+.training-instructor>div h5 {
+    margin: 0;
+    text-align: center;
+}
+.training-instructor>div p {
+    margin: 0.4em 0;
+    font-size: 14px;
+    text-align: center;
+}
+.instructor-box{
+    height: 166px;
+    width: 65%;
+    background-color: #F7F8F8;
+    margin: 1.2em 0 1em 2.5em;
+}

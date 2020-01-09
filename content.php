@@ -1,10 +1,10 @@
 <section class="home-slider"> </section>
-<section class="home-latest">
+<section class="layout-content home-latest">
     <div class="col-8">
         <div class="latest-projects bg-blue">
             <h3>Latest Projects</h3>
         </div>
-        <div class="project-content">
+        <div class="layout-content project-content">
             <div class="col-6">
                 <hgroup>
                     <h4>Energy</h4>
@@ -49,12 +49,12 @@
         </div>
     </div>
 </section>
-<section class="home-latest">
+<section class="layout-content home-latest">
     <div class="col-8 ">
         <div class="latest-news bg-blue">
             <h3>Latest News</h3>
         </div>
-        <div class="news">
+        <div class="layout-content news">
             <div class="col-3">
                 <div class="news-box"></div>
             </div>
@@ -103,8 +103,8 @@
         </div>
     </div>
 </section>
-<section class="home-docs">
-<div class="col-4 ">
+<section class="layout-content home-docs">
+<div class="col-4">
         <div class="latest-docs bg-blue">
             <h3>STANDARD BIDDING DOCS</h3>
         </div>
