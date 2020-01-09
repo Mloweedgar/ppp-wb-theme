@@ -105,3 +105,34 @@
 .navigation-bar .search-section input, button {
     border: none;
 }
+
+/* dropdown menu */
+.navigation-bar .main-navigation ul ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.navigation-bar .main-navigation ul ul li {
+    float: none;
+    width: 150px;
+}
+.navigation-bar .main-navigation ul ul li a {
+    padding: 5px 10px;
+}
+
+.navigation-bar .main-navigation ul li:hover > ul {
+    display: block;
+}
+
+
+.navigation-bar .main-navigation .sub-menu a {
+    font-size: 0.8em;
+}
+
+.navigation-bar .main-navigation .sub-menu li {
+    margin-bottom: 10px;
+}
