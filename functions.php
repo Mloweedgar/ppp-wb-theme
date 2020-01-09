@@ -23,7 +23,8 @@ add_action( 'wp_enqueue_scripts', 'ppp_scripts' );
 function wp_main_menu() {
     register_nav_menus(
         array(
-            'custom-menu' => __( 'Custom Menu' )
+            'custom-menu' => __( 'Custom Menu' ),
+            'sub-menu' => __( 'Sub Menu' )
         )
     );
 }

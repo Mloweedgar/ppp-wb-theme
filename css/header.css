@@ -136,3 +136,13 @@
 .navigation-bar .main-navigation .sub-menu li {
     margin-bottom: 10px;
 }
+
+.top-navigation li {
+    border-right: 2px solid #26a3dd;
+    padding: 0 10px 0 10px;
+    text-transform: capitalize;
+}
+
+.top-navigation .current_page_item a {
+    color: #242323;
+}

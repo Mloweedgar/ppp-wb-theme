@@ -12,24 +12,10 @@
             <aside>December, 23, 2019</aside>
             <aside>
                 <nav>
-                    <ul>
-                        <li class="vertical-divider">
-                            <a>Discussion Forum </a>
-                        </li>
-                        <li class="vertical-divider">
-                            <a>News</a>
-                        </li>
-                        <li class="vertical-divider">
-                            <a>FAQS</a>
-                            <span class=""></span>
-                        </li>
-                        <li class="vertical-divider">
-                            <a>Sitemap</a>
-                        </li>
-                        <li class="vertical-divider">
-                            <a>Contact Us</a>
-                        </li>
-                    </ul>
+                    <?php
+                    wp_nav_menu( array( 'theme_location' => 'sub-menu', 'container' => '' ) );
+                    ?>
+
                 </nav>
                 <select class="language-selector">
                     <option selected="selected">Swahili</option>
