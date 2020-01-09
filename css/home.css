@@ -5,23 +5,15 @@
     height: 70vh;
     /* margin-top: 1em; */
 }
-.home-latest .bg-blue,
-.home-docs .bg-blue{
+
+.home-latest .bg-blue, .home-docs .bg-blue {
     background-color: #00A3DD;
     padding: 1em 0;
 }
+
 .events hr, .announcement hr, .docs hr {
     margin-left: 1.5em;
     margin-right: 0.5em;
-}
-
-.home-latest, .project-content, .news, .home-docs {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 0;
-    position: relative;
-    justify-content: space-between;
 }
 
 .home-latest, .home-docs, .site-footer {
