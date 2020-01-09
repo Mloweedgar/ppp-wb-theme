@@ -1,22 +1,22 @@
-.program {
+.training {
     margin: auto;
     text-align: center;
     line-height: 1.7;
     padding: 20px 80px 80px 80px;
 }
 
-.program h2 {
+.training h2 {
     font-size: 1.8em;
     text-transform: uppercase;
     padding-block-start: 1.5em;
 }
 
-.program p {
+.training p {
     font-size: 1.2em;
     padding: 1em 4em 0 4em;
 }
 
-.training.col-4 {
+.program.col-4 {
     background-color: #F7F8F8;
     width: 31%;
 }
