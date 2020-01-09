@@ -12,22 +12,24 @@
             <aside>December, 23, 2019</aside>
             <aside>
                 <nav>
-                    <div class="vertical-divider">
-                        <a>Discussion Forum </a>
-                    </div>
-                    <div class="vertical-divider">
-                        <a>News</a>
-                    </div>
-                    <div class="vertical-divider">
-                        <a>FAQS</a>
-                        <span class=""></span>
-                    </div>
-                    <div class="vertical-divider">
-                        <a>Sitemap</a>
-                    </div>
-                    <div class="vertical-divider">
-                        <a>Contact Us</a>
-                    </div>
+                    <ul>
+                        <li class="vertical-divider">
+                            <a>Discussion Forum </a>
+                        </li>
+                        <li class="vertical-divider">
+                            <a>News</a>
+                        </li>
+                        <li class="vertical-divider">
+                            <a>FAQS</a>
+                            <span class=""></span>
+                        </li>
+                        <li class="vertical-divider">
+                            <a>Sitemap</a>
+                        </li>
+                        <li class="vertical-divider">
+                            <a>Contact Us</a>
+                        </li>
+                    </ul>
                 </nav>
                 <select class="language-selector">
                     <option selected="selected">Swahili</option>
@@ -36,20 +38,24 @@
             </aside>
         </section>
         <section class="logos-section">
-            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/zanzibar-coat-of-arms.jpg" alt="Zanzibar Coat of Arms" width="150" height="100">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/zanzibar-coat-of-arms.jpg"
+                 alt="Zanzibar Coat of Arms" width="150" height="100">
             <h3 class="bluish-text-color">Zanzibar Private Public Partnership <br/>(PPP) Department</h3>
-            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/flag-of-zanzibar.svg" alt="Flat of Zanzibar" width="130" height="130">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/flag-of-zanzibar.svg"
+                 alt="Flat of Zanzibar" width="130" height="130">
 
         </section>
         <section class="main-navigation">
             <nav class="bluish-text-color">
-                <div class="active"><a>HOME</a></div>
-                <div><a>ABOUT US</a></div>
-                <div><a>FRAMEWORK</a></div>
-                <div><a>PPP DISCLOSURE PORTAL</a></div>
-                <div><a>TOOLS</a></div>
-                <div><a>TRAINING</a></div>
-                <div><a>E-LIBRARY</a></div>
+                <ul>
+                    <li class="active"><a href="<?php echo get_home_url(); ?>">HOME</a></li>
+                    <li><a href="<?php echo get_home_url(); ?>/about">ABOUT US</a></li>
+                    <li><a href="<?php echo get_home_url(); ?>/framework">FRAMEWORK</a></li>
+                    <li><a href="">PPP DISCLOSURE PORTAL</a></li>
+                    <li><a href="">TOOLS</a></li>
+                    <li><a href="">TRAINING</a></li>
+                    <li><a href="">E-LIBRARY</a></li>
+                </ul>
             </nav>
             <div class="search-section">
                 <input type="search"/>
