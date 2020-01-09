@@ -38,7 +38,7 @@
     </div>
     <div class="col-8">
       <div>
-            <h3 id="training-title">PPP Training Overview</h3>
+            <h3 id="training-title"><a href="#">PPP Training Overview<a></h3>
             <p>In order to avoid wastage of resources and public opportunities,
                care has to be exercised in ensuring that the PPP process is well 
                planned and executed. According to best practices, the approach 
@@ -57,7 +57,7 @@
                  into multiple phases. </p>
       </div>
       <div>
-            <h3 id="training-title">Curriculum / Modules</h3>
+            <h3 id="training-title"><a href="#">Curriculum / Modules</a></h3>
             <p>In order to avoid wastage of resources and public opportunities,
                care has to be exercised in ensuring that the PPP process is well 
                planned and executed. According to best practices, the approach 
@@ -68,7 +68,7 @@
                  into multiple phases. </p>
       </div>
       <div>
-            <h3 id="training-title">Instructors</h3>
+            <h3 id="training-title"><a href="#">Instructors</a></h3>
             <div class="training-instructor">
             <div class="col-4 ">
             <!-- <img src="<?php echo get_bloginfo('template_directory'); ?>/images/team.png" alt=""> -->
@@ -91,14 +91,14 @@
             </div>
       </div>
       <div>
-            <h3 id="training-title">Certification</h3>
+            <h3 id="training-title"><a href="#">Certification</a></h3>
             <p>In order to avoid wastage of resources and public opportunities,
                care has to be exercised in ensuring that the PPP process is well 
                planned and executed. According to best practices, the approach 
                should be planned into multiple phases. </p>
       </div>
       <div>
-            <h3 id="training-title">Who should take this program</h3>
+            <h3 id="training-title"><a href="#">Who should take this program</a></h3>
             <p>In order to avoid wastage of resources and public opportunities,
                care has to be exercised in ensuring that the PPP process is well 
                planned and executed. According to best practices, the approach 

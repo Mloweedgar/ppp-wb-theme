@@ -28,11 +28,11 @@
     padding-left: 1.5em;
 }
 
-.training-program h3, .training-program h4,#training-title {
+.training-program h3, .training-program h4{
     text-decoration: underline;
 }
 
-.modules h4>a, .modules p>a,#training-title  {
+.modules h4>a, .modules p>a,#training-title > a{
     font-weight: 300;
     color: #00A3DD
 }
