@@ -32,10 +32,15 @@
 }
 
 .navigation-bar ul {
+    margin: 0;
     display: flex;
     padding: 0;
     justify-content: space-between;
     list-style-type: none;
+}
+
+.navigation-bar .main-navigation ul li {
+    text-transform: uppercase;
 }
 
 
@@ -72,8 +77,13 @@
     justify-content: space-between;
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
-    padding: 15px 15px;
+    padding: 10px 10px;
     align-items: center;
+}
+
+.navigation-bar .main-navigation .current_page_item {
+    border-bottom: 3px solid #26a3dd;
+    padding: 0 5px 4px 5px;
 }
 
 

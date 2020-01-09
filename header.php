@@ -47,15 +47,9 @@
         </section>
         <section class="main-navigation">
             <nav class="bluish-text-color">
-                <ul>
-                    <li class="active"><a href="<?php echo get_home_url(); ?>">HOME</a></li>
-                    <li><a href="<?php echo get_home_url(); ?>/about">ABOUT US</a></li>
-                    <li><a href="<?php echo get_home_url(); ?>/framework">FRAMEWORK</a></li>
-                    <li><a href="">PPP DISCLOSURE PORTAL</a></li>
-                    <li><a href="">TOOLS</a></li>
-                    <li><a href="">TRAINING</a></li>
-                    <li><a href="">E-LIBRARY</a></li>
-                </ul>
+                <?php
+                wp_nav_menu( array( 'theme_location' => 'custom-menu', 'container' => '' ) );
+                ?>
             </nav>
             <div class="search-section">
                 <input type="search"/>

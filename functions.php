@@ -14,3 +14,14 @@ function ppp_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'ppp_scripts' );
+
+
+// register main navigation menu
+function wp_main_menu() {
+    register_nav_menus(
+        array(
+            'custom-menu' => __( 'Custom Menu' )
+        )
+    );
+}
+add_action( 'init', 'wp_main_menu' );
