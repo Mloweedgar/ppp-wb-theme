@@ -40,10 +40,10 @@
 
 
 /* style active menu item */
-.active {
-    border-bottom: 3px solid #26a3dd;
-    padding: 0 5px 4px 5px;
-}
+/*.active {*/
+/*    border-bottom: 3px solid #26a3dd;*/
+/*    padding: 0 5px 4px 5px;*/
+/*}*/
 
 .layout-content{
     width: 100%;
