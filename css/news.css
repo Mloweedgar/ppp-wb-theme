@@ -1,0 +1,34 @@
+#news{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+
+}
+.news_section{
+    margin-top: 1.2em;
+}
+.news_section img{
+    width: 100%;
+    height: 370px;
+}
+.news_section h4{
+    line-height: 1.5;
+    margin-top: 0;
+}
+.older_news_section{
+    margin-bottom: 2em;
+}
+#news_header{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    border-bottom: 1px solid #636363;
+    width: 100%;
+
+}
+.older_news .col-9 {
+    width: 80%;
+    margin-top: 1.5em;
+}
+.older_news .col-3 .news-box{
+    margin-left: 0 !important;
+}
