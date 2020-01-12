@@ -5,20 +5,17 @@
             <h3>Latest Projects</h3>
         </div>
         <div class="layout-content project-content">
-            <div class="col-6">
-                <hgroup>
-                    <h4>Energy</h4>
-                    <h2>Zanzibar energy sector transformation (ZEST)</h2>
-                </hgroup>
-                <p>PPPs can enable the government to fulfill its responsibilities in efficient delivery of socio-economic goods and services by ensuring efficiency, the government to fulfill its responsibilities in efficient delivery of socio-economic goods and services by ensuring efficiency, accountability, quality and outreach of services. PPPs can enable the government</p>
-            </div>
-            <div class="col-6">
-                <hgroup>
-                 <h4>Health, maternal care </h4>
-                 <h2>STRENGTHENING MATERNAL CARE FOR GROWTH</h2>
-                </hgroup>
-                <p>PPPs can enable the government to fulfill its responsibilities in efficient delivery of socio-economic goods and services by ensuring efficiency, the government to fulfill its responsibilities in efficient delivery of socio-economic goods and services by ensuring efficiency, accountability, quality and outreach of services. PPPs can enable the government</p>
-            </div>
+            <?php
+            $args = array(
+                'post_type' => 'projects',
+                'orderby' => 'menu_order',
+                'posts_per_page' => 2,
+                'order' => 'ASC'
+            );
+            $custom_query = new WP_Query($args);
+            while ($custom_query->have_posts()) : $custom_query->the_post();
+                get_template_part('content-projects', get_post_format());
+            endwhile; ?>
         </div>
     </div>
     <div class="col-4 ">
@@ -26,26 +23,17 @@
             <h3>Announcements</h3>
         </div>
         <div class="announcement">
-            <div>
-                <span id="date">Dec 2, 2019</span>
-                <h4>Results for Tender bids are now available</h4>
-                <hr>
-            </div>
-            <div>
-                <span id="date">Dec 2, 2019</span>
-                <h4>Results for Tender bids are now available</h4>
-                <hr>
-            </div>
-            <div>
-                <span id="date">Dec 2, 2019</span>
-                <h4>Results for Tender bids are now available</h4>
-                <hr>
-            </div>
-            <div>
-                <span id="date">Dec 2, 2019</span>
-                <h4>Results for Tender bids are now available</h4>
-                <hr>
-            </div>
+            <?php
+            $args = array(
+                'post_type' => 'announcements',
+                'orderby' => 'menu_order',
+                'posts_per_page' => 4,
+                'order' => 'ASC'
+            );
+            $custom_query = new WP_Query($args);
+            while ($custom_query->have_posts()) : $custom_query->the_post();
+                get_template_part('content-announcements', get_post_format());
+            endwhile; ?>
         </div>
     </div>
 </section>
@@ -55,30 +43,17 @@
             <h3>Latest News</h3>
         </div>
         <div class="layout-content news">
-            <div class="col-3">
-                <div class="news-box"></div>
-            </div>
-            <div class="col-9">
-                <span class="news-date">Dec 2, 2019</span>
-                <h4>Results for Tender bids are now available</h4>
-                <hr>
-            </div>
-            <div class="col-3">
-                <div class="news-box"></div>
-            </div>
-            <div class="col-9">
-                <span class="news-date">Dec 2, 2019</span>
-                <h4>Results for Tender bids are now available</h4>
-                <hr>
-            </div>
-            <div class="col-3">
-                <div class="news-box"></div>
-            </div>
-            <div class="col-9">
-                <span class="news-date">Dec 2, 2019</span>
-                <h4>Results for Tender bids are now available</h4>
-                <hr>
-            </div>
+            <?php
+            $args = array(
+                'post_type' => 'news',
+                'orderby' => 'menu_order',
+                'posts_per_page' => 3,
+                'order' => 'ASC'
+            );
+            $custom_query = new WP_Query($args);
+            while ($custom_query->have_posts()) : $custom_query->the_post();
+                get_template_part('content-news', get_post_format());
+            endwhile; ?>
         </div>
     </div>
     <div class="col-4 ">
@@ -86,25 +61,22 @@
             <h3>Events</h3>
         </div>
         <div class="events">
-            <div>
-                <span id="date">Dec 2, 2019</span>
-                <h4>Launching Care for Growth - Zanzibar Serena Hotel.</h4>
-                <hr>
-            </div>
-            <div>
-                <span id="date">Dec 2, 2019</span>
-                <h4>Launching Care for Growth - Zanzibar Serena Hotel.</h4>
-                <hr>
-            </div><div>
-                <span id="date">Dec 2, 2019</span>
-                <h4>Launching Care for Growth - Zanzibar Serena Hotel.</h4>
-                <hr>
-            </div>
+            <?php
+            $args = array(
+                'post_type' => 'events',
+                'orderby' => 'menu_order',
+                'posts_per_page' => 3,
+                'order' => 'ASC'
+            );
+            $custom_query = new WP_Query($args);
+            while ($custom_query->have_posts()) : $custom_query->the_post();
+                get_template_part('content-events', get_post_format());
+            endwhile; ?>
         </div>
     </div>
 </section>
 <section class="layout-content home-docs">
-<div class="col-4">
+    <div class="col-4">
         <div class="latest-docs bg-blue">
             <h3>STANDARD BIDDING DOCS</h3>
         </div>
@@ -116,7 +88,8 @@
             <div>
                 <h4>STD for Procurement of Non-Consultant Services</h4>
                 <hr>
-            </div><div>
+            </div>
+            <div>
                 <h4>STD for Procurement of Non-Consultant Services</h4>
                 <hr>
             </div>
@@ -215,7 +188,9 @@
                 <hr>
             </div>
             <div>
-                <h4><a href="https://www.gov.uk/government/organisations/department-for-international-development">DfID</a></h4>
+                <h4>
+                    <a href="https://www.gov.uk/government/organisations/department-for-international-development">DfID</a>
+                </h4>
                 <hr>
             </div>
             <div>
@@ -227,7 +202,8 @@
                 <hr>
             </div>
             <div>
-                <h4><a href="https://www.aqrb.go.tz/firm.php">Architects and Quantity Surveyors Registration Board</a></h4>
+                <h4><a href="https://www.aqrb.go.tz/firm.php">Architects and Quantity Surveyors Registration Board</a>
+                </h4>
                 <hr>
             </div>
         </div>
