@@ -14,6 +14,7 @@ function ppp_scripts() {
     wp_enqueue_style( 'training-material', get_template_directory_uri() . '/css/training-material.css');
     wp_enqueue_style( 'news', get_template_directory_uri() . '/css/news.css' );
     wp_enqueue_style( 'faq', get_template_directory_uri() . '/css/faq.css' );
+    wp_enqueue_style( 'contact', get_template_directory_uri() . '/css/contact.css' );
     wp_enqueue_style( 'footer', get_template_directory_uri() . '/css/footer.css' );
     wp_enqueue_style( 'sidebar', get_template_directory_uri() . '/css/sidebar.css' );
 
