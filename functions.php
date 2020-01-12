@@ -129,4 +129,7 @@ function create_events_post()
 }
 add_action('init', 'create_events_post');
 
+// Enabling Links manager
+add_filter( 'pre_option_link_manager_enabled', '__return_true' );
+
 

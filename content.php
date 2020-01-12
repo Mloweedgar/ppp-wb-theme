@@ -81,42 +81,18 @@
             <h3>STANDARD BIDDING DOCS</h3>
         </div>
         <div class="docs">
-            <div>
-                <h4>Standard for Leasing of Public Assets</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>STD for Procurement of Non-Consultant Services</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>STD for Procurement of Non-Consultant Services</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>Standard Prequalification Document</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>Standard Invitation for Quotations</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>Works</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>Supply and Installation</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>General Goods</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>SBD for Disposal of Public Assets by Tender</h4>
-                <hr>
-            </div>
+            <?php
+            $bookmarks = get_bookmarks( array(
+                'orderby'        => 'name',
+                'order'          => 'ASC',
+                'category_name'  => 'STANDARD BIDDING DOCS'
+            ) );
+
+            // Loop through each bookmark and print formatted output
+            foreach ( $bookmarks as $bookmark ) {
+              printf('<div><h4><ahref="%1$s">%2$s</a></h4><hr></div>',esc_attr( $bookmark->link_url ), $bookmark->link_name);
+            }
+            ?>
         </div>
     </div>
     <div class="col-4 ">
@@ -124,42 +100,18 @@
             <h3>GUIDELINES</h3>
         </div>
         <div class="docs">
-            <div>
-                <h4>Procurement of Conference Services from Public Bodies</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>Procurement of Capital Equipment, Materials, Products and Related</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>Services for Development of Industries</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>Determination of Major and Minor Deviation</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>Participation of Public Bodies in Public Procurement</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>Participation of Special Groups in Public Procurement</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>Advertisement and disclosure forms</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>Circulars to Procuring Entities</h4>
-                <hr>
-            </div>
-            <div>
-                <h4>Evaluation of Tenders & Proposal</h4>
-                <hr>
-            </div>
+            <?php
+            $bookmarks = get_bookmarks( array(
+                'orderby'        => 'name',
+                'order'          => 'ASC',
+                'category_name'  => 'GUIDELINES'
+            ) );
+
+            // Loop through each bookmark and print formatted output
+            foreach ( $bookmarks as $bookmark ) {
+                printf('<div><h4><ahref="%1$s">%2$s</a></h4><hr></div>',esc_attr( $bookmark->link_url ), $bookmark->link_name);
+            }
+            ?>
         </div>
     </div>
     <div class="col-4 ">
@@ -167,45 +119,18 @@
             <h3>RELATED LINKS</h3>
         </div>
         <div class="docs">
-            <div>
-                <h4><a href="https://www.mof.go.tz/">Ministry of Finance and Planning</a></h4>
-                <hr>
-            </div>
-            <div>
-                <h4><a href="https://www.tra.go.tz/">Tanzania Revenue Authority</a></h4>
-                <hr>
-            </div>
-            <div>
-                <h4><a href="https://www.bot.go.tz/">Bank of Tanzania</a></h4>
-                <hr>
-            </div>
-            <div>
-                <h4><a href="https://www.bot.go.tz/">Tanzania Private Sector Association</a></h4>
-                <hr>
-            </div>
-            <div>
-                <h4><a href="https://www.worldbank.org/">The World Bank</a></h4>
-                <hr>
-            </div>
-            <div>
-                <h4>
-                    <a href="https://www.gov.uk/government/organisations/department-for-international-development">DfID</a>
-                </h4>
-                <hr>
-            </div>
-            <div>
-                <h4><a href="https://www.uncdf.org/">United Nations Capital Development Fund</a></h4>
-                <hr>
-            </div>
-            <div>
-                <h4><a href="http://www.crb.go.tz/">Contractors Registration Board</a></h4>
-                <hr>
-            </div>
-            <div>
-                <h4><a href="https://www.aqrb.go.tz/firm.php">Architects and Quantity Surveyors Registration Board</a>
-                </h4>
-                <hr>
-            </div>
+            <?php
+            $bookmarks = get_bookmarks( array(
+                'orderby'        => 'name',
+                'order'          => 'ASC',
+                'category_name'  => 'RELATED LINKS'
+            ) );
+
+            // Loop through each bookmark and print formatted output
+            foreach ( $bookmarks as $bookmark ) {
+                printf('<div><h4><ahref="%1$s">%2$s</a></h4><hr></div>',esc_attr( $bookmark->link_url ), $bookmark->link_name);
+            }
+            ?>
         </div>
     </div>
 </section>
