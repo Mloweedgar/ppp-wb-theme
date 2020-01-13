@@ -1,0 +1,15 @@
+#faq_title{
+padding: 0.8em;
+text-align: center;
+text-transform: uppercase;
+font-size: 2em;
+}
+.faqs{
+    padding-bottom: 4em;
+}
+.faqs h4{
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-left: 1.2em;
+
+}
