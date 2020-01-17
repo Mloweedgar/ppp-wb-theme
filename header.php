@@ -9,7 +9,7 @@
 <div class="site-contents">
     <header class="navigation-bar">
         <section class="top-navigation greysh-background bluish-text-color small-text">
-            <aside>December, 23, 2019</aside>
+            <aside><?php echo date("F, d, Y") ?></aside>
             <aside>
                 <nav>
                     <?php
