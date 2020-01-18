@@ -37,6 +37,7 @@
                 wp_nav_menu( array( 'theme_location' => 'custom-menu', 'container' => '' ) );
                 ?>
             </nav>
+<!--            --><?php //get_search_form( ); ?>
             <div class="search-section">
                 <input type="search"/>
                 <button><img src="<?php echo get_bloginfo('template_directory'); ?>/images/icons-search.svg"/></button>
