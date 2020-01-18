@@ -34,9 +34,27 @@
 }
 
 .site-footer .footer-navigation nav {
+    width: 100%;
+}
+
+#menu-footer-menu {
+    list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    width: 25%;
+    justify-content: center;
+
+}
+
+#menu-footer-menu li a:hover {
+    color: #242323;
+}
+
+#menu-footer-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu-footer-menu li {
+    padding-right: 20px;
 }
 
 

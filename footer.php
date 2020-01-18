@@ -32,9 +32,9 @@
     </section>
     <section class="footer-navigation dark-grey-background white-text-color">
         <nav>
-            <a>StaffMail</a>
-            <a>Disclaimer</a>
-            <a>Contact Us</a>
+            <?php
+            wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => '' ) );
+            ?>
         </nav>
     </section>
 </footer>
