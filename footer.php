@@ -2,10 +2,7 @@
     <section class="main-footer black-background white-text-color">
        <section class="subscription-section">
            <h4>SUBSCRIBE TO NEWSLETTER & UPDATES</h4>
-           <form>
-               <input type="email"/>
-               <input type="submit" value="SUBSCRIBE"/>
-           </form>
+           <?php echo do_shortcode('[mc4wp_form id="52"]'); ?>
        </section>
         <section class="quickcontacts">
             <h4> QUICK CONTACTS</h4>
