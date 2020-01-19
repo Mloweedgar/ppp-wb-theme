@@ -29,14 +29,17 @@
             </address>
         </section>
         <section class="site-visits">
-            <h4>SITE VISITORS</h4>
+            <h4> SITE VISITORS</h4>
             <div>
-                online: 5 <br/>
-                Today: 26 <br/>
-                Yesterday: 65 <br/>
-                Week: 320 <br/>
-                Month: 1302 <br/>
-                Year: 159663 <br/>
+                Today: <?php echo do_shortcode('[visitor-counter visitor="visitors_today"]'); ?>
+                <br/>
+                Yesterday: <?php echo do_shortcode('[visitor-counter visitor="visitors_yesterday"]'); ?>
+                <br/>
+                Week: <?php echo do_shortcode('[visitor-counter visitor="visitors_this_week"]'); ?>
+                <br/>
+                Month: <?php echo do_shortcode('[visitor-counter visitor="visitors_this_month"]'); ?>
+                <br/>
+                Year: <?php echo do_shortcode('[visitor-counter visitor="total"]'); ?>
             </div>
         </section>
 
