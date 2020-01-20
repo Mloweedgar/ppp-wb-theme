@@ -2,7 +2,7 @@
     <section class="main-footer black-background white-text-color">
        <section class="subscription-section">
            <h4>SUBSCRIBE TO NEWSLETTER & UPDATES</h4>
-           <?php echo do_shortcode('[mc4wp_form id="52"]'); ?>
+           <?php echo do_shortcode(get_option('email_subscription')); ?>
        </section>
         <section class="quickcontacts">
             <h4> QUICK CONTACTS</h4>
@@ -28,15 +28,15 @@
         <section class="site-visits">
             <h4> SITE VISITORS</h4>
             <div>
-                Today: <?php echo do_shortcode('[visitor-counter visitor="visitors_today"]'); ?>
+                Today: <?php echo do_shortcode(get_option('site_visitors_today')); ?>
                 <br/>
-                Yesterday: <?php echo do_shortcode('[visitor-counter visitor="visitors_yesterday"]'); ?>
+                Yesterday: <?php echo do_shortcode(get_option('site_visitors_yesterday')); ?>
                 <br/>
-                Week: <?php echo do_shortcode('[visitor-counter visitor="visitors_this_week"]'); ?>
+                Week: <?php echo do_shortcode(get_option('site_visitors_this_week')); ?>
                 <br/>
-                Month: <?php echo do_shortcode('[visitor-counter visitor="visitors_this_month"]'); ?>
+                Month: <?php echo do_shortcode(get_option('site_visitors_this_month')); ?>
                 <br/>
-                Year: <?php echo do_shortcode('[visitor-counter visitor="total"]'); ?>
+                Year: <?php echo do_shortcode(get_option('site_visitors_total')); ?>
             </div>
         </section>
 

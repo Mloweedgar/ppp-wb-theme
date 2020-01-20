@@ -146,7 +146,7 @@ add_theme_support( 'html5', array( 'search-form' ) );
 // Custom settings
 function custom_settings_add_menu()
 {
-    add_menu_page('Custom Settings', 'Custom Settings', 'manage_options', 'custom-settings', 'custom_settings_page', null, 99);
+    add_menu_page('Theme Settings', 'Theme Settings', 'manage_options', 'custom-settings', 'custom_settings_page', null, 99);
 }
 
 add_action('admin_menu', 'custom_settings_add_menu');
@@ -156,11 +156,13 @@ add_action('admin_menu', 'custom_settings_add_menu');
 function custom_settings_page()
 { ?>
     <div class="wrap">
-        <h1>Custom Settings</h1>
+        <h1>Theme Settings</h1>
         <form method="post" action="options.php">
             <?php
             settings_fields('section');
             do_settings_sections('theme-options');
+            settings_fields('section-shortcodes');
+            do_settings_sections('shortcode-options');
             submit_button();
             ?>
         </form>
@@ -168,16 +170,6 @@ function custom_settings_page()
 <?php }
 
 
-/**
- * Include navigation menus
- */
-
-function register_resilienceacademy_menu()
-{
-    register_nav_menu('resilienceacademy-menu', __('Resilience Academy Menu'));
-}
-
-add_action('init', 'register_resilienceacademy_menu');
 
 
 // Address
@@ -201,6 +193,44 @@ function setting_phone_number()
     <input type="text" name="phone_number" id="phone_number" placeholder="Phone Number" value="<?php echo get_option('phone_number'); ?>"/>
 <?php }
 
+
+// Shortcodes
+function setting_email_subscription()
+{ ?>
+    <input type="text" name="email_subscription" id="email_subscription" placeholder="Email Subscription shortcode" value="<?php echo get_option('email_subscription'); ?>"/>
+<?php }
+
+function setting_site_visitors_today()
+{ ?>
+    <input type="text" name="site_visitors_today" id="site_visitors_today" placeholder="Site Visitors Today shortcode" value="<?php echo get_option('site_visitors_today'); ?>"/>
+<?php }
+
+function setting_site_visitors_yesterday()
+{ ?>
+    <input type="text" name="site_visitors_yesterday" id="site_visitors_yesterday" placeholder="Site Visitors Yesterday shortcode" value="<?php echo get_option('site_visitors_yesterday'); ?>"/>
+<?php }
+
+function setting_site_visitors_this_week()
+{ ?>
+    <input type="text" name="site_visitors_this_week" id="site_visitors_this_week" placeholder="Site Visitors This Week shortcode" value="<?php echo get_option('site_visitors_this_week'); ?>"/>
+<?php }
+
+function setting_site_visitors_this_month()
+{ ?>
+    <input type="text" name="site_visitors_this_month" id="site_visitors_this_month" placeholder="Site Visitors This Month shortcode" value="<?php echo get_option('site_visitors_this_month'); ?>"/>
+<?php }
+
+function setting_site_visitors_total()
+{ ?>
+    <input type="text" name="site_visitors_total" id="site_visitors_total" placeholder="Site Visitors Total shortcode" value="<?php echo get_option('site_visitors_total'); ?>"/>
+<?php }
+
+function setting_sitemap()
+{ ?>
+    <input type="text" name="sitemap" id="sitemap" placeholder="Sitemap shortcode" value="<?php echo get_option('sitemap'); ?>"/>
+<?php }
+
+
 /**
  * Global settings for the theme
  */
@@ -218,6 +248,28 @@ function custom_settings_page_setup()
     register_setting('section', 'email_address');
 
 
+    add_settings_section('section-shortcodes', 'SHORTCODES FOR THE THEME', null, 'shortcode-options');
+
+    add_settings_field('email_subscription', 'Email Subscription shortcode', 'setting_email_subscription', 'shortcode-options', 'section-shortcodes');
+    register_setting('section-shortcodes', 'email_subscription');
+
+    add_settings_field('site_visitors_today', 'Site Visitors today shortcode', 'setting_site_visitors_today', 'shortcode-options', 'section-shortcodes');
+    register_setting('section-shortcodes', 'site_visitors_today');
+
+    add_settings_field('site_visitors_yesterday', 'Site Visitors yesterday shortcode', 'setting_site_visitors_yesterday', 'shortcode-options', 'section-shortcodes');
+    register_setting('section-shortcodes', 'site_visitors_yesterday');
+
+    add_settings_field('site_visitors_this_week', 'Site Visitors This Week shortcode', 'setting_site_visitors_this_week', 'shortcode-options', 'section-shortcodes');
+    register_setting('section-shortcodes', 'site_visitors_this_week');
+
+    add_settings_field('site_visitors_this_month', 'Site Visitors This Month shortcode', 'setting_site_visitors_this_month', 'shortcode-options', 'section-shortcodes');
+    register_setting('section-shortcodes', 'site_visitors_this_month');
+
+    add_settings_field('site_visitors_total', 'Site Visitors  Total shortcode', 'setting_site_visitors_total', 'shortcode-options', 'section-shortcodes');
+    register_setting('section-shortcodes', 'site_visitors_total');
+
+    add_settings_field('sitemap', 'Sitemap shortcode', 'setting_sitemap', 'shortcode-options', 'section-shortcodes');
+    register_setting('section-shortcodes', 'sitemap');
 }
 
 add_action('admin_init', 'custom_settings_page_setup');
