@@ -20,39 +20,6 @@
     padding-top: 2em;
 }
 
-.home-latest .col-8 {
-    width: 68%;
-}
-
-.home-latest .col-4 {
-    width: 31%;
-}
-
-.col-8 {
-    width: 66%;
-}
-
-.col-6 {
-    width: 49%;
-}
-
-.col-4 {
-    width: 33%;
-}
-
-.news .col-9 {
-    width: 80%;
-    margin-top: 1.5em;
-}
-
-.col-3 {
-    width: 20%;
-}
-
-.home-docs .col-4 {
-    width: 31%;
-}
-
 .home-latest h3, .home-docs h3 {
     text-transform: uppercase;
     color: #ffffff;
@@ -68,12 +35,8 @@
     font-weight: 100;
 }
 
-.project-content .col-6, .announcement, .events, .news, .docs {
+.announcement, .events, .news, .docs {
     background-color: #F7F8F8;
-}
-
-.project-content .col-6 {
-    margin-top: 1em;
 }
 
 .project-content h2 {
@@ -139,4 +102,19 @@
 h4>a {
     color: #000000;
     text-decoration: none;
+}
+@media (min-width: 520px) {
+ 
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
 }
