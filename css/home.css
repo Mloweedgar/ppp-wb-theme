@@ -16,10 +16,6 @@
     margin-right: 0.5em;
 }
 
-.home-latest, .home-docs, .site-footer {
-    padding-top: 2em;
-}
-
 .home-latest h3, .home-docs h3 {
     text-transform: uppercase;
     color: #ffffff;
@@ -29,7 +25,6 @@
 }
 
 .project-content h4 {
-    padding-left: 1.5em;
     color: #636363;
     text-transform: uppercase;
     font-weight: 100;
@@ -43,16 +38,20 @@
     text-transform: uppercase;
     color: #000;
     font-size: 1em;
-    padding-left: 1.5em;
     margin: .5em 0;
     line-height: 1.5;
 }
 
 .project-content p {
-    padding-left: 1.5em;
     text-align: left;
     padding-right: 0.6em;
     line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-block-start: 0em;
 }
 
 /* announcement */
@@ -75,7 +74,7 @@
 }
 
 .announcement, .events {
-    padding-top: 1em;
+    padding-top: 1.5em;
     padding-bottom: 0.2em;
 }
 
