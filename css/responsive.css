@@ -1,4 +1,7 @@
-@media screen and (max-width: 520px){
+html, body {
+    width: 100%;
+}
+ @media only screen and (max-width: 480px) {
     .site-contents {
         width: 100%;
         /* overflow-x: hidden; */
@@ -6,8 +9,7 @@
     .home-latest .col-8 {
         margin: 2em 3em;
     }
-  
-    .col-8, .col-6,.col-4  {
+    .col-8, .col-6, .col-4 {
         width: 100%;
     }
     p {
@@ -25,13 +27,14 @@
     }
 }
 
-@media screen and (min-width: 521px){
-    .project-content .col-6{
+@media (min-width:641px) {
+    .project-content .col-6 {
         background-color: #F7F8F8;
     }
+
 }
 
-@media (min-width: 992px) {
+@media (min-width:961px) {
     .site-contents {
         margin: auto;
         width: 64%;
@@ -71,4 +74,43 @@
     }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width:1025px) {
+    .site-contents {
+        margin: auto;
+        width: 64%;
+    }
+    .layout-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home-latest .col-8 {
+        width: 68%;
+        margin: 0;
+    }
+    .home-latest .col-4 {
+        width: 31%;
+    }
+    .col-8 {
+        width: 66%;
+    }
+    .col-6 {
+        width: 49%;
+    }
+    .col-4 {
+        width: 33%;
+    }
+    .news .col-9 {
+        width: 80%;
+        margin-top: 1.5em;
+    }
+    .col-3 {
+        width: 20%;
+    }
+    .home-docs .col-4 {
+        width: 31%;
+    }
+    .project-content .col-6 {
+        margin-top: 1em;
+    }
+
+}
