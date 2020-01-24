@@ -79,7 +79,9 @@
 }
 
 /* news */
-
+.news{
+    padding-bottom: 0.5em;
+}
 .news-box {
     height: 80px;
     width: 85px;
@@ -90,6 +92,7 @@
 
 .news h4 {
     font-weight: 200;
+    margin: 0.9em 0;
 }
 
 /* document links */

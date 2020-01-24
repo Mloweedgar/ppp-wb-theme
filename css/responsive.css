@@ -1,11 +1,12 @@
 html, body {
     width: 100%;
 }
-
+/* mobile  */
 @media only screen and (max-width: 480px) {
     .site-contents {
         width: 100%;
     }
+    /* home page styles */
     .slideshow-container div>img {
         height: 300px;
     }
@@ -57,9 +58,51 @@ html, body {
     }
 }
 
+/* tablet */
 @media (min-width:641px) {
     .project-content .col-6 {
         background-color: #F7F8F8;
+    }
+    .site-contents {
+        width: 100%;
+    }
+    .slideshow-container div>img {
+        height: 400px;
+    }
+    .home-latest .col-8, .home-latest .col-4, .home-docs .col-4 {
+        margin: 1.5em;
+    }
+    .project-content .col-6 {
+        padding: 1.5em;
+    }
+    .project-content h4 {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+    .project-content .col-6:first-child {
+        border-bottom: 1px solid #000000;
+    }
+
+    .news {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .news .col-9 {
+        width: 78%;
+        margin-top: 1em;
+        padding-right: 12px;
+
+        
+    }
+    .news .col-3 {
+        width: 18%;
+    }
+     /* footer */
+     .quickcontacts, .site-visits,.subscription-section {
+        text-align: center;
+    }
+    .subscription-section, .quickcontacts {
+        border-bottom: 1px solid #3c3e3e;
     }
 }
 
@@ -67,6 +110,9 @@ html, body {
     .site-contents {
         margin: auto;
         width: 64%;
+    }
+    .slideshow-container div>img {
+        height: 460px;
     }
     .layout-content {
         display: flex;
@@ -89,12 +135,16 @@ html, body {
         width: 33%;
     }
     .news .col-9 {
-        width: 80%;
+        width: 70%;
         margin-top: 1.5em;
         padding-right: 12px;
     }
-    .col-3 {
+    .news .col-3 {
         width: 18%;
+        
+    }
+    .col-3 {
+        width: 20%;
     }
     .home-docs .col-4 {
         width: 31%;
@@ -119,6 +169,9 @@ html, body {
         margin: auto;
         width: 64%;
     }
+    .slideshow-container div>img {
+        height: 600px;
+    }
     .layout-content {
         display: flex;
         flex-wrap: wrap;
@@ -144,5 +197,14 @@ html, body {
     }
     .project-content .col-6 {
         margin-top: 1em;
+    }
+
+    .news .col-9 {
+        width: 80%;
+        margin-top: 1.5em;
+        padding-right: 12px;
+    }
+    .col-3 {
+        width: 18%;
     }
 }
