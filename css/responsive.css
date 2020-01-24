@@ -1,0 +1,210 @@
+html, body {
+    width: 100%;
+}
+/* mobile  */
+@media only screen and (max-width: 480px) {
+    .site-contents {
+        width: 100%;
+    }
+    /* home page styles */
+    .slideshow-container div>img {
+        height: 300px;
+    }
+    .home-latest .col-8, .home-latest .col-4, .home-docs .col-4 {
+        margin: 1.5em;
+    }
+    p {
+        font-size: 15px;
+        line-height: 1.5!important;
+    }
+    .project-content {
+        background-color: #F7F8F8;
+    }
+    .project-content .col-6:first-child {
+        border-bottom: 1px solid #000000;
+    }
+    .project-content .col-6 {
+        padding: 1.5em;
+    }
+    .project-content h4 {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        font-size: .7em;
+    }
+    .project-content p {
+        margin-block-end: 0em;
+    }
+    .news {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .news .col-9 {
+        width: 68%;
+        margin-top: 1em;
+    }
+    .news .col-3 {
+        width: 18%;
+    }
+    .news-box {
+        height: 68px !important;
+        width: 66px!important;
+    }
+    /* footer */
+    .quickcontacts, .site-visits {
+        text-align: center;
+    }
+    .subscription-section, .quickcontacts {
+        border-bottom: 1px solid #3c3e3e;
+    }
+}
+
+/* tablet */
+@media (min-width:641px) {
+    .project-content .col-6 {
+        background-color: #F7F8F8;
+    }
+    .site-contents {
+        width: 100%;
+    }
+    .slideshow-container div>img {
+        height: 400px;
+    }
+    .home-latest .col-8, .home-latest .col-4, .home-docs .col-4 {
+        margin: 1.5em;
+    }
+    .project-content .col-6 {
+        padding: 1.5em;
+    }
+    .project-content h4 {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+    .project-content .col-6:first-child {
+        border-bottom: 1px solid #000000;
+    }
+
+    .news {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .news .col-9 {
+        width: 78%;
+        margin-top: 1em;
+        padding-right: 12px;
+
+        
+    }
+    .news .col-3 {
+        width: 18%;
+    }
+     /* footer */
+     .quickcontacts, .site-visits,.subscription-section {
+        text-align: center;
+    }
+    .subscription-section, .quickcontacts {
+        border-bottom: 1px solid #3c3e3e;
+    }
+}
+
+@media (min-width:961px) {
+    .site-contents {
+        margin: auto;
+        width: 64%;
+    }
+    .slideshow-container div>img {
+        height: 460px;
+    }
+    .layout-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home-latest .col-8 {
+        width: 68%;
+        margin: 0;
+    }
+    .home-latest .col-4 {
+        width: 31%;
+    }
+    .col-8 {
+        width: 66%;
+    }
+    .col-6 {
+        width: 49%;
+    }
+    .col-4 {
+        width: 33%;
+    }
+    .news .col-9 {
+        width: 70%;
+        margin-top: 1.5em;
+        padding-right: 12px;
+    }
+    .news .col-3 {
+        width: 18%;
+        
+    }
+    .col-3 {
+        width: 20%;
+    }
+    .home-docs .col-4 {
+        width: 31%;
+    }
+    .project-content .col-6 {
+        margin-top: 1em;
+    }
+    .home-latest, .home-docs, .site-footer {
+        padding-top: 2em;
+    }
+    .project-content p, .project-content h4, .project-content h2 {
+        padding-left: 1.5em;
+    }
+    .site-footer .main-footer {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width:1025px) {
+    .site-contents {
+        margin: auto;
+        width: 64%;
+    }
+    .slideshow-container div>img {
+        height: 600px;
+    }
+    .layout-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home-latest .col-8 {
+        width: 68%;
+        margin: 0;
+    }
+    .home-latest .col-4 {
+        width: 31%;
+    }
+    .col-8 {
+        width: 66%;
+    }
+    .col-6 {
+        width: 49%;
+    }
+    .col-4 {
+        width: 33%;
+    }
+    .home-docs .col-4 {
+        width: 31%;
+    }
+    .project-content .col-6 {
+        margin-top: 1em;
+    }
+
+    .news .col-9 {
+        width: 80%;
+        margin-top: 1.5em;
+        padding-right: 12px;
+    }
+    .col-3 {
+        width: 18%;
+    }
+}

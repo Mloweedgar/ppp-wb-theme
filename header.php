@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Zanzibar PPP department</title>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <?php wp_head(); ?>
@@ -37,7 +39,7 @@
                 wp_nav_menu( array( 'theme_location' => 'custom-menu', 'container' => '' ) );
                 ?>
             </nav>
-<!--            --><?php //get_search_form( ); ?>
+          <?php //get_search_form( ); ?>
             <div class="search-section">
                 <input type="search"/>
                 <button><img src="<?php echo get_bloginfo('template_directory'); ?>/images/icons-search.svg"/></button>
