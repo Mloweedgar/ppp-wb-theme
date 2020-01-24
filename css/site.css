@@ -6,4 +6,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 /* center site contents*/
-
+.site-contents {
+    margin: auto;
+    width: 64%;
+}
