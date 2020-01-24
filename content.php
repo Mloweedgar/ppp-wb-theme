@@ -27,7 +27,7 @@
             $args = array(
                 'post_type' => 'announcements',
                 'orderby' => 'menu_order',
-                'posts_per_page' => 3,
+                'posts_per_page' => 4,
                 'order' => 'ASC'
             );
             $custom_query = new WP_Query($args);
