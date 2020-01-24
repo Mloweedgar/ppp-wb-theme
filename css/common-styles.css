@@ -47,6 +47,8 @@
 
 .layout-content{
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 0;
     position: relative;
     justify-content: space-between;

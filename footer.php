@@ -13,8 +13,6 @@
 <!--                +255 789 673 673 <br/>-->
 <!--                info@pppnode.go.tz-->
 <!--            </address>-->
-
-            <address>
             <?php echo get_option('physical_address'); ?>
             <br/>
             <?php echo get_option('post_address'); ?>
@@ -23,6 +21,8 @@
             <br/>
             <?php echo get_option('email_address'); ?>
             <br/>
+            <address>
+
             </address>
         </section>
         <section class="site-visits">
