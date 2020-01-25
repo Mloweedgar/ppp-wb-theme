@@ -1,6 +1,6 @@
 <?php get_template_part('includes/slideshow', get_post_format()); ?>
 <section class="layout-content home-latest">
-    <div class="col-8">
+    <div class="col-8 ">
         <div class="latest-projects bg-blue">
             <h3>Latest Projects</h3>
         </div>

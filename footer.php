@@ -6,13 +6,6 @@
        </section>
         <section class="quickcontacts">
             <h4> QUICK CONTACTS</h4>
-<!--            <address>-->
-<!--                Kijitonyama Dar es salaam <br/>-->
-<!--                SLP 16 Dar es salaam <br/>-->
-<!--                +255 716 645 453 <br/>-->
-<!--                +255 789 673 673 <br/>-->
-<!--                info@pppnode.go.tz-->
-<!--            </address>-->
             <?php echo get_option('physical_address'); ?>
             <br/>
             <?php echo get_option('post_address'); ?>

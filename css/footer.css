@@ -58,17 +58,53 @@
 }
 
 
-html, body {
-    width: 100%;
+
+
+
+/* Styles  for header in mobile screen */
+
+/* mobile small*/
+@media only screen and (max-width: 320px) {
 }
-/* mobile  */
-@media only screen and (max-width: 480px) {
-     .quickcontacts, .site-visits,.subscription-section {
+
+/* mobile medium */
+@media only screen and (max-width: 375px) {
+
+}
+
+/* mobile  Large */
+@media only screen and (max-width: 425px) {
+
+    .site-footer .main-footer {
+        flex-direction: column;
+    }
+
+    .quickcontacts, .site-visits,.subscription-section {
         text-align: center;
     }
     .subscription-section, .quickcontacts {
         border-bottom: 1px solid #3c3e3e;
     }
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Laptop 1024 */
+@media only screen and (max-width: 1024px) {
+
+}
+
+/* Laptop 1440 */
+@media only screen and (max-width: 1440px) {
+
+}
+
+/* Laptop 2560 */
+@media only screen and (max-width: 2560px) {
+
 }
 
 

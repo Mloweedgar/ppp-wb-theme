@@ -3,23 +3,23 @@
 
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.png" width="100%" height="600">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.png">
     </div>
 
     <div class="mySlides fade">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.jpeg" width="100%" height="600">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.jpeg">
     </div>
 
     <div class="mySlides fade">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.png" width="100%" height="600">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.png">
     </div>
 
     <div class="mySlides fade">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.jpeg" width="100%" height="600">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.jpeg">
     </div>
 
     <div class="mySlides fade">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.png" width="100%" height="600">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.png">
     </div>
 
 
