@@ -4,6 +4,11 @@
     padding-bottom: 20px;
 }
 
+/* hide menu page by default */
+#menu-page {
+    display: none;
+}
+
 .navigation-bar-mobile {
     display: none;
 }
@@ -169,7 +174,7 @@
 
     /* styles for the full page menu */
     #menu-page {
-        display: none;
+        border: 1px solid red;
     }
 
     .navigation-bar {

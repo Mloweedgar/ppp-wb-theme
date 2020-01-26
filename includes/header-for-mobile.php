@@ -14,9 +14,6 @@
             <div class="bar3"></div>
         </div>
     </section>
-    <section id="menu-page" onclick="hideMenu()">
-        <?php get_template_part('includes/menu'); ?>
-    </section>
 </header>
 <script>
 </script>

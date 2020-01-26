@@ -1,3 +1,3 @@
-<section>
-    this is menu page
+<section id="menu-page" onclick="hideMenu()">
+    this is  menu content
 </section>
