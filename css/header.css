@@ -166,6 +166,12 @@
 
 /* mobile  Large */
 @media only screen and (max-width: 425px) {
+
+    /* styles for the full page menu */
+    #menu-page {
+        display: none;
+    }
+
     .navigation-bar {
         display: none;
     }

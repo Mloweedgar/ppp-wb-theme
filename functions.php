@@ -19,6 +19,7 @@ function ppp_scripts() {
     wp_enqueue_style( 'sidebar', get_template_directory_uri() . '/css/sidebar.css' );
 
     wp_enqueue_script( 'slideshow', get_template_directory_uri() . '/js/slideshow.js', array( 'jquery' ) );
+    wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array( 'jquery' ) );
 
 }
 add_action( 'wp_enqueue_scripts', 'ppp_scripts' );
