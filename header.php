@@ -8,5 +8,8 @@
 </head>
 <body>
 <div class="site-contents">
+   <?php get_template_part('includes/menu'); ?>
    <?php get_template_part('includes/header-for-pc'); ?>
    <?php get_template_part('includes/header-for-mobile'); ?>
+    <div class="site-contains-container">
+

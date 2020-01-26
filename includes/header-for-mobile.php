@@ -8,7 +8,7 @@
                 <option>SW</option>
             </select>
         </div>
-        <div class="menu-icon" onclick="myFunction(this)">
+        <div class="menu-icon" onclick="showMenu()">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
@@ -16,7 +16,4 @@
     </section>
 </header>
 <script>
-    function myFunction(x) {
-        x.classList.toggle("change");
-    }
 </script>

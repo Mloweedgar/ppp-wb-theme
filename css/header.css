@@ -4,6 +4,11 @@
     padding-bottom: 20px;
 }
 
+/* hide menu page by default */
+#menu-page {
+    display: none;
+}
+
 .navigation-bar-mobile {
     display: none;
 }
@@ -166,6 +171,64 @@
 
 /* mobile  Large */
 @media only screen and (max-width: 425px) {
+
+    /* styles for the full page menu */
+    #menu-page {
+        padding: 10px;
+        height: 100vh;
+        background: #f7f8f8;
+    }
+
+    #menu-page #menu-main-menu, #menu-page #menu-sub-menu {
+        list-style-type: none;
+        color: #26a3dd;
+    }
+
+    #menu-page #menu-main-menu li a, #menu-page #menu-sub-menu li a {
+        text-decoration: none;
+        color: #26a3dd;
+    }
+
+    #menu-page #menu-sub-menu li a {
+        text-transform: capitalize;
+    }
+
+
+    #menu-page #menu-main-menu li, #menu-page #menu-sub-menu li {
+        padding-top: 10px;
+    }
+
+    #menu-page .search-section button {
+        background: #ffffff;
+        outline: none;
+        padding: 5px 5px;
+        margin: 3px 0 3px;
+        border-left: 1px solid #e0e0e0;
+    }
+
+    #menu-page .search-section {
+        display: flex;
+        background: #ffffff;
+        border: 1px solid #e0e0e0;
+        width: 100%;
+    }
+    .search-and-close-section input {
+        width: 100%;
+        border: none;
+    }
+    .search-and-close-section, .main-menu-page {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .search-and-close-section > img {
+        padding-bottom: 10px;
+    }
+    .search-and-close-section {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
     .navigation-bar {
         display: none;
     }
