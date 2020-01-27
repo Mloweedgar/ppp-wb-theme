@@ -94,6 +94,14 @@
          padding: 0 2em;
 
     }
+    .training-program .col-8,
+    .training-program .col-4{
+        width: 90%;
+    }
+    .instructors h3{
+        text-align: center;
+    }
+
 
 }
 
