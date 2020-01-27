@@ -55,8 +55,7 @@ p {
 /* mobile  Large */
 
 @media only screen and (max-width: 425px) {
-
-   .about-overview p {
+    .about-overview p {
         font-size: 1em;
     }
     .about-content {
@@ -88,7 +87,6 @@ p {
         color: #ffffff;
         margin: 0;
     }
- 
 }
 
 /* Tablet */
