@@ -3,5 +3,5 @@
         the_post_thumbnail_url();
     } ?>" alt="team member">
     <h5><?php the_title() ?></h5>
-    <p>Commissioner</p>
+    <p><?php the_content() ?></p>
 </div>

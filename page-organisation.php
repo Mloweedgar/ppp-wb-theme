@@ -55,7 +55,7 @@
         </div>
         <div class="col-4">
             <div class="related-link">
-                <h4>RELATED LINKS</h4>
+                <h3>RELATED LINKS</h3>
             </div>
             <div class="links">
                 <?php
