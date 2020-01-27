@@ -53,9 +53,6 @@
     width: 95%;
 }
 
-.commissioner {
-    margin-inline-start: 12em;
-}
 
 /* Styles  for header in mobile screen */
 
@@ -114,7 +111,8 @@
     .org-department .col-4>img {
         width: 80%;
         margin: 2em 2em 1em 2em;
-    }
+    } 
+
 }
 
 /* Tablet */
@@ -177,14 +175,26 @@
     .organization .col-8 {
         border-right: 0.3px solid #e0e0e0;
     }
-    .org-content, .org-department {
+    .org-content, .org-structure{
         margin-right: 1em;
+    }
+    .org-structure h3 {
+        text-align: center;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    .commissioner {
+        margin-inline-start: 6em;
     }
 }
 
 /* Laptop 1440 */
 
-@media only screen and (max-width: 1440px) {}
+@media only screen and (min-width: 1440px) {
+    .commissioner {
+        margin-inline-start: 12em !important;
+    }
+}
 
 /* Laptop 2560 */
 

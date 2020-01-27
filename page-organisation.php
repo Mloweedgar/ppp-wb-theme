@@ -25,7 +25,7 @@
             </div>
             <div class="org-structure">
                 <h3>ZANZIBAR PPP DEPARTMENT SECRETARIAT</h3>
-                <div class="org-department">
+                <div class="org-department commissioner">
                     <?php
                     $args = array(
                         'post_type' => 'team',
@@ -43,7 +43,7 @@
                     $args = array(
                         'post_type' => 'team',
                         'orderby' => 'menu_order',
-                        'posts_per_page' => 2,
+                        'posts_per_page' => 4,
                         'order' => 'ASC'
                     );
                     $custom_query = new WP_Query($args);
