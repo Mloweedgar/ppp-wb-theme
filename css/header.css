@@ -179,22 +179,22 @@
         background: #f7f8f8;
     }
 
-    #menu-page #menu-main-menu, #menu-page #menu-sub-menu {
+    #menu-page .main-menu-page ul, #menu-page .sub-menu-page ul {
         list-style-type: none;
         color: #26a3dd;
     }
 
-    #menu-page #menu-main-menu li a, #menu-page #menu-sub-menu li a {
+    #menu-page .main-menu-page li a, #menu-page .sub-menu-page li a {
         text-decoration: none;
         color: #26a3dd;
     }
 
-    #menu-page #menu-sub-menu li a {
+    #menu-page .sub-menu-page li a {
         text-transform: capitalize;
     }
 
 
-    #menu-page #menu-main-menu li, #menu-page #menu-sub-menu li {
+    #menu-page .main-menu-page li, #menu-page .sub-menu-page li {
         padding-top: 10px;
     }
 
