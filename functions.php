@@ -66,6 +66,32 @@ function create_news_post()
 add_action('init', 'create_news_post');
 
 
+
+// Team Post Type
+function create_team_post()
+{
+    register_post_type('team',
+        array(
+            'labels' => array(
+                'name' => __('Team'),
+                'singular_name' => __('Team'),
+            ),
+            'public' => true,
+            'menu_icon' => 'dashicons-groups',
+            'has_archive' => true,
+            'supports' => array(
+                'title',
+                'editor',
+                'thumbnail',
+                'custom-fields'
+            )
+        ));
+}
+
+add_action('init', 'create_team_post');
+
+
+
 // Projects Post Type
 function create_projects_post()
 {
