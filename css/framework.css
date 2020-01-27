@@ -68,7 +68,20 @@
 
 /* Tablet */
 
-@media (min-width: 426px) and (max-width: 768px) {}
+@media (min-width: 426px) and (max-width: 768px) {
+    .ppp-legal-framework article h2, .ppp-public-communications-strategy h2 {
+        padding: 0 1.4em;
+    }
+    .ppp-legal-framework article p, .ppp-legal-framework article h4, .ppp-legal-framework article ul, .ppp-public-communications-strategy p, .ppp-public-communications-strategy h5, .ppp-public-communications-strategy ul {
+        padding: 0 2em;
+    }
+    .ppp-legal-framework section article:nth-child(1) {
+        width: 98%;
+    }
+    .ppp-public-communications-strategy h5 {
+        letter-spacing: 1px;
+    }
+}
 
 /* Laptop 1024 */
 
