@@ -3,6 +3,7 @@
     position: relative;
     color: #ffffff;
 }
+
 .about-vision, .about-mission {
     padding: 0 2em;
 }
@@ -26,12 +27,6 @@ p {
     text-transform: uppercase;
 }
 
-
-
-.about-overview .col-4 {
-    width: 31%;
-}
-
 .links p>a {
     color: #000000;
     text-decoration: none;
@@ -50,16 +45,15 @@ p {
 /* Styles  for header in mobile screen */
 
 /* mobile small*/
-@media only screen and (max-width: 320px) {
 
-}
+@media only screen and (max-width: 320px) {}
 
 /* mobile medium */
-@media only screen and (max-width: 375px) {
 
-}
+@media only screen and (max-width: 375px) {}
 
 /* mobile  Large */
+
 @media only screen and (max-width: 425px) {
     .page-intro-section article {
         padding: 3em 2em;
@@ -67,7 +61,7 @@ p {
     .page-intro-section h1 {
         font-size: 1.5em;
     }
-    .page-intro-section p {
+    .page-intro-section p, .about-overview p {
         font-size: 1em;
     }
     .about-content {
@@ -75,27 +69,84 @@ p {
         justify-content: space-between;
         padding: 1em 4em;
     }
-    .about-vision h2, .about-mission h2,
-    .about-vision p, .about-mission p{
+    .about-vision h2, .about-mission h2, .about-vision p, .about-mission p, .about-overview h3 {
         text-align: center;
     }
-    .about-overview{
+    .about-overview {
         background-color: #f7f8f8;
     }
+    .about-overview .col-8, .about-overview .col-4 {
+        width: 90%;
+    }
     .about-overview .col-8 {
-        width: 80%;
         background-color: #ffffff;
-        padding: 1em;
-        margin: 0 1.3em;
+    }
+    .about-overview p, .overview h4 {
+        padding: 0 1.2em;
+    }
+    .about-overview .col-4 {
+        margin-top: 2em;
+    }
+    .about-overview h3 {
+        text-align: left;
+        padding: 0 1em;
+        color: #ffffff;
+        margin: 0;
+    }
+    .related-link {
+        background-color: #00A3DD;
+        padding: 1em 0;
     }
 }
 
 /* Tablet */
-@media only screen and (max-width: 768px) {
 
+@media (min-width: 426px) and (max-width: 768px) {
+    .layout-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .page-intro-section article {
+        padding: 3em 2em;
+    }
+    .about-content {
+        display: contents;
+        justify-content: space-between;
+        padding: 1em 4em;
+    }
+    .about-vision h2, .about-mission h2, .about-vision p, .about-mission p, .about-overview h3 {
+        text-align: center;
+    }
+    .about-overview {
+        background-color: #f7f8f8;
+    }
+    .about-overview .col-8, .about-overview .col-4 {
+        width: 80%;
+    }
+    .about-overview .col-8 {
+        background-color: #ffffff;
+    }
+    .about-overview p, .overview h4 {
+        padding: 0 2em;
+    }
+    .about-overview .col-4 {
+        margin-top: 2em;
+    }
+    .about-overview h3 {
+        text-align: left;
+        padding: 0 1em;
+        color: #ffffff;
+        margin: 0;
+    }
+    .related-link {
+        background-color: #00A3DD;
+        padding: 1em 0;
+    }
 }
 
 /* Laptop 1024 */
+
 @media only screen and (min-width: 1024px) {
     .about-content {
         display: flex;
@@ -103,18 +154,15 @@ p {
         padding: 1em 4em;
         flex-direction: row;
     }
-
-.about-overview .col-8 {
-    border-right: 0.3px solid #e0e0e0;
-}
+    .about-overview .col-8 {
+        border-right: 0.3px solid #e0e0e0;
+    }
 }
 
 /* Laptop 1440 */
-@media only screen and (max-width: 1440px) {
 
-}
+@media only screen and (max-width: 1440px) {}
 
 /* Laptop 2560 */
-@media only screen and (max-width: 2560px) {
 
-}
+@media only screen and (max-width: 2560px) {}
