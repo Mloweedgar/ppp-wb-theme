@@ -38,62 +38,18 @@
             <h4>RELATED LINKS</h4>
         </div>
         <div class="links">
-            <div>
-                <p><a href="https://www.mof.go.tz/">Ministry of Finance and Planning</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="https://www.tra.go.tz/">Tanzania Revenue Authority</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="https://www.bot.go.tz/">Bank of Tanzania</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="https://www.bot.go.tz/">Tanzania Private Sector Association</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="https://www.worldbank.org/">The World Bank</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="https://www.gov.uk/government/organisations/department-for-international-development">DfID</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="https://www.uncdf.org/">United Nations Capital Development Fund</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="http://www.crb.go.tz/">Contractors Registration Board</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="https://www.nbs.go.tz/index.php/en/">National Bureau of Statistics</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="https://www.tba.go.tz/">TBA</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="https://tpsftz.org/">TPSF</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="#">CRB</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="https://www.erb.go.tz/">Engineers' Registration Board</a></p>
-                <hr>
-            </div>
-            <div>
-                <p><a href="https://www.aqrb.go.tz/firm.php">Architects and Quantity Surveyors Registration Board</a></p>
-                <hr>
-            </div>
+            <?php
+            $bookmarks = get_bookmarks( array(
+                'orderby'        => 'name',
+                'order'          => 'ASC',
+                'category_name'  => 'RELATED LINKS'
+            ) );
+
+            // Loop through each bookmark and print formatted output
+            foreach ( $bookmarks as $bookmark ) {
+                printf('<div><h4><ahref="%1$s">%2$s</a></h4><hr></div>',esc_attr( $bookmark->link_url ), $bookmark->link_name);
+            }
+            ?>
         </div>
     </div>
 </section>
