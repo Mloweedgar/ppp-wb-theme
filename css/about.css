@@ -1,14 +1,8 @@
-
 .about-content {
-    display: flex;
     margin-bottom: 0;
     position: relative;
-    justify-content: space-between;
-    padding: 1em 4em;
-    flex-direction: row;
     color: #ffffff;
 }
-
 .about-vision, .about-mission {
     padding: 0 2em;
 }
@@ -33,9 +27,6 @@ p {
 }
 
 
-.about-overview .col-8 {
-    border-right: 0.3px solid #e0e0e0;
-}
 
 .about-overview .col-4 {
     width: 31%;
@@ -54,4 +45,76 @@ p {
 .overview h4 {
     padding-top: 2em;
     letter-spacing: 0.04em;
+}
+
+/* Styles  for header in mobile screen */
+
+/* mobile small*/
+@media only screen and (max-width: 320px) {
+
+}
+
+/* mobile medium */
+@media only screen and (max-width: 375px) {
+
+}
+
+/* mobile  Large */
+@media only screen and (max-width: 425px) {
+    .page-intro-section article {
+        padding: 3em 2em;
+    }
+    .page-intro-section h1 {
+        font-size: 1.5em;
+    }
+    .page-intro-section p {
+        font-size: 1em;
+    }
+    .about-content {
+        display: contents;
+        justify-content: space-between;
+        padding: 1em 4em;
+    }
+    .about-vision h2, .about-mission h2,
+    .about-vision p, .about-mission p{
+        text-align: center;
+    }
+    .about-overview{
+        background-color: #f7f8f8;
+    }
+    .about-overview .col-8 {
+        width: 80%;
+        background-color: #ffffff;
+        padding: 1em;
+        margin: 0 1.3em;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Laptop 1024 */
+@media only screen and (min-width: 1024px) {
+    .about-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 4em;
+        flex-direction: row;
+    }
+
+.about-overview .col-8 {
+    border-right: 0.3px solid #e0e0e0;
+}
+}
+
+/* Laptop 1440 */
+@media only screen and (max-width: 1440px) {
+
+}
+
+/* Laptop 2560 */
+@media only screen and (max-width: 2560px) {
+
 }
