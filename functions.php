@@ -257,6 +257,9 @@ function setting_sitemap()
     <input type="text" name="sitemap" id="sitemap" placeholder="Sitemap shortcode" value="<?php echo get_option('sitemap'); ?>"/>
 <?php }
 
+// remove empty paragraph
+remove_filter('the_content', 'wpautop');
+
 
 /**
  * Global settings for the theme
