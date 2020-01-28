@@ -30,7 +30,7 @@
     flex-wrap: wrap;
     margin-bottom: 0;
     position: relative;
-    /* justify-content: space-around; */
+    justify-content: center;
     margin-block-start: 2em;
 }
 

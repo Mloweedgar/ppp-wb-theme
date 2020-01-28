@@ -40,13 +40,30 @@
                 </div>
                 <div class="org-department">
                     <?php
+
                     $args = array(
                         'post_type' => 'team',
                         'orderby' => 'menu_order',
                         'posts_per_page' => 4,
                         'order' => 'ASC'
                     );
-                    $custom_query = new WP_Query($args);
+                    $query_1 = new WP_Query( $args );
+
+                    $exclude_posts = array();
+
+                    while ( $query_1->have_posts() ) {
+                        $query_1->the_post();
+                        $exclude_posts[] = get_the_ID();
+                    }
+
+                    $args = array(
+                        'posts_per_page' => -1,
+                        'post_type' => 'team',
+                        'orderby' => 'menu_order',
+                        'order' => 'ASC',
+                        'post__not_in' => $exclude_posts
+                    );
+                    $custom_query = new WP_Query( $args );
                     while ($custom_query->have_posts()) : $custom_query->the_post();
                         get_template_part('content-team', get_post_format());
                     endwhile; ?>
