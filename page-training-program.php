@@ -67,7 +67,7 @@
                  According to best practices, the approach should be planned 
                  into multiple phases. </p>
       </div>
-      <div>
+      <div class="instructors">
             <h3 id="training-title"><a href="#">Instructors</a></h3>
             <div class="training-instructor">
             <div class="col-4 ">
