@@ -38,7 +38,7 @@
     </div>
 </section>
 <section class="layout-content home-latest">
-    <div class="col-8 ">
+    <div class="col-8">
         <div class="latest-news bg-blue">
             <h3>Latest News</h3>
         </div>
@@ -90,7 +90,7 @@
 
             // Loop through each bookmark and print formatted output
             foreach ( $bookmarks as $bookmark ) {
-              printf('<div><h4><ahref="%1$s">%2$s</a></h4><hr></div>',esc_attr( $bookmark->link_url ), $bookmark->link_name);
+              printf('<div><h4><a href="%1$s">%2$s</a></h4><hr></div>',esc_attr( $bookmark->link_url ), $bookmark->link_name);
             }
             ?>
         </div>
@@ -128,7 +128,7 @@
 
             // Loop through each bookmark and print formatted output
             foreach ( $bookmarks as $bookmark ) {
-                printf('<div><h4><ahref="%1$s">%2$s</a></h4><hr></div>',esc_attr( $bookmark->link_url ), $bookmark->link_name);
+                printf('<div><h4><a href="%1$s">%2$s</a></h4><hr></div>',esc_attr( $bookmark->link_url ), $bookmark->link_name);
             }
             ?>
         </div>
