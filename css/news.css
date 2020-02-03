@@ -1,34 +1,131 @@
-#news{
+#news {
     text-align: center;
     text-transform: uppercase;
     font-size: 2em;
-
 }
-.news_section{
+
+.news_section {
     margin-top: 1.2em;
 }
-.news_section img{
+
+.news_section img {
     width: 100%;
-    height: 370px;
+    height: 350px;
 }
-.news_section h4{
+
+.news_section h4 {
     line-height: 1.5;
     margin-top: 0;
 }
-.older_news_section{
+
+.older_news_section {
     margin-bottom: 2em;
 }
-#news_header{
+
+#news_header {
     text-transform: uppercase;
     font-size: 1.5em;
     border-bottom: 1px solid #636363;
     width: 100%;
-
 }
+
 .older_news .col-9 {
     width: 80%;
     margin-top: 1.5em;
 }
-.older_news .col-3 .news-box{
+
+.older_news .col-3 .news-box {
     margin-left: 0 !important;
 }
+
+/* Styles  for header in mobile screen */
+
+/* mobile small*/
+
+@media only screen and (max-width: 320px) {}
+
+/* mobile medium */
+
+@media only screen and (max-width: 375px) {}
+
+/* mobile  Large */
+
+@media only screen and (max-width: 425px) {
+    #news {
+        font-size: 1.5em;
+    }
+    .site-contains-container {
+        border-top: 1px solid #e6e1e1;
+    }
+    .col-6 {
+        width: 90%;
+    }
+    .older_news_section, .older_news, .oldnews {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* width: 100%; */
+        flex-wrap: wrap;
+    }
+    .older_news_section{
+        padding: 0 1.5em;
+
+    }
+    .news_section img {
+        width: 100%;
+        height: auto;
+    }
+    .older_news .col-9 {
+        width: 72%;
+    }
+}
+
+/* Tablet */
+
+@media (min-width: 426px) and (max-width: 768px) {  #news {
+    font-size: 1.5em;
+}
+.col-6 {
+    width: 90%;
+}
+.older_news_section, .older_news, .oldnews {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* width: 100%; */
+    flex-wrap: wrap;
+}
+.older_news_section{
+    padding: 0 1.5em;
+
+}
+.news_section img {
+    width: 100%;
+    height: auto;
+}
+.older_news .col-9 {
+    width: 72%;
+}
+
+}
+
+
+/* Laptop 1024 */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .news_section img {
+        width: 100%;
+        height: 250px;
+    }
+    .older_news .col-9 {
+        width: 68% !important;
+    }
+}
+
+/* Laptop 1440 */
+
+@media only screen and (min-width: 1440px) {}
+
+/* Laptop 2560 */
+
+@media only screen and (max-width: 2560px) {}
