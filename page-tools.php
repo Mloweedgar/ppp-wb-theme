@@ -19,7 +19,6 @@
                     <p>This site gathers and organizes PPP toolkit for easy access by interested parties</p>
 
             </article>
-            <section class="toolkit-sector">
                 <article>
                     <h4>PPP Toolkit by Sector</h4>
                     <ul>
@@ -31,8 +30,7 @@
                         <li>Telecom & ICT PPP Toolkit</li>
                     </ul>
                 </article>
-        </section>
-        <section class="ppp-public-communications-strategy">
+        
             <article>
                 <h2 class="bluish-text-color">Checklists and Risk Matrices</h2>
                 <p>When preparing or reviewing PPP project documents it is useful to have access to checklists of issues to consider:</p>
