@@ -6,14 +6,8 @@
     padding-top: 1.2em;
 }
 
-.organization .col-8 {
-    border-right: 0.3px solid #e0e0e0;
-}
-
 .org-content {
     background-color: #F7F8F8;
-    margin-inline-end: 1em;
-    padding: 0 3em 0 2.5em;
 }
 
 .org-content h3, .org-structure h3 {
@@ -22,9 +16,9 @@
     padding-top: 1.5em;
 }
 
-.org-content p {
+/* .org-content p {
     padding-bottom: 3em;
-}
+} */
 
 .org-structure h3 {
     text-align: center;
@@ -55,9 +49,153 @@
     width: 25%;
 }
 
-.org-department .col-4 > img {
+.org-department .col-4>img {
     width: 95%;
 }
-.commissioner {
-    margin-inline-start: 12em;
+
+
+/* Styles  for header in mobile screen */
+
+/* mobile small*/
+
+@media only screen and (max-width: 320px) {}
+
+/* mobile medium */
+
+@media only screen and (max-width: 375px) {}
+
+/* mobile  Large */
+
+@media only screen and (max-width: 425px) {
+    .organization .col-8, .organization .col-4 {
+        width: 90%;
+    }
+    .org-content h3, .org-structure h3 {
+        text-align: center;
+        font-size: 1em;
+    }
+    .org-content p {
+        padding: 1em 1.2em;
+        line-height: 1.7;
+        font-size: 0.9em;
+    }
+    .org-department {
+        background-color: #f7f8f8;
+        margin-bottom: 1em;
+    }
+    .org-department p {
+        padding: 1.5em 0;
+    }
+    .org-department .col-4 {
+        margin: 0em 2em 0 1em;
+    }
+    .related-link h3 {
+        font-size: 1em;
+        text-align: left;
+        padding: 0 1em;
+        color: #ffffff;
+        margin: 0;
+    }
+    .organization .links {
+        background-color: #f7f8f8;
+        padding: 0.2em 0;
+    }
+    .organization .links h4 {
+        font-weight: 100;
+        padding-left: 1em;
+        margin-block-start: 1em;
+    }
+    .organization hr {
+        width: 90%;
+    }
+    .org-department .col-4>img {
+        width: 80%;
+        margin: 2em 2em 1em 2em;
+    } 
+
 }
+
+/* Tablet */
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .organization .col-8, .organization .col-4 {
+        width: 90%;
+    }
+    .layout-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .org-content h3, .org-structure h3 {
+        text-align: center;
+    }
+    .org-content p, .org-department p {
+        padding: 1em 1.2em;
+        line-height: 1.7;
+    }
+    .org-department .col-4>img {
+        margin: 2em;
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .org-department .col-4 {
+        width: 100%;
+    }
+    .org-department {
+        background-color: #f7f8f8;
+        margin-bottom: 1em;
+    }
+    .related-link {
+        margin-top: 2em;
+    }
+    .related-link h3 {
+        padding: 0 1em;
+        color: #ffffff;
+        margin: 0;
+    }
+    .organization .links {
+        background-color: #f7f8f8;
+        padding: 0.2em 0;
+    }
+    .organization .links h4 {
+        font-weight: 100;
+        padding-left: 1em;
+        margin-block-start: 1em;
+    }
+}
+
+/* Laptop 1024 */
+
+@media only screen and (min-width: 1024px) {
+    .org-content {
+        padding: 0 2em 2em;
+    }
+    .organization .col-8 {
+        border-right: 0.3px solid #e0e0e0;
+    }
+    .org-content, .org-structure{
+        margin-right: 1em;
+    }
+    .org-structure h3 {
+        text-align: center;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    .commissioner {
+        margin-inline-start: 6em;
+    }
+}
+
+/* Laptop 1440 */
+
+@media only screen and (min-width: 1440px) {
+    .commissioner {
+        margin-inline-start: 12em !important;
+    }
+}
+
+/* Laptop 2560 */
+
+@media only screen and (max-width: 2560px) {}

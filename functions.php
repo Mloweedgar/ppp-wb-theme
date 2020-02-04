@@ -262,6 +262,9 @@ function setting_contact_us()
     <input type="text" name="contact_us" id="contact_us" placeholder="Contact Us shortcode" value="<?php echo get_option('contact_us'); ?>"/>
 <?php }
 
+// remove empty paragraph
+remove_filter('the_content', 'wpautop');
+
 
 /**
  * Global settings for the theme
