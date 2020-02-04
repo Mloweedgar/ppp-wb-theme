@@ -257,6 +257,11 @@ function setting_sitemap()
     <input type="text" name="sitemap" id="sitemap" placeholder="Sitemap shortcode" value="<?php echo get_option('sitemap'); ?>"/>
 <?php }
 
+function setting_contact_us()
+{ ?>
+    <input type="text" name="contact_us" id="contact_us" placeholder="Contact Us shortcode" value="<?php echo get_option('contact_us'); ?>"/>
+<?php }
+
 
 /**
  * Global settings for the theme
@@ -297,6 +302,9 @@ function custom_settings_page_setup()
 
     add_settings_field('sitemap', 'Sitemap shortcode', 'setting_sitemap', 'shortcode-options', 'section-shortcodes');
     register_setting('section-shortcodes', 'sitemap');
+
+    add_settings_field('contact_us', 'Contact Us shortcode', 'setting_contact_us', 'shortcode-options', 'section-shortcodes');
+    register_setting('section-shortcodes', 'contact_us');
 }
 
 add_action('admin_init', 'custom_settings_page_setup');
