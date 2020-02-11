@@ -2,16 +2,16 @@
 .e_library{
     margin-top: 3em;
     background-color: #f7f8f8;
-    padding-bottom: 4em;
+    padding-bottom: 3.5em;
 
 }
-table {
+.e_library table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
   
-  td, th {
+  .e_library td, .e_library th {
     border-bottom: 1px solid #dddddd;
     text-align: left;
     padding: 1.2em;
@@ -20,7 +20,7 @@ table {
   .table-header{
       background-color: #00A3DD;
   }
-  td:nth-child(3),
-  th:nth-child(3){
+  .e_library td:nth-child(3),
+  .e_library th:nth-child(3){
       text-align: center;
   }
