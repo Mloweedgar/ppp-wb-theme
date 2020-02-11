@@ -1,0 +1,26 @@
+
+.e_library{
+    margin-top: 3em;
+    background-color: #f7f8f8;
+    padding-bottom: 4em;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 1.2em;
+  }
+  
+  .table-header{
+      background-color: #00A3DD;
+  }
+  td:nth-child(3),
+  th:nth-child(3){
+      text-align: center;
+  }
