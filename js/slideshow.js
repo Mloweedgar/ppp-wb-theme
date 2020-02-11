@@ -1,6 +1,8 @@
 var slideIndex = 1;
+var auto = true;
 // Next/previous controls
 function plusSlides(n) {
+    auto=false;
     showSlides(slideIndex += n);
 }
 
@@ -23,6 +25,10 @@ function showSlides(n) {
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
+    if (auto) {
+        slideIndex++;
+        setTimeout(() => showSlides(slideIndex), 5000);
+    }
 }
 
 jQuery(document).ready(function () {
