@@ -1,4 +1,4 @@
-.contact, .contact-us {
+.contact, .contact-info {
     margin: auto;
     text-align: center;
     line-height: 1.7;
@@ -16,17 +16,17 @@
     padding-block-start: 0;
 }
 
-.contact-us {
+.contact-info {
     padding-top: 2em;
 }
 
-.contact-us h3 {
+.contact-info h3 {
     text-transform: uppercase;
     color: #000;
     font-weight: 300;
 }
 
-.contact-us p {
+.contact-info p {
     font-size: 1em;
 }
 
@@ -36,6 +36,11 @@
     text-align: center;
     margin-bottom: 2em;
 
+}
+
+.form-field input, .form-field textarea {
+    padding: 1em;
+    margin-top: 1em;
 }
 
 .form-field label {
@@ -60,11 +65,42 @@
 
 /* mobile  Large */
 
-@media only screen and (max-width: 425px) {}
+@media only screen and (max-width: 425px) {
+    .contact-us{
+        background-color: #f7f8f8;
+    }
+    .form-field {
+        margin: 0 2em;
+    }
+    .form-field input, .form-field textarea {
+        width: 90%;
+    }
+    .form-field .wpcf7-submit {
+        width: 100%;
+        font-size: 18px;
+    }
+    .form-field input, .form-field textarea {
+        margin-top: 0;
+    }
+}
 
 /* Tablet */
 
-@media (min-width: 426px) and (max-width: 768px) {}
+@media (min-width: 426px) and (max-width: 768px) {
+    .contact-us{
+        background-color: #f7f8f8;
+    }
+    .form-field {
+        margin: 0 4em;
+    }
+    .form-field input, .form-field textarea {
+        width: 95%;
+    }
+    .form-field .wpcf7-submit {
+        width: 100%;
+        font-size: 18px;
+    }
+}
 
 /* Laptop 1024 */
 
@@ -72,11 +108,12 @@
     .form-field {
         margin: 0 4em;
     }
+
     .form-field input, .form-field textarea {
         width: 100%;
-        padding: 1em;
-        margin-top: 1em;
+
     }
+
     .form-field label{
         font-size: 20px;
     }
