@@ -27,7 +27,9 @@
 
         <div class="contact-form">
             <h3 id="contact-title">Write us a message</h3>
+            <div class="form-field">
             <?php echo do_shortcode(get_option('contact_us')); ?>
+</div>
         </div>
     </section>
 <?php get_footer(); ?>
