@@ -6,7 +6,8 @@
                 We would like to here from you
             </p>
         </div>
-        <div class="layout-content contact-us">
+        <article class="contact-us">
+            <div class="layout-content contact-info">
             <div class="col-4 ">
                 <h3>Call us</h3>
                 <p>+255 736 645 453</p>
@@ -27,7 +28,10 @@
 
         <div class="contact-form">
             <h3 id="contact-title">Write us a message</h3>
+            <div class="form-field">
             <?php echo do_shortcode(get_option('contact_us')); ?>
+        </div>
+    </article>
         </div>
     </section>
 <?php get_footer(); ?>
