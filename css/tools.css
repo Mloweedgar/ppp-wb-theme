@@ -1,0 +1,97 @@
+
+.ppp-tools{
+    margin-bottom: 3em;
+    padding-left: 1em;
+}
+.ppp-tools ul{
+    padding-left: 1em;
+}
+.page-tools li {
+    list-style-type: none;
+    font-size: 0.9em;
+
+}
+.ppp-tools article h2{
+    font-size: 1.3em;
+}
+.ppp-tools li {
+    padding: 10px 10px;
+}
+
+.ppp-tools li:before {
+    color: #26a3dd;
+}
+
+.page-tools li:before {
+    margin-right: 10px;
+    content: "-";
+}
+
+/* Styles  for header in mobile screen */
+
+/* mobile small*/
+
+@media only screen and (max-width: 320px) {}
+
+/* mobile medium */
+
+@media only screen and (max-width: 375px) {}
+
+/* mobile  Large */
+
+@media only screen and (max-width: 425px) {
+    .ppp-tools article h2, .ppp-public-communications-strategy h2 {
+        font-size: 1.3em;
+        padding: 0 1.2em;
+    }
+    .ppp-tools article p, .ppp-tools article h4, .ppp-tools article ul, .ppp-public-communications-strategy p, .ppp-public-communications-strategy h5, .ppp-public-communications-strategy ul {
+        padding: 0 1.5em;
+    }
+    .ppp-tools section article:nth-child(1) {
+        width: 98%;
+    }
+}
+
+/* Tablet */
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .ppp-tools article h2, .ppp-public-communications-strategy h2 {
+        padding: 0 1.4em;
+    }
+    .ppp-tools article p, .ppp-tools article h4, .ppp-tools article ul, .ppp-public-communications-strategy p, .ppp-public-communications-strategy h5, .ppp-public-communications-strategy ul {
+        padding: 0 2em;
+    }
+    .ppp-tools section article:nth-child(1) {
+        width: 98%;
+    }
+    .ppp-public-communications-strategy h5 {
+        letter-spacing: 1px;
+    }
+}
+
+/* Laptop 1024 */
+
+@media only screen and (min-width: 1024px) {
+    .ppp-tools section {
+        display: flex;
+        justify-content: space-between;
+    }
+    .ppp-tools article h2 {
+        padding-top: 10px;
+    }
+    .ppp-tools article p {
+        width: 90%;
+        line-height: 1.5;
+    }
+    .isolated-list {
+        width: 50%;
+    }
+}
+
+/* Laptop 1440 */
+
+@media only screen and (min-width: 1440px) {}
+
+/* Laptop 2560 */
+
+@media only screen and (max-width: 2560px) {}

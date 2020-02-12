@@ -28,7 +28,7 @@
 </section>
 <section class="layout-content older_news_section">
     <h2 id="news_header">Older</h2>
-    <div  class="layout-content">
+    <div  class="layout-content oldnews">
         <div class="col-6 news_section">
             <div class="layout-content older_news">
                 <div class="col-3">
