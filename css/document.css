@@ -1,0 +1,26 @@
+
+.documents{
+    margin-top: 3em;
+    background-color: #f7f8f8;
+    padding-bottom: 3.5em;
+
+}
+.documents table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .documents td, .documents th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 1.2em;
+  }
+  
+  .table-header{
+      background-color: #00A3DD;
+  }
+  .documents td:nth-child(3),
+  .documents th:nth-child(3){
+      text-align: center;
+  }
