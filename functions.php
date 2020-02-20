@@ -43,6 +43,9 @@ add_action( 'init', 'wp_main_menu' );
 // Support Featured Images
 add_theme_support('post-thumbnails');
 
+// WordPress Titles
+add_theme_support('title-tag');
+
 
 
 // News Post Type
