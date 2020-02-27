@@ -164,6 +164,11 @@
 .site-contains-container{
 padding: 0 18px;
 }
+
+.search-form{
+    padding: 5px;
+}
+
 /* Styles  for header in mobile screen */
 
 /* mobile small*/

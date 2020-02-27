@@ -111,6 +111,10 @@ h2, h3{
     transform: rotate(45deg) translate(-6px, -6px);
 }
 
+.fas{
+    margin-left: 3px;
+}
+
 @media only screen and (max-width: 425px) {
     .layout-content{
         width: 100%;

@@ -18,7 +18,8 @@
                 get_template_part('content-projects', get_post_format());
             endwhile; ?>
         </div>
-        <span class="view-project"><a  href="<?php echo get_home_url(); ?>/projects" class="button">View All Project</a><span>
+        <span class="view-project"><a  href="<?php echo get_home_url(); ?>/projects">
+        View All Project <i class='fas fa-angle-right'></i></a><span>
     </div>
     <div class="ppp-latests">
     <div class="latest-news bg-blue">
@@ -36,7 +37,8 @@
             while ($custom_query->have_posts()) : $custom_query->the_post();
                 get_template_part('content-news', get_post_format());
             endwhile; ?>
-        <span class="view-news"><a  href="<?php echo get_home_url(); ?>/news" class="button">Read More news</a><span>
+        <span class="view-news"><a  href="<?php echo get_home_url(); ?>/news">
+        Read More news <i class='fas fa-angle-right'></i></a><span>
         </div>
         </div>
     </div>
@@ -56,7 +58,8 @@
             while ($custom_query->have_posts()) : $custom_query->the_post();
                 get_template_part('content-announcements', get_post_format());
             endwhile; ?>
-        <span class="view-announcement"><a  href="<?php echo get_home_url(); ?>/announcements" class="button">View All Announcements</a><span>
+        <span class="view-announcement"><a  href="<?php echo get_home_url(); ?>/announcements">
+        View All Announcements <i class='fas fa-angle-right'></i></a><span>
         </div>
     </div>
 </section>
