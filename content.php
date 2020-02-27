@@ -1,6 +1,7 @@
 <?php get_template_part('includes/slideshow', get_post_format()); ?>
 <section class="layout-content home-latest">
     <div class="col-8 ">
+        <div>
         <div class="latest-projects bg-blue">
             <h3>Latest Projects</h3>
         </div>
@@ -17,29 +18,10 @@
                 get_template_part('content-projects', get_post_format());
             endwhile; ?>
         </div>
+        <span class="view-project"><a  href="<?php echo get_home_url(); ?>/projects" class="button">View All Project</a><span>
     </div>
-    <div class="col-4 ">
-        <div class="latest-announcement bg-blue">
-            <h3>Announcements</h3>
-        </div>
-        <div class="announcement">
-            <?php
-            $args = array(
-                'post_type' => 'announcements',
-                'orderby' => 'menu_order',
-                'posts_per_page' => 3,
-                'order' => 'ASC'
-            );
-            $custom_query = new WP_Query($args);
-            while ($custom_query->have_posts()) : $custom_query->the_post();
-                get_template_part('content-announcements', get_post_format());
-            endwhile; ?>
-        </div>
-    </div>
-</section>
-<section class="layout-content home-latest">
-    <div class="col-8">
-        <div class="latest-news bg-blue">
+    <div class="ppp-latests">
+    <div class="latest-news bg-blue">
             <h3>Latest News</h3>
         </div>
         <div class="layout-content news">
@@ -54,24 +36,27 @@
             while ($custom_query->have_posts()) : $custom_query->the_post();
                 get_template_part('content-news', get_post_format());
             endwhile; ?>
+        <span class="view-news"><a  href="<?php echo get_home_url(); ?>/news" class="button">Read More news</a><span>
+        </div>
         </div>
     </div>
     <div class="col-4 ">
-        <div class="latest-events bg-blue">
-            <h3>Events</h3>
+        <div class="latest-announcement bg-blue">
+            <h3>Announcements</h3>
         </div>
-        <div class="events">
+        <div class="announcement">
             <?php
             $args = array(
-                'post_type' => 'events',
+                'post_type' => 'announcements',
                 'orderby' => 'menu_order',
-                'posts_per_page' => 3,
+                'posts_per_page' => 7,
                 'order' => 'ASC'
             );
             $custom_query = new WP_Query($args);
             while ($custom_query->have_posts()) : $custom_query->the_post();
-                get_template_part('content-events', get_post_format());
+                get_template_part('content-announcements', get_post_format());
             endwhile; ?>
+        <span class="view-announcement"><a  href="<?php echo get_home_url(); ?>/announcements" class="button">View All Announcements</a><span>
         </div>
     </div>
 </section>

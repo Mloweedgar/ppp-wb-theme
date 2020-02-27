@@ -10,8 +10,7 @@
     background-color: #0054AA;
     padding: 1em 0;
 }
-
-.events hr, .announcement hr, .docs hr {
+ .announcement hr, .docs hr {
     margin-left: 1.5em;
     margin-right: 0.5em;
 }
@@ -67,7 +66,7 @@
     font-weight: 100;
 }
 
-.project-content .col-6, .announcement, .events, .news, .docs {
+.project-content .col-6, .announcement, .news, .docs {
     background-color: #F7F8F8;
 }
 
@@ -95,7 +94,6 @@
     margin-block-start: 0em;
     padding-left: 1.5em;
     margin-bottom: 2.5em;
-
 }
 
 /* announcement */
@@ -109,17 +107,27 @@
     color: #636363;
 }
 
-.announcement h4, .events h4, .docs h4 {
+.announcement h4, .docs h4 {
     font-weight: 100;
     padding-left: 1.5em;
     margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-end: 1.5em;
     padding-right: 0.1em;
 }
+.announcement h4{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
-.announcement, .events {
+.announcement {
     padding-top: 1em;
-    padding-bottom: 0.2em;
+    padding-bottom: 1.2em;
+}
+
+.content-announcement{
+    padding:0.5em 0;
 }
 
 /* news */
@@ -152,19 +160,41 @@ h4>a, h2>a {
     height: 64vh;
 }
 
+.ppp-latests {
+    margin-top: 2em;
+}
+
+.project-content {
+    margin-bottom: 1em;
+}
+
+.view-announcement, .view-news {
+    padding: 1.5em;
+}
+
+.view-project a, .view-announcement a, .view-news a {
+    color: #0054aa;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.view-project a {
+    padding-left: 1.5em;
+}
+
 /* Styles  for header in mobile screen */
 
 /* mobile small*/
-@media only screen and (max-width: 320px) {
 
-}
+@media only screen and (max-width: 320px) {}
 
 /* mobile medium */
-@media only screen and (max-width: 375px) {
 
-}
+@media only screen and (max-width: 375px) {}
 
 /* mobile  Large */
+
 @media only screen and (max-width: 425px) {
     .layout-content {
         display: flex;
@@ -186,20 +216,18 @@ h4>a, h2>a {
         padding-left: 1em;
     }
     .project-content .col-6 {
-         margin-top: 0;
+        margin-top: 0;
     }
     .col-6 {
         width: 100%;
     }
-
     .project-content p {
         padding: 0 0 0.6em 0;
         margin: 0 0.6em 0 1.5em;
         text-align: left;
         line-height: 1.4;
     }
-
-    .project-content .col-6:nth-child(1){
+    .project-content .col-6:nth-child(1) {
         border-bottom: 1px solid #a3a3a3;
     }
     .news-box {
@@ -225,34 +253,12 @@ h4>a, h2>a {
 
 /* new */
 
-/* announcement */
-
-#date {
-    color: #636363;
-    padding-left: 1.5em;
-}
-
-.news-date {
-    color: #636363;
-}
-
-.announcement h4, .events h4, .docs h4 {
-    font-weight: 100;
-    padding-left: 1.5em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    padding-right: 0.1em;
-}
-
-.announcement, .events {
-    padding-top: 1.5em;
-    padding-bottom: 0.2em;
-}
-
 /* news */
-.news{
+
+.news {
     padding-bottom: 0.5em;
 }
+
 .news-box {
     height: 80px;
     width: 85px;
@@ -277,8 +283,8 @@ h4>a, h2>a {
     text-decoration: none;
 }
 
-
 /* mobile  */
+
 @media only screen and (max-width: 480px) {
     .site-contents {
         width: 100%;
@@ -336,8 +342,9 @@ h4>a, h2>a {
 }
 
 /* tablet */
+
 @media (min-width: 481px) and (max-width: 768px) {
-   .project-content .col-6 {
+    .project-content .col-6 {
         background-color: #F7F8F8;
     }
     .site-contents {
@@ -359,7 +366,6 @@ h4>a, h2>a {
     .project-content .col-6:first-child {
         border-bottom: 1px solid #000000;
     }
-
     .news {
         display: flex;
         flex-wrap: wrap;
@@ -368,14 +374,12 @@ h4>a, h2>a {
         width: 78%;
         margin-top: 1em;
         padding-right: 12px;
-
-        
     }
     .news .col-3 {
         width: 18%;
     }
-     /* footer */
-     .quickcontacts, .site-visits,.subscription-section {
+    /* footer */
+    .quickcontacts, .site-visits, .subscription-section {
         text-align: center;
     }
     .subscription-section, .quickcontacts {
@@ -417,7 +421,6 @@ h4>a, h2>a {
     }
     .news .col-3 {
         width: 18%;
-        
     }
     .col-3 {
         width: 20%;
@@ -474,7 +477,6 @@ h4>a, h2>a {
     .project-content .col-6 {
         margin-top: 1em;
     }
-
     .news .col-9 {
         width: 80%;
         margin-top: 1.5em;
