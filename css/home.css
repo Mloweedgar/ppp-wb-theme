@@ -127,6 +127,10 @@
 
 /* news */
 
+.news {
+    padding-bottom: 0.5em;
+}
+
 .news-box {
     height: 80px;
     width: 85px;
@@ -134,9 +138,9 @@
     margin-left: 1.5em;
     margin-top: 1.2em;
 }
-
 .news h4 {
     font-weight: 200;
+    margin: 0.9em 0;
 }
 
 /* document links */
@@ -348,42 +352,36 @@ h4>a, h2>a {
 /* Laptop 1024 */
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    .slideshow-container div>img {
-        height: 600px;
-    }
-    .layout-content {
-        display: flex;
-        flex-wrap: wrap;
-    }
     .home-latest .col-8 {
-        width: 68%;
         margin: 0;
     }
-    .home-latest .col-4 {
-        width: 31%;
-    }
-    .col-8 {
-        width: 66%;
-    }
-    .col-6 {
-        width: 49%;
-    }
-    .col-4 {
-        width: 33%;
-    }
+    .home-latest .col-4,
     .home-docs .col-4 {
         width: 31%;
     }
+
     .project-content .col-6 {
         margin-top: 1em;
     }
     .news .col-9 {
-        width: 80%;
+        width: 68%;
         margin-top: 1.5em;
         padding-right: 12px;
     }
     .col-3 {
         width: 18%;
+    }
+    .project-content p {
+        padding-left: 1.5em;
+    }
+    .project-content h4,
+    .project-content h2{
+        font-size: 14px;
+        padding-left: 1.6em;
+
+    }
+    .view-project a, .view-announcement a, .view-news a {
+        font-size: 14px;
     }
 }
 
@@ -404,15 +402,6 @@ h4>a, h2>a {
     }
     .home-latest .col-4 {
         width: 31%;
-    }
-    .col-8 {
-        width: 66%;
-    }
-    .col-6 {
-        width: 49%;
-    }
-    .col-4 {
-        width: 33%;
     }
     .news .col-9 {
         width: 78%;
@@ -453,32 +442,6 @@ h4>a, h2>a {
 
 
 
-/* news */
 
-.news {
-    padding-bottom: 0.5em;
-}
 
-.news-box {
-    height: 80px;
-    width: 85px;
-    background-color: #E6E6E6;
-    margin-left: 1.5em;
-    margin-top: 1.2em;
-}
 
-.news h4 {
-    font-weight: 200;
-    margin: 0.9em 0;
-}
-
-/* document links */
-
-.docs {
-    padding: 0.2em 0;
-}
-
-h4>a, h2>a {
-    color: #000000;
-    text-decoration: none;
-}

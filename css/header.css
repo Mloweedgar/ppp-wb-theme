@@ -5,6 +5,7 @@
 }
 
 /* hide menu page by default */
+
 #menu-page {
     display: none;
 }
@@ -14,6 +15,7 @@
 }
 
 /* styles for top navigation bar*/
+
 .navigation-bar .top-navigation {
     display: flex;
     justify-content: space-between;
@@ -23,8 +25,6 @@
 .navigation-bar a:hover {
     color: #242323;
 }
-
-
 
 .navigation-bar a {
     cursor: pointer;
@@ -52,7 +52,6 @@
     text-transform: uppercase;
 }
 
-
 .navigation-bar .language-selector {
     margin-left: 10px;
     color: #0054a0 !important;
@@ -79,8 +78,8 @@
     text-align: center;
 }
 
-
 /* styles for main navigation bar section */
+
 .navigation-bar .main-navigation {
     display: flex;
     justify-content: space-between;
@@ -94,8 +93,6 @@
     border-bottom: 3px solid #0054a0;
     padding: 0 5px 4px 5px;
 }
-
-
 
 .navigation-bar .search-section {
     display: flex;
@@ -116,27 +113,29 @@
 }
 
 /* dropdown menu */
+
 .navigation-bar .main-navigation ul ul {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 1;
 }
+
 .navigation-bar .main-navigation ul ul li {
     float: none;
     width: 150px;
 }
+
 .navigation-bar .main-navigation ul ul li a {
     padding: 5px 10px;
 }
 
-.navigation-bar .main-navigation ul li:hover > ul {
+.navigation-bar .main-navigation ul li:hover>ul {
     display: block;
 }
-
 
 .navigation-bar .main-navigation .sub-menu a {
     font-size: 0.8em;
@@ -151,50 +150,48 @@
     padding: 0 10px 0 10px;
     text-transform: capitalize;
 }
-.top-navigation li:last-child{
-    border-right:none;
+
+.top-navigation li:last-child {
+    border-right: none;
 }
+
 .top-navigation .current_page_item a {
     color: #242323;
 }
 
 /* addition css */
-.navigation-bar .main-navigation,
-.navigation-bar .logos-section,
-.site-contains-container{
-padding: 0 18px;
+
+.navigation-bar .main-navigation, .navigation-bar .logos-section, .site-contains-container {
+    padding: 0 18px;
 }
 
-.search-form{
+.search-form {
     padding: 5px;
 }
 
 /* Styles  for header in mobile screen */
 
 /* mobile small*/
-@media only screen and (max-width: 320px) {
 
-}
+@media only screen and (max-width: 320px) {}
 
 /* mobile medium */
-@media only screen and (max-width: 375px) {
 
-}
+@media only screen and (max-width: 375px) {}
 
 /* mobile  Large */
-@media only screen and (max-width: 425px) {
 
+@media only screen and (max-width: 425px) {
     /* styles for the full page menu */
-    #menu-page .main-menu-page ul li:hover > ul {
+    #menu-page .main-menu-page ul li:hover>ul {
         display: block !important;
     }
-
     .sub-menu {
         display: none;
         position: absolute;
         background-color: #f9f9f9;
         min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         padding: 12px 16px;
         z-index: 1;
     }
@@ -203,26 +200,20 @@ padding: 0 18px;
         height: 100vh;
         background: #f7f8f8;
     }
-
     #menu-page .main-menu-page ul, #menu-page .sub-menu-page ul {
         list-style-type: none;
         color: #0054a0;
     }
-
     #menu-page .main-menu-page li a, #menu-page .sub-menu-page li a {
         text-decoration: none;
         color: #0054a0;
     }
-
     #menu-page .sub-menu-page li a {
         text-transform: capitalize;
     }
-
-
     #menu-page .main-menu-page li, #menu-page .sub-menu-page li {
         padding-top: 10px;
     }
-
     #menu-page .search-section button {
         background: #ffffff;
         outline: none;
@@ -230,7 +221,6 @@ padding: 0 18px;
         margin: 3px 0 3px;
         border-left: 1px solid #e0e0e0;
     }
-
     #menu-page .search-section {
         display: flex;
         background: #ffffff;
@@ -245,7 +235,7 @@ padding: 0 18px;
         padding-bottom: 20px;
         border-bottom: 1px solid #e0e0e0;
     }
-    .search-and-close-section > img {
+    .search-and-close-section>img {
         padding-bottom: 10px;
     }
     .search-and-close-section {
@@ -253,19 +243,15 @@ padding: 0 18px;
         align-items: flex-end;
         flex-direction: column;
     }
-
     .navigation-bar {
         display: none;
     }
-
     .navigation-bar-mobile {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 10px 15px;
-
     }
-
     .navigation-bar-mobile .language-selector {
         color: #000000 !important;
         outline: none;
@@ -278,7 +264,6 @@ padding: 0 18px;
         border: none;
         background: #ffffff url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='12' height='24' xmlns='http://www.w3.org/2000/svg'><g><path  stroke='%23000000' stroke-width='10' d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='%2326a3dd'/></g></svg>") no-repeat right 5px top 50%;
     }
-
     .language-selector-contents-mobile {
         border-right: 1px solid #a3a3a3;
         padding: 5px 0 5px 0;
@@ -290,23 +275,51 @@ padding: 0 18px;
 }
 
 /* Tablet */
+
 @media only screen and (max-width: 768px) {
     .site-contents {
         margin: 0;
         width: 100%;
-
     }
-
 }
 
 /* Laptop 1024 */
-@media only screen and (min-width: 1024px) {
+
+@media (min-width: 769px) and (max-width: 1024px) {
     .navigation-bar .logos-section h3 {
-        font-size: 1.8em;
+        font-size: 1.4em;
+    }
+    .logos-section a>img {
+        width: 110px;
+        height: auto;
+    }
+    .navigation-bar .main-navigation {
+        display: inline;
+    }
+    .navigation-bar .main-navigation nav {
+        width: 100%;
+    }
+    .navigation-bar .main-navigation ul li {
+        font-size: 14px;
+    }
+    .search-section {
+        width: 50%;
+        margin-top: 0.6em;
+        margin-left: 10em;
+    }
+    .search-form {
+        display: flex;
+    }
+    .search-section label {
+        display: inherit;
+    }
+    .search-field {
+        margin-left: 5px;
     }
 }
 
 /* Laptop 1440 */
+
 @media only screen and (min-width: 1440px) {
     .navigation-bar .logos-section h3 {
         font-size: 2em;
@@ -314,6 +327,7 @@ padding: 0 18px;
 }
 
 /* Laptop 2560 */
+
 @media only screen and (min-width: 2560px) {
     .navigation-bar .logos-section h3 {
         font-size: 2em;
