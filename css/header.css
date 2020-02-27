@@ -28,7 +28,7 @@
 
 .navigation-bar a {
     cursor: pointer;
-    color: #0054AA;
+    color: #0054a0;
     text-decoration: none;
 }
 
@@ -55,7 +55,7 @@
 
 .navigation-bar .language-selector {
     margin-left: 10px;
-    color: #0054AA !important;
+    color: #0054a0 !important;
     outline: none;
     padding-right: 30px !important;
     font-size: 1em !important;
@@ -91,7 +91,7 @@
 }
 
 .navigation-bar .main-navigation .current_page_item {
-    border-bottom: 3px solid #0054AA;
+    border-bottom: 3px solid #0054a0;
     padding: 0 5px 4px 5px;
 }
 
@@ -147,7 +147,7 @@
 }
 
 .top-navigation li {
-    border-right: 2px solid #0054AA;
+    border-right: 2px solid #0054a0;
     padding: 0 10px 0 10px;
     text-transform: capitalize;
 }
@@ -206,12 +206,12 @@ padding: 0 18px;
 
     #menu-page .main-menu-page ul, #menu-page .sub-menu-page ul {
         list-style-type: none;
-        color: #0054AA;
+        color: #0054a0;
     }
 
     #menu-page .main-menu-page li a, #menu-page .sub-menu-page li a {
         text-decoration: none;
-        color: #0054AA;
+        color: #0054a0;
     }
 
     #menu-page .sub-menu-page li a {

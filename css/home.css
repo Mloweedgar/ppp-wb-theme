@@ -7,7 +7,7 @@
 }
 
 .home-latest .bg-blue, .home-docs .bg-blue {
-    background-color: #0054AA;
+    background-color: #0054a0;
     padding: 1em 0;
 }
  .announcement hr, .docs hr {
@@ -173,7 +173,7 @@ h4>a, h2>a {
 }
 
 .view-project a, .view-announcement a, .view-news a {
-    color: #0054aa;
+    color: #0054a0;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1em;
