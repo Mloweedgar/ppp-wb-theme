@@ -7,6 +7,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
+<div class="ppp-site">
 <div class="site-contents">
    <?php get_template_part('includes/menu'); ?>
    <?php get_template_part('includes/header-for-pc'); ?>

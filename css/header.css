@@ -28,7 +28,7 @@
 
 .navigation-bar a {
     cursor: pointer;
-    color: #26a3dd;
+    color: #0054AA;
     text-decoration: none;
 }
 
@@ -55,7 +55,7 @@
 
 .navigation-bar .language-selector {
     margin-left: 10px;
-    color: #26a3dd !important;
+    color: #0054AA !important;
     outline: none;
     padding-right: 30px !important;
     font-size: 1em !important;
@@ -86,12 +86,12 @@
     justify-content: space-between;
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
-    padding: 10px 10px;
+    padding: 10px 18px !important;
     align-items: center;
 }
 
 .navigation-bar .main-navigation .current_page_item {
-    border-bottom: 3px solid #26a3dd;
+    border-bottom: 3px solid #0054AA;
     padding: 0 5px 4px 5px;
 }
 
@@ -147,16 +147,23 @@
 }
 
 .top-navigation li {
-    border-right: 2px solid #26a3dd;
+    border-right: 2px solid #0054AA;
     padding: 0 10px 0 10px;
     text-transform: capitalize;
 }
-
+.top-navigation li:last-child{
+    border-right:none;
+}
 .top-navigation .current_page_item a {
     color: #242323;
 }
 
-
+/* addition css */
+.navigation-bar .main-navigation,
+.navigation-bar .logos-section,
+.site-contains-container{
+padding: 0 18px;
+}
 /* Styles  for header in mobile screen */
 
 /* mobile small*/
@@ -194,12 +201,12 @@
 
     #menu-page .main-menu-page ul, #menu-page .sub-menu-page ul {
         list-style-type: none;
-        color: #26a3dd;
+        color: #0054AA;
     }
 
     #menu-page .main-menu-page li a, #menu-page .sub-menu-page li a {
         text-decoration: none;
-        color: #26a3dd;
+        color: #0054AA;
     }
 
     #menu-page .sub-menu-page li a {
@@ -288,16 +295,22 @@
 }
 
 /* Laptop 1024 */
-@media only screen and (max-width: 1024px) {
-
+@media only screen and (min-width: 1024px) {
+    .navigation-bar .logos-section h3 {
+        font-size: 1.8em;
+    }
 }
 
 /* Laptop 1440 */
-@media only screen and (max-width: 1440px) {
-
+@media only screen and (min-width: 1440px) {
+    .navigation-bar .logos-section h3 {
+        font-size: 2em;
+    }
 }
 
 /* Laptop 2560 */
-@media only screen and (max-width: 2560px) {
-
+@media only screen and (min-width: 2560px) {
+    .navigation-bar .logos-section h3 {
+        font-size: 2em;
+    }
 }

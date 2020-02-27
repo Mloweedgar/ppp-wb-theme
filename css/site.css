@@ -1,12 +1,23 @@
 /*set up font family*/
+html, body {
+    width: 100%;
+}
 body {
     margin: 0;
     font-family: Lato, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+}
+.ppp-site {
+width: 90%;
+margin: auto;
+background-color: #f7f8f8;
+
 }
 /* center site contents*/
 .site-contents {
     margin: auto;
-    width: 64%;
+    width: 75%;
+    background-color: #fff;
 }

@@ -8,10 +8,6 @@
                 ?>
 
             </nav>
-            <select class="language-selector">
-                <option selected="selected">Swahili</option>
-                <option>English</option>
-            </select>
         </aside>
     </section>
     <section class="logos-section">
