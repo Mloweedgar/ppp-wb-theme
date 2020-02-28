@@ -194,8 +194,6 @@ function custom_settings_page()
             <?php
             settings_fields('section');
             do_settings_sections('theme-options');
-            settings_fields('section-shortcodes');
-            do_settings_sections('shortcode-options');
             submit_button();
             ?>
         </form>
@@ -277,7 +275,7 @@ remove_filter('the_content', 'wpautop');
  */
 function custom_settings_page_setup()
 {
-    add_settings_section('section', 'Contact Address', null, 'theme-options');
+    add_settings_section('section', '', null, 'theme-options');
 
     add_settings_field('physical_address', 'Physical Address', 'setting_physical_address', 'theme-options', 'section');
     add_settings_field('post_address', 'Post Address', 'setting_post_address', 'theme-options', 'section');
@@ -288,32 +286,29 @@ function custom_settings_page_setup()
     register_setting('section', 'phone_number');
     register_setting('section', 'email_address');
 
+    add_settings_field('email_subscription', 'Email Subscription shortcode', 'setting_email_subscription', 'theme-options', 'section');
+    register_setting('section', 'email_subscription');
 
-    add_settings_section('section-shortcodes', 'SHORTCODES FOR THE THEME', null, 'shortcode-options');
+    add_settings_field('site_visitors_today', 'Site Visitors today shortcode', 'setting_site_visitors_today', 'theme-options', 'section');
+    register_setting('section', 'site_visitors_today');
 
-    add_settings_field('email_subscription', 'Email Subscription shortcode', 'setting_email_subscription', 'shortcode-options', 'section-shortcodes');
-    register_setting('section-shortcodes', 'email_subscription');
+    add_settings_field('site_visitors_yesterday', 'Site Visitors yesterday shortcode', 'setting_site_visitors_yesterday', 'theme-options', 'section');
+    register_setting('section', 'site_visitors_yesterday');
 
-    add_settings_field('site_visitors_today', 'Site Visitors today shortcode', 'setting_site_visitors_today', 'shortcode-options', 'section-shortcodes');
-    register_setting('section-shortcodes', 'site_visitors_today');
+    add_settings_field('site_visitors_this_week', 'Site Visitors This Week shortcode', 'setting_site_visitors_this_week', 'theme-options', 'section');
+    register_setting('section', 'site_visitors_this_week');
 
-    add_settings_field('site_visitors_yesterday', 'Site Visitors yesterday shortcode', 'setting_site_visitors_yesterday', 'shortcode-options', 'section-shortcodes');
-    register_setting('section-shortcodes', 'site_visitors_yesterday');
+    add_settings_field('site_visitors_this_month', 'Site Visitors This Month shortcode', 'setting_site_visitors_this_month', 'theme-options', 'section');
+    register_setting('section', 'site_visitors_this_month');
 
-    add_settings_field('site_visitors_this_week', 'Site Visitors This Week shortcode', 'setting_site_visitors_this_week', 'shortcode-options', 'section-shortcodes');
-    register_setting('section-shortcodes', 'site_visitors_this_week');
+    add_settings_field('site_visitors_total', 'Site Visitors  Total shortcode', 'setting_site_visitors_total', 'theme-options', 'section');
+    register_setting('section', 'site_visitors_total');
 
-    add_settings_field('site_visitors_this_month', 'Site Visitors This Month shortcode', 'setting_site_visitors_this_month', 'shortcode-options', 'section-shortcodes');
-    register_setting('section-shortcodes', 'site_visitors_this_month');
+    add_settings_field('sitemap', 'Sitemap shortcode', 'setting_sitemap', 'theme-options', 'section');
+    register_setting('section', 'sitemap');
 
-    add_settings_field('site_visitors_total', 'Site Visitors  Total shortcode', 'setting_site_visitors_total', 'shortcode-options', 'section-shortcodes');
-    register_setting('section-shortcodes', 'site_visitors_total');
-
-    add_settings_field('sitemap', 'Sitemap shortcode', 'setting_sitemap', 'shortcode-options', 'section-shortcodes');
-    register_setting('section-shortcodes', 'sitemap');
-
-    add_settings_field('contact_us', 'Contact Us shortcode', 'setting_contact_us', 'shortcode-options', 'section-shortcodes');
-    register_setting('section-shortcodes', 'contact_us');
+    add_settings_field('contact_us', 'Contact Us shortcode', 'setting_contact_us', 'theme-options', 'section');
+    register_setting('section', 'contact_us');
 }
 
 add_action('admin_init', 'custom_settings_page_setup');
