@@ -8,9 +8,7 @@
             <?php
             $args = array(
                 'post_type' => 'projects',
-                'orderby' => 'menu_order',
                 'posts_per_page' => 2,
-                'order' => 'ASC'
             );
             $custom_query = new WP_Query($args);
             while ($custom_query->have_posts()) : $custom_query->the_post();
@@ -26,9 +24,7 @@
             <?php
             $args = array(
                 'post_type' => 'announcements',
-                'orderby' => 'menu_order',
                 'posts_per_page' => 3,
-                'order' => 'ASC'
             );
             $custom_query = new WP_Query($args);
             while ($custom_query->have_posts()) : $custom_query->the_post();
@@ -48,7 +44,7 @@
                 'post_type' => 'news',
                 'orderby' => 'menu_order',
                 'posts_per_page' => 3,
-                'order' => 'ASC'
+                'order' => 'DESC'
             );
             $custom_query = new WP_Query($args);
             while ($custom_query->have_posts()) : $custom_query->the_post();
@@ -66,7 +62,7 @@
                 'post_type' => 'events',
                 'orderby' => 'menu_order',
                 'posts_per_page' => 3,
-                'order' => 'ASC'
+                'order' => 'DESC'
             );
             $custom_query = new WP_Query($args);
             while ($custom_query->have_posts()) : $custom_query->the_post();
@@ -84,7 +80,7 @@
             <?php
             $bookmarks = get_bookmarks( array(
                 'orderby'        => 'name',
-                'order'          => 'ASC',
+                'order'          => 'DESC',
                 'category_name'  => 'STANDARD BIDDING DOCS'
             ) );
 
@@ -103,7 +99,7 @@
             <?php
             $bookmarks = get_bookmarks( array(
                 'orderby'        => 'name',
-                'order'          => 'ASC',
+                'order'          => 'DESC',
                 'category_name'  => 'GUIDELINES'
             ) );
 
@@ -122,7 +118,7 @@
             <?php
             $bookmarks = get_bookmarks( array(
                 'orderby'        => 'name',
-                'order'          => 'ASC',
+                'order'          => 'DESC',
                 'category_name'  => 'RELATED LINKS'
             ) );
 
