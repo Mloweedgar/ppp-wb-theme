@@ -281,6 +281,10 @@
 /* Tablet */
 
 @media only screen and (max-width: 768px) {
+    .search-form {
+        font-size: 0.6em;
+        padding: 3px;
+    }
     .site-contents {
         margin: 0;
         width: 100%;
@@ -292,8 +296,8 @@
         font-size: 0.7em;
     }
 
-    .navigation-bar .main-navigation .sub-menu a {
-        font-size: 0.7em;
+    .navigation-bar .search-section input {
+        font-size: 0.8em;
     }
 }
 
