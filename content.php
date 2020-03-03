@@ -19,31 +19,9 @@
         <span class="view-project"><a  href="<?php echo get_home_url(); ?>/projects">
         View All Project <i class='fas fa-angle-right'></i></a><span>
     </div>
-<<<<<<< HEAD
     <div class="ppp-latests">
     <div class="latest-news bg-blue">
-=======
-    <div class="col-4 ">
-        <div class="latest-announcement bg-blue">
-            <h3>Announcements</h3>
-        </div>
-        <div class="announcement">
-            <?php
-            $args = array(
-                'post_type' => 'announcements',
-                'posts_per_page' => 3,
-            );
-            $custom_query = new WP_Query($args);
-            while ($custom_query->have_posts()) : $custom_query->the_post();
-                get_template_part('content-announcements', get_post_format());
-            endwhile; ?>
-        </div>
-    </div>
-</section>
-<section class="layout-content home-latest">
-    <div class="col-8">
-        <div class="latest-news bg-blue">
->>>>>>> 7b0702560755f3671bd79b843f061c91eb9452c1
+
             <h3>Latest News</h3>
         </div>
         <div class="layout-content news">
