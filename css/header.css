@@ -112,6 +112,10 @@
     border: none;
 }
 
+.top-navigation li:last-child {
+    border: none;
+}
+
 /* dropdown menu */
 
 .navigation-bar .main-navigation ul ul {
@@ -126,7 +130,7 @@
 
 .navigation-bar .main-navigation ul ul li {
     float: none;
-    width: 150px;
+    min-width: 150px;
 }
 
 .navigation-bar .main-navigation ul ul li a {
