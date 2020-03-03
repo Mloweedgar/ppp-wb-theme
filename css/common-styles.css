@@ -12,7 +12,7 @@
     background: #242323 !important;
 }
 .bluish-text-color {
-    color: #26a3dd !important;
+    color: #0054a0 !important;
 }
 
 .white-text-color {
@@ -30,7 +30,7 @@
 
 /*dividers*/
 .vertical-divider {
-    border-right: 2px solid #26a3dd;
+    border-right: 2px solid #0054a0;
     padding: 0 10px 0 10px;
 }
  .bg-blue{
@@ -41,7 +41,7 @@
 
 /* style active menu item */
 /*.active {*/
-/*    border-bottom: 3px solid #26a3dd;*/
+/*    border-bottom: 3px solid #0054a0;*/
 /*    padding: 0 5px 4px 5px;*/
 /*}*/
 
@@ -109,6 +109,10 @@ h2, h3{
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-6px, -6px);
     transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.fas{
+    margin-left: 3px;
 }
 
 @media only screen and (max-width: 425px) {
