@@ -285,6 +285,16 @@
         margin: 0;
         width: 100%;
     }
+    .navigation-bar a {
+        cursor: pointer;
+        color: #0054a0;
+        text-decoration: none;
+        font-size: 0.7em;
+    }
+
+    .navigation-bar .main-navigation .sub-menu a {
+        font-size: 0.7em;
+    }
 }
 
 /* Laptop 1024 */
