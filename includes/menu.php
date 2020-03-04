@@ -1,10 +1,7 @@
 <section id="menu-page">
     <section class="search-and-close-section">
        <img onclick="hideMenu()" src="<?php echo get_bloginfo('template_directory'); ?>/images/close.svg">
-        <div class="search-section">
-            <input type="search"/>
-            <button><img src="<?php echo get_bloginfo('template_directory'); ?>/images/icons-search.svg"/></button>
-        </div>
+        <?php get_search_form(); ?>
     </section>
 
     <section class="main-menu-page">

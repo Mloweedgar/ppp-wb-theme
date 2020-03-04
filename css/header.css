@@ -110,6 +110,9 @@
 
 .navigation-bar .search-section input, button {
     border: none;
+    outline: none;
+    padding-left: 4px;
+    padding-right: 2px;
 }
 
 .top-navigation li:last-child {

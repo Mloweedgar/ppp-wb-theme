@@ -26,8 +26,6 @@
             wp_nav_menu(array('theme_location' => 'custom-menu', 'container' => ''));
             ?>
         </nav>
-        <div class="search-section">
             <?php get_search_form(); ?>
-        </div>
     </section>
 </header>
