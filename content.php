@@ -28,9 +28,7 @@
             <?php
             $args = array(
                 'post_type' => 'news',
-                'orderby' => 'menu_order',
                 'posts_per_page' => 3,
-                'order' => 'DESC'
             );
             $custom_query = new WP_Query($args);
             while ($custom_query->have_posts()) : $custom_query->the_post();
@@ -49,9 +47,7 @@
             <?php
             $args = array(
                 'post_type' => 'announcements',
-                'orderby' => 'menu_order',
                 'posts_per_page' => 7,
-                'order' => 'ASC'
             );
             $custom_query = new WP_Query($args);
             while ($custom_query->have_posts()) : $custom_query->the_post();
@@ -70,8 +66,6 @@
         <div class="docs">
             <?php
             $bookmarks = get_bookmarks( array(
-                'orderby'        => 'name',
-                'order'          => 'DESC',
                 'category_name'  => 'STANDARD BIDDING DOCS'
             ) );
 
@@ -89,8 +83,6 @@
         <div class="docs">
             <?php
             $bookmarks = get_bookmarks( array(
-                'orderby'        => 'name',
-                'order'          => 'DESC',
                 'category_name'  => 'GUIDELINES'
             ) );
 
@@ -108,8 +100,6 @@
         <div class="docs">
             <?php
             $bookmarks = get_bookmarks( array(
-                'orderby'        => 'name',
-                'order'          => 'DESC',
                 'category_name'  => 'RELATED LINKS'
             ) );
 

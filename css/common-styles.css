@@ -114,6 +114,23 @@ h2, h3{
 .fas{
     margin-left: 3px;
 }
+/* new button */
+/*.new {*/
+/*    border: 1px solid #0054a0;*/
+/*    display: inline-block;*/
+/*    font-size: 0.6em;*/
+/*    padding: 1%;*/
+/*    margin: 2%;*/
+/*    color: #ffffff;*/
+/*    background: #0054a0;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+.new {
+    position: relative;
+    top: 6px;
+    left: 5px;
+}
 
 @media only screen and (max-width: 425px) {
     .layout-content{
