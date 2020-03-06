@@ -4,6 +4,35 @@
     font-size: 2em;
 }
 
+.news-card-small {
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+    margin-bottom: 2%;
+}
+
+.news-card-small h4 {
+    margin-top: 2%;
+}
+
+.news-card-small .news-card-contents {
+width: 80%;
+}
+
+.news-card-small .news-card-contents hr {
+    margin-bottom: 0;
+}
+
+.older-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.news-card-small .news-box {
+    margin: 0 2% 0 0;
+}
+
 .news_section {
     margin-top: 1.2em;
 }
