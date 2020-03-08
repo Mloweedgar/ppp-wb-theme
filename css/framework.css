@@ -16,11 +16,11 @@
 }
 
 .ppp-legal-framework li a {
-    color: #26a3dd;
+    color: #0054a0;
 }
 
 .ppp-legal-framework li:before {
-    color: #26a3dd;
+    color: #0054a0;
 }
 
 .page-framework li:before {
@@ -31,13 +31,13 @@
 .isolated-list li {
     list-style-type: none;
     padding: 10px 10px;
-    color: #26a3dd;
+    color: #0054a0;
     border-bottom: 1px solid #e0e0e0;
 }
 
 .isolated-list li:before {
     margin-right: 10px;
-    color: #26a3dd;
+    color: #0054a0;
     content: "-";
 }
 .ppp-legal-framework article h2,
