@@ -6,7 +6,7 @@
             <h1><?php the_title() ?></h1>
         </article>
     </section>
-    <section>
+    <section style="padding: 1%">
         <?php the_content() ?>
     </section>
     <?php endwhile; endif; ?>
