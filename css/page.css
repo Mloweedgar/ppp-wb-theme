@@ -1,0 +1,20 @@
+
+/* project card*/
+.project-card {
+    display: flex;
+    padding-bottom: 2%;
+}
+
+.project-card img {
+    height: 200px;
+    width: 250px;
+}
+
+
+.project-card .project-category {
+    color: #636363;
+}
+
+.project-card .contents-section {
+    padding-left: 2%;
+}

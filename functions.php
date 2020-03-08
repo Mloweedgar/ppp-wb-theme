@@ -20,6 +20,7 @@ function ppp_scripts() {
     wp_enqueue_style( 'document', get_template_directory_uri() . '/css/document.css' );
     wp_enqueue_style( 'footer', get_template_directory_uri() . '/css/footer.css' );
     wp_enqueue_style( 'sidebar', get_template_directory_uri() . '/css/sidebar.css' );
+    wp_enqueue_style( 'page', get_template_directory_uri() . '/css/page.css' );
 
     wp_enqueue_script( 'slideshow', get_template_directory_uri() . '/js/slideshow.js', array( 'jquery' ) );
     wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array( 'jquery' ) );
@@ -142,28 +143,6 @@ function create_announcements_post()
         ));
 }
 add_action('init', 'create_announcements_post');
-
-// Events Post Type
-function create_events_post()
-{
-    register_post_type('events',
-        array(
-            'labels' => array(
-                'name' => __('Events'),
-                'singular_name' => __('Event'),
-            ),
-            'public' => true,
-            'menu_icon' => 'dashicons-calendar-alt',
-            'has_archive' => true,
-            'supports' => array(
-                'title',
-                'editor',
-                'thumbnail',
-                'custom-fields'
-            )
-        ));
-}
-add_action('init', 'create_events_post');
 
 // Enabling Links manager
 add_filter( 'pre_option_link_manager_enabled', '__return_true' );
@@ -312,7 +291,3 @@ function custom_settings_page_setup()
 }
 
 add_action('admin_init', 'custom_settings_page_setup');
-
-
-
-
