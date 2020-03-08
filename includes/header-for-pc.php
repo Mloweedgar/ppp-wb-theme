@@ -16,8 +16,8 @@
                     alt="Zanzibar Coat of Arms" width="150" height="100"></a>
         <h3 class="bluish-text-color">Zanzibar Private Public Partnership <br/>(PPP) Department</h3>
         <a href="<?php echo get_home_url(); ?>"><img
-                    src="<?php echo get_bloginfo('template_directory'); ?>/images/flag-of-zanzibar.svg"
-                    alt="Flat of Zanzibar" width="130" height="130"></a>
+                    src="<?php echo get_bloginfo('template_directory'); ?>/images/znz-ppp-logo@2x.png"
+                    alt="Flat of Zanzibar" width="138" height="90"></a>
 
     </section>
     <section class="main-navigation">
