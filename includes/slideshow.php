@@ -3,23 +3,23 @@
 
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.png">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/3I8A0047.JPG">
     </div>
 
     <div class="mySlides fade">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.jpeg">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/DSC_1177.JPG">
     </div>
 
     <div class="mySlides fade">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.png">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/DSC_1177.JPG">
     </div>
 
     <div class="mySlides fade">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.jpeg">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/3I8A0060.JPG">
     </div>
 
     <div class="mySlides fade">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/home-slider.png">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/3I8A0047.JPG">
     </div>
 
 
