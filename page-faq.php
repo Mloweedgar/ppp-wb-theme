@@ -9,32 +9,32 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <hr>
-    <h4 class="accordion-faq">What are the objectives of PPP?</h4>
+    <h4 class="accordion-faq">What is the role of PPPD and that of the ZIPA</h4>
     <div class="panel_faq">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <hr> 
-    <h4 class="accordion-faq">How can I take part in PPP?</h4>
+    <h4 class="accordion-faq">What are the roles of Private sectors and Public sectors in the PPP Project?</h4>
     <div class="panel_faq">
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <hr>
-    <h4 class="accordion-faq">Where can I find PPP regulations?</h4>
+    <h4 class="accordion-faq"> What are the underlined procedures for Unsolicited Project Proposal?</h4>
     <div class="panel_faq">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>    
     <hr>
-    <h4 class="accordion-faq">How are PPP Trainings organized</h4>
+    <h4 class="accordion-faq">Does the PPP procurement aligned with the traditional procurement procedures?</h4>
     <div class="panel_faq">
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <hr>
-    <h4 class="accordion-faq">How are PPP Trainings organized</h4>
+    <h4 class="accordion-faq">Who procure the transaction advisor for PPP projects?</h4>
     <div class="panel_faq">
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <hr>
-    <h4 class="accordion-faq">Where can I get trained PPP</h4>
+    <h4 class="accordion-faq">When is the Transaction Advisor hired for PPP</h4>
     <div class="panel_faq">
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
