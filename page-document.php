@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <section>
     <div class="bluish-text-color">
-        <h2 id="news">Documents</h2>
+        <h2 id="news">E - LIBRARY</h2>
     </div>
     <div class="documents">
     <table>
