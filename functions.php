@@ -21,6 +21,7 @@ function ppp_scripts() {
     wp_enqueue_style( 'footer', get_template_directory_uri() . '/css/footer.css' );
     wp_enqueue_style( 'sidebar', get_template_directory_uri() . '/css/sidebar.css' );
     wp_enqueue_style( 'page', get_template_directory_uri() . '/css/page.css' );
+    wp_enqueue_style( 'team', get_template_directory_uri() . '/css/team.css' );
 
     wp_enqueue_script( 'slideshow', get_template_directory_uri() . '/js/slideshow.js', array( 'jquery' ) );
     wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array( 'jquery' ) );

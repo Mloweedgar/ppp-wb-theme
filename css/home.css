@@ -384,7 +384,7 @@ h4>a, h2>a {
 
 /* Laptop 1024 */
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1439px) {
     .home-latest .col-8 {
         margin: 0;
     }

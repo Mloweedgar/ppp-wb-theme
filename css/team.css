@@ -1,0 +1,25 @@
+
+.team-member-contents {
+    text-align: center;
+}
+
+.team-member {
+    margin-right: 20px;
+}
+
+.team-member-contents h4 {
+    margin: 0 0 5px;
+    width: 200px;
+}
+
+.organisation-structure-level-one {
+
+}
+
+.the-team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
