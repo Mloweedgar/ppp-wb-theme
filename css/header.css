@@ -288,10 +288,6 @@
         font-size: 0.6em;
         padding: 3px;
     }
-    .site-contents {
-        margin: 0;
-        width: 100%;
-    }
     .navigation-bar a {
         cursor: pointer;
         color: #0054a0;
@@ -336,6 +332,12 @@
     }
     .search-field {
         margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .navigation-bar a {
+    font-size: 14px;
     }
 }
 
