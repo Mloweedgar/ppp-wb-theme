@@ -261,9 +261,6 @@ h4>a, h2>a {
     .news-date {
         font-size: 0.8em;
     }
-    .site-contents {
-        width: 100%;
-    }
     /* home page styles */
     .slideshow-container div>img {
         height: 300px;
@@ -328,9 +325,6 @@ h4>a, h2>a {
     }
     .project-content .col-6 {
         background-color: #F7F8F8;
-    }
-    .site-contents {
-        width: 100%;
     }
     .slideshow-container div>img {
         height: 400px;
