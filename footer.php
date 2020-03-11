@@ -5,7 +5,7 @@
            <?php echo do_shortcode(get_option('email_subscription')); ?>
        </section>
         <section class="quickcontacts">
-            <h4> QUICK CONTACTS</h4>
+            <h4> CONTACT US</h4>
             <?php echo get_option('physical_address'); ?>
             <br/>
             <?php echo get_option('post_address'); ?>
