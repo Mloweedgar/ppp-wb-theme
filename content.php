@@ -17,7 +17,7 @@
             endwhile; ?>
         </div>
         <span class="view-project"><a  href="<?php echo get_home_url(); ?>/projects">
-        View All Project <i class='fas fa-angle-right'></i></a><span>
+        View All Projects <i class='fas fa-angle-right'></i></a><span>
     </div>
     <div class="ppp-latests">
     <div class="latest-news bg-blue">
@@ -35,7 +35,7 @@
                 get_template_part('content-news', get_post_format());
             endwhile; ?>
         <span class="view-news"><a  href="<?php echo get_home_url(); ?>/news">
-        Read More news <i class='fas fa-angle-right'></i></a><span>
+        Read More News <i class='fas fa-angle-right'></i></a><span>
         </div>
         </div>
     </div>
