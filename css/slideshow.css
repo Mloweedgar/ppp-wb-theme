@@ -40,12 +40,18 @@
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #c6c9c9;
+    background-color: rgba(0, 0, 0, 0.7);
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
-    width: 100%;
+    bottom: 1.5%;
+    left: 63%;
+    height: 62vh;
+    width: 34%;
     text-align: center;
 }
 
