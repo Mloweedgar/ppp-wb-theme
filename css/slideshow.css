@@ -10,6 +10,11 @@
     display: none;
 }
 
+.mySlides img {
+    width: 100%;
+    height: 62vh;
+}
+
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
@@ -40,19 +45,23 @@
 
 /* Caption text */
 .text {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     color: #c6c9c9;
     background-color: rgba(0, 0, 0, 0.7);
-    font-size: 15px;
     padding: 8px 12px;
+    line-height: 1.6;
+    letter-spacing: 1px;
     position: absolute;
-    bottom: 1%;
-    left: 63%;
-    height: 62vh;
-    width: 34%;
+    font-size: 0.8em;
+    bottom: 0;
+    left: 0;
+    min-height: 20vh;
+    width: 100%;
     text-align: center;
+}
+
+.caption-text {
+    width: 90%;
+    margin: auto;
 }
 
 /* Number text (1/3 etc) */
@@ -95,18 +104,95 @@
 
 /* mobile small*/
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+    .text {
+        color: #ffffff;
+        background-color: #0054a0;
+        line-height: 1.6;
+        position: absolute;
+        letter-spacing: 1px;
+        min-height: 22vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .prev, .next {
+        top: 25%;
+    }
+
+    .mySlides {
+        min-height: 76vh;
+    }
+
+    .mySlides img {
+        height: 240px;
+        width: 100%;
+    }
+}
 
 /* mobile medium */
 
-@media only screen and (min-width: 321px) and (max-width: 375px) {}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .text {
+        color: #ffffff;
+        background-color: #0054a0;
+        line-height: 1.6;
+        position: absolute;
+        letter-spacing: 1px;
+        min-height: 22vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .prev, .next {
+        top: 25%;
+    }
+
+    .mySlides {
+        min-height: 69vh;
+    }
+
+    .mySlides img {
+        height: 240px;
+        width: 100%;
+    }
+}
 
 /* mobile  Large */
 
-@media only screen and (min-width: 376px) and (max-width: 425px) {}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+
+    .text {
+        color: #ffffff;
+        background-color: #0054a0;
+        line-height: 1.6;
+        position: absolute;
+        letter-spacing: 1px;
+        min-height: 22vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .prev, .next {
+        top: 25%;
+    }
+
+    .mySlides {
+        min-height: 68vh;
+    }
+
+    .mySlides img {
+        height: 240px;
+        width: 100%;
+    }
+}
 
 /* Tablet */
-@media only screen and  (min-width: 426px) and (max-width: 768px) {}
+@media only screen and  (min-width: 426px) and (max-width: 768px) {
+    .text {
+        font-size: 0.7em;
+    }
+}
 
 /* Laptop small */
 
