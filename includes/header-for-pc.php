@@ -4,7 +4,7 @@
         <aside>
             <nav>
                 <?php
-                wp_nav_menu(array('theme_location' => 'sub-menu', 'container' => ''));
+                wp_nav_menu(array('theme_location' => 'top-menu', 'container' => ''));
                 ?>
 
             </nav>
@@ -23,7 +23,7 @@
     <section class="main-navigation">
         <nav class="bluish-text-color">
             <?php
-            wp_nav_menu(array('theme_location' => 'custom-menu', 'container' => ''));
+            wp_nav_menu(array('theme_location' => 'primary-menu', 'container' => ''));
             ?>
         </nav>
             <?php get_search_form(); ?>
