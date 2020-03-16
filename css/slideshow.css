@@ -109,6 +109,7 @@
         color: #ffffff;
         background-color: #0054a0;
         line-height: 1.6;
+        font-size: 0.7em;
         position: absolute;
         letter-spacing: 1px;
         min-height: 22vh;
@@ -121,7 +122,7 @@
     }
 
     .mySlides {
-        min-height: 76vh;
+        min-height: 94vh;
     }
 
     .mySlides img {
@@ -149,7 +150,7 @@
     }
 
     .mySlides {
-        min-height: 69vh;
+        min-height: 80vh;
     }
 
     .mySlides img {
