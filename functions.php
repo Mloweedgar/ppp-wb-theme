@@ -145,6 +145,29 @@ function create_announcements_post()
 }
 add_action('init', 'create_announcements_post');
 
+
+// FAQs Post Type
+function create_faqs_post()
+{
+    register_post_type('faqs',
+        array(
+            'labels' => array(
+                'name' => __('FAQs'),
+                'singular_name' => __('FAQs'),
+            ),
+            'public' => true,
+            'menu_icon' => 'dashicons-welcome-write-blog',
+            'has_archive' => true,
+            'supports' => array(
+                'title',
+                'editor',
+                'thumbnail',
+                'custom-fields'
+            )
+        ));
+}
+add_action('init', 'create_faqs_post');
+
 // Enabling Links manager
 add_filter( 'pre_option_link_manager_enabled', '__return_true' );
 
