@@ -1,7 +1,13 @@
-<?php get_header(); ?>
+<?php
+get_header();
+
+$uri = $_SERVER['REQUEST_URI'];
+$uri_parts = explode("/", $uri);
+$category_name = array_reverse($uri_parts)[1];
+?>
     <section>
         <div class="bluish-text-color">
-            <h2 id="news">Documents</h2>
+            <h2 id="news"><?php echo  $category_name ?></h2>
         </div>
         <div class="documents">
             <table>
@@ -13,9 +19,7 @@
 
                 <?php
 
-                $uri = $_SERVER['REQUEST_URI'];
-                $uri_parts = explode("/", $uri);
-                $category_name = array_reverse($uri_parts)[1];
+
 
                 $query_documents_args = array(
                     'post_type' => 'any',
