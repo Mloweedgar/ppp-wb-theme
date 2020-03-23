@@ -22,9 +22,6 @@
     width: 200px;
 }
 
-.organisation-structure-level-one {
-
-}
 
 .the-team {
     display: flex;
@@ -32,4 +29,16 @@
     flex-wrap: wrap;
 
 
+}
+
+/* styles for  all team members page */
+
+.organization {
+    display: flex;
+    justify-content: center;
+}
+
+.org-structure h2 {
+    text-align: center;
+    padding-bottom: 2%;
 }
