@@ -24,6 +24,7 @@
                 <?php
                 $args = array(
                     'post_type' => 'team',
+                    'order' => 'ASC',
                     'meta_query' => array(
                         array(
                             'key' => 'ppp-organisation-structure-level',
