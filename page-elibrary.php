@@ -6,25 +6,20 @@
         <div class="e_library">
             <table>
                 <tr class="table-header">
-                    <th>Category</th>
+                    <th>Name</th>
                     <th>Description</th>
-                    <th>Number of Items</th>
+                    <th>Link</th>
                 </tr>
                 <?php
-                $categories = get_categories( array(
-                    'orderby' => 'name',
-                    'order'   => 'ASC',
-                    'taxonomy' => 'link_category'
+                $bookmarks = get_bookmarks( array(
                 ) );
 
-                foreach ($categories as $category) {
+                foreach ($bookmarks as $bookmark) {
                     ?>
                     <tr>
-                        <td><a href="/category/category<?php echo get_category_link($category->term_id) ?>"><?php echo $category->name ?></a></td>
-                        <td><?php echo $category->description ?></td>
-                        <td>
-                            <a href="<?php echo get_category_link($category->term_id) ?>"><?php echo $category->count ?></a>
-                        </td>
+                        <td><?php echo $bookmark->link_name ?></td>
+                        <td><?php echo $bookmark->link_description ?></td>
+                        <td><a href="<?php echo $bookmark->link_url ?>"><?php echo $bookmark->link_url ?></a></td>
                     </tr>
 
                 <?php } ?>

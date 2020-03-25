@@ -26,6 +26,6 @@
   }
   .e_library td:nth-child(3)> a{
       cursor: pointer;
-      color: #000000;
-      text-decoration: none;
+      color: #00A3DD;
+      text-decoration: underline;
   }
