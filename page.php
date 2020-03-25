@@ -7,7 +7,7 @@
         </article>
     </section>
     <section>
-        <?php the_content() ?>
+        <?php the_content('p','</p') ?>
     </section>
 <?php endwhile; endif; ?>
 
