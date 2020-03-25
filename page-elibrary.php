@@ -8,18 +8,15 @@
                 <tr class="table-header">
                     <th>Name</th>
                     <th>Description</th>
-                    <th>Link</th>
                 </tr>
                 <?php
-                $bookmarks = get_bookmarks( array(
-                ) );
+                $bookmarks = get_bookmarks(array());
 
                 foreach ($bookmarks as $bookmark) {
                     ?>
                     <tr>
-                        <td><?php echo $bookmark->link_name ?></td>
+                        <td><a href="<?php echo $bookmark->link_url ?>"><?php echo $bookmark->link_name ?></a></td>
                         <td><?php echo $bookmark->link_description ?></td>
-                        <td><a href="<?php echo $bookmark->link_url ?>"><?php echo $bookmark->link_url ?></a></td>
                     </tr>
 
                 <?php } ?>
