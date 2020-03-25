@@ -10,7 +10,7 @@
                     <th>Description</th>
                 </tr>
                 <?php
-                $bookmarks = get_bookmarks(array());
+                $bookmarks = get_bookmarks(array( 'order' => 'DESC'));
 
                 foreach ($bookmarks as $bookmark) {
                     ?>
