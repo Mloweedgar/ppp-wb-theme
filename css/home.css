@@ -179,6 +179,17 @@ h4 > a, h2 > a {
     padding-left: 1.5em;
 }
 
+
+/* styles  for  news card iteam on home page*/
+.news-item {
+    display: flex;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Styles  for header in mobile screen */
 
 /* mobile small*/
@@ -726,9 +737,7 @@ h4 > a, h2 > a {
     }
 }
 
-/* Laptop 1440 */
-
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1025px)  and (max-width: 1440px){
     .layout-content {
         display: flex;
         flex-wrap: wrap;
@@ -783,9 +792,14 @@ h4 > a, h2 > a {
     }
 }
 
-/* Laptop 2560 */
+@media only screen and (min-width: 1441px) and (max-width: 2560px) {
+    .news .col-9 {
+        width: 80%;
+    }
+}
 
-@media only screen and (min-width: 2560px) {
+
+@media only screen and (min-width: 2561px) {
     .news .col-9 {
         width: 80%;
     }

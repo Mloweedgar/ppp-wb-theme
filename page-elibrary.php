@@ -11,15 +11,16 @@
                     <th>Number of Items</th>
                 </tr>
                 <?php
-                $categories = get_categories(array(
+                $categories = get_categories( array(
                     'orderby' => 'name',
-                    'order' => 'ASC'
-                ));
+                    'order'   => 'ASC',
+                    'taxonomy' => 'link_category'
+                ) );
 
                 foreach ($categories as $category) {
                     ?>
                     <tr>
-                        <td><a href="<?php echo get_category_link($category->term_id) ?>"><?php echo $category->name ?></a></td>
+                        <td><a href="/category/category<?php echo get_category_link($category->term_id) ?>"><?php echo $category->name ?></a></td>
                         <td><?php echo $category->description ?></td>
                         <td>
                             <a href="<?php echo get_category_link($category->term_id) ?>"><?php echo $category->count ?></a>
