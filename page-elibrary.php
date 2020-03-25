@@ -6,8 +6,8 @@
         <div class="e_library">
             <table>
                 <tr class="table-header">
-                    <th>Name</th>
-                    <th>Description</th>
+                    <th class="th-name">Name</th>
+                    <th class="th-desc">Description</th>
                 </tr>
                 <?php
                 $bookmarks = get_bookmarks(array( 'order' => 'DESC', 'category_name'  => 'RESOURCES'));

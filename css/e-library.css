@@ -29,3 +29,9 @@
       color: #00A3DD;
       text-decoration: underline;
   }
+.th-name {
+    width: 30%;
+}
+.th-desc {
+    width: 70%;
+}
