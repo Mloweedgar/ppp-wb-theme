@@ -57,6 +57,9 @@
 h2, h3{
     letter-spacing: 1px;
 }
+#paragraph p{
+    margin: 0;
+    }
 
 /* page intro */
 .page-intro-section {
