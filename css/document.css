@@ -18,9 +18,18 @@
   }
   
   .table-header{
-      background-color: #00A3DD;
+      background-color: #0054a0;
   }
   .documents td:nth-child(3),
   .documents th:nth-child(3){
       text-align: center;
   }
+  .documents td:nth-child(3) a, .project-category a{
+    color: #0054a0;
+}
+.documents td:nth-child(3) a{
+    text-decoration: none;
+}
+.table-header th{
+    color: #ffffff;
+}
