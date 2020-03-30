@@ -313,30 +313,6 @@ function custom_settings_page_setup()
     register_setting('section', 'post_address');
     register_setting('section', 'phone_number');
     register_setting('section', 'email_address');
-
-    add_settings_field('email_subscription', 'Email Subscription shortcode', 'setting_email_subscription', 'theme-options', 'section');
-    register_setting('section', 'email_subscription');
-
-    add_settings_field('site_visitors_today', 'Site Visitors today shortcode', 'setting_site_visitors_today', 'theme-options', 'section');
-    register_setting('section', 'site_visitors_today');
-
-    add_settings_field('site_visitors_yesterday', 'Site Visitors yesterday shortcode', 'setting_site_visitors_yesterday', 'theme-options', 'section');
-    register_setting('section', 'site_visitors_yesterday');
-
-    add_settings_field('site_visitors_this_week', 'Site Visitors This Week shortcode', 'setting_site_visitors_this_week', 'theme-options', 'section');
-    register_setting('section', 'site_visitors_this_week');
-
-    add_settings_field('site_visitors_this_month', 'Site Visitors This Month shortcode', 'setting_site_visitors_this_month', 'theme-options', 'section');
-    register_setting('section', 'site_visitors_this_month');
-
-    add_settings_field('site_visitors_total', 'Site Visitors  Total shortcode', 'setting_site_visitors_total', 'theme-options', 'section');
-    register_setting('section', 'site_visitors_total');
-
-    add_settings_field('sitemap', 'Sitemap shortcode', 'setting_sitemap', 'theme-options', 'section');
-    register_setting('section', 'sitemap');
-
-    add_settings_field('contact_us', 'Contact Us shortcode', 'setting_contact_us', 'theme-options', 'section');
-    register_setting('section', 'contact_us');
 }
 
 add_action('admin_init', 'custom_settings_page_setup');
@@ -349,7 +325,7 @@ add_action('admin_init', 'custom_settings_page_setup');
 // Image slider settings
 function image_slider_settings_add_menu()
 {
-    add_menu_page('Image Slider Settings', 'Image Slider Settings', 'manage_options', 'image-slider-settings', 'image_slider_settings_page', null, 99);
+    add_menu_page('Theme Sortcodes', 'Theme Sortcodes', 'manage_options', 'image-slider-settings', 'image_slider_settings_page', null, 99);
 }
 
 add_action('admin_menu', 'image_slider_settings_add_menu');
@@ -359,7 +335,7 @@ add_action('admin_menu', 'image_slider_settings_add_menu');
 function image_slider_settings_page()
 { ?>
     <div class="wrap">
-        <h1>Image Slider Settings</h1>
+        <h1>Theme Shortcodes</h1>
         <form method="post" action="options.php">
             <?php
             settings_fields('image-slider-section');
@@ -417,19 +393,29 @@ function image_slider_settings_page_setup()
 {
     add_settings_section('image-slider-section', '', null, 'image-slider-options');
 
-    add_settings_field('first_statement', 'First Statement', 'setting_first_statement', 'image-slider-options', 'image-slider-section');
-    add_settings_field('first_statement_author', 'First Statement Author', 'setting_first_statement_author', 'image-slider-options', 'image-slider-section');
-    add_settings_field('image_for_first_statement', 'Image For First Statement', 'setting_image_for_first_statement', 'image-slider-options', 'image-slider-section');
-    register_setting('image-slider-section', 'first_statement');
-    register_setting('image-slider-section', 'first_statement_author');
-    register_setting('image-slider-section', 'image_for_first_statement');
+    add_settings_field('email_subscription', 'Email Subscription shortcode', 'setting_email_subscription', 'image-slider-options', 'image-slider-section');
+    register_setting('image-slider-section', 'email_subscription');
 
-    add_settings_field('second_statement', 'Second Statement', 'setting_second_statement', 'image-slider-options', 'image-slider-section');
-    add_settings_field('second_statement_author', 'Second Statement Author', 'setting_second_statement_author', 'image-slider-options', 'image-slider-section');
-    add_settings_field('image_for_second_statement', 'Image For First Statement', 'setting_image_for_second_statement', 'image-slider-options', 'image-slider-section');
-    register_setting('image-slider-section', 'second_statement');
-    register_setting('image-slider-section', 'second_statement_author');
-    register_setting('image-slider-section', 'image_for_second_statement');
+    add_settings_field('site_visitors_today', 'Site Visitors today shortcode', 'setting_site_visitors_today', 'image-slider-options', 'image-slider-section');
+    register_setting('image-slider-section', 'site_visitors_today');
+
+    add_settings_field('site_visitors_yesterday', 'Site Visitors yesterday shortcode', 'setting_site_visitors_yesterday', 'image-slider-options', 'image-slider-section');
+    register_setting('image-slider-section', 'site_visitors_yesterday');
+
+    add_settings_field('site_visitors_this_week', 'Site Visitors This Week shortcode', 'setting_site_visitors_this_week', 'image-slider-options', 'image-slider-section');
+    register_setting('image-slider-section', 'site_visitors_this_week');
+
+    add_settings_field('site_visitors_this_month', 'Site Visitors This Month shortcode', 'setting_site_visitors_this_month', 'image-slider-options', 'image-slider-section');
+    register_setting('image-slider-section', 'site_visitors_this_month');
+
+    add_settings_field('site_visitors_total', 'Site Visitors  Total shortcode', 'setting_site_visitors_total', 'image-slider-options', 'image-slider-section');
+    register_setting('image-slider-section', 'site_visitors_total');
+
+    add_settings_field('sitemap', 'Sitemap shortcode', 'setting_sitemap', 'image-slider-options', 'image-slider-section');
+    register_setting('image-slider-section', 'sitemap');
+
+    add_settings_field('contact_us', 'Contact Us shortcode', 'setting_contact_us', 'image-slider-options', 'image-slider-section');
+    register_setting('image-slider-section', 'contact_us');
 
 
 
