@@ -153,7 +153,7 @@ function create_faqs_post()
         array(
             'labels' => array(
                 'name' => __('FAQs'),
-                'singular_name' => __('FAQs'),
+                'singular_name' => __('FAQ'),
             ),
             'public' => true,
             'menu_icon' => 'dashicons-welcome-write-blog',
@@ -167,6 +167,31 @@ function create_faqs_post()
         ));
 }
 add_action('init', 'create_faqs_post');
+
+
+// Statements Post Type
+function create_statements_post()
+{
+    register_post_type('statements',
+        array(
+            'labels' => array(
+                'name' => __('Statements'),
+                'singular_name' => __('Statement'),
+            ),
+            'public' => true,
+            'menu_icon' => 'dashicons-book',
+            'has_archive' => true,
+            'supports' => array(
+                'title',
+                'editor',
+                'thumbnail',
+                'custom-fields'
+            )
+        ));
+}
+add_action('init', 'create_statements_post');
+
+
 
 // Enabling Links manager
 add_filter( 'pre_option_link_manager_enabled', '__return_true' );
@@ -315,3 +340,105 @@ function custom_settings_page_setup()
 }
 
 add_action('admin_init', 'custom_settings_page_setup');
+
+
+
+
+
+
+// Image slider settings
+function image_slider_settings_add_menu()
+{
+    add_menu_page('Image Slider Settings', 'Image Slider Settings', 'manage_options', 'image-slider-settings', 'image_slider_settings_page', null, 99);
+}
+
+add_action('admin_menu', 'image_slider_settings_add_menu');
+
+
+// Create Custom Global Settings
+function image_slider_settings_page()
+{ ?>
+    <div class="wrap">
+        <h1>Image Slider Settings</h1>
+        <form method="post" action="options.php">
+            <?php
+            settings_fields('image-slider-section');
+            do_settings_sections('image-slider-options');
+            submit_button();
+            ?>
+        </form>
+    </div>
+<?php }
+
+
+
+// First statement
+function setting_first_statement()
+{ ?>
+    <input type="text" name="first_statement" id="first_statement" placeholder="First Statement" value="<?php echo get_option('first_statement'); ?>"/>
+<?php }
+
+// First statement author
+function setting_first_statement_author()
+{ ?>
+    <input type="text" name="first_statement_author" id="first_statement_author" placeholder="First Statement Author" value="<?php echo get_option('first_statement_author'); ?>"/>
+<?php }
+
+// Image  for first statement
+function setting_image_for_first_statement()
+{ ?>
+    <input type="text" name="image_for_first_statement" id="image_for_first_statement" placeholder="Image For First Statement" value="<?php echo get_option('image_for_first_statement'); ?>"/>
+<?php }
+
+// Second statement
+function setting_second_statement()
+{ ?>
+    <input type="text" name="second_statement" id="second_statement" placeholder="Second Statement" value="<?php echo get_option('second_statement'); ?>"/>
+<?php }
+
+// Second statement author
+function setting_second_statement_author()
+{ ?>
+    <input type="text" name="second_statement_author" id="second_statement_author" placeholder="Second Statement Author" value="<?php echo get_option('second_statement_author'); ?>"/>
+<?php }
+
+// Image  for second statement
+function setting_image_for_second_statement()
+{ ?>
+    <input type="text" name="image_for_second_statement" id="image_for_second_statement" placeholder="Image For Second Statement" value="<?php echo get_option('image_for_second_statement'); ?>"/>
+<?php }
+
+
+
+/**
+ *  settings for image slider
+ */
+function image_slider_settings_page_setup()
+{
+    add_settings_section('image-slider-section', '', null, 'image-slider-options');
+
+    add_settings_field('first_statement', 'First Statement', 'setting_first_statement', 'image-slider-options', 'image-slider-section');
+    add_settings_field('first_statement_author', 'First Statement Author', 'setting_first_statement_author', 'image-slider-options', 'image-slider-section');
+    add_settings_field('image_for_first_statement', 'Image For First Statement', 'setting_image_for_first_statement', 'image-slider-options', 'image-slider-section');
+    register_setting('image-slider-section', 'first_statement');
+    register_setting('image-slider-section', 'first_statement_author');
+    register_setting('image-slider-section', 'image_for_first_statement');
+
+    add_settings_field('second_statement', 'Second Statement', 'setting_second_statement', 'image-slider-options', 'image-slider-section');
+    add_settings_field('second_statement_author', 'Second Statement Author', 'setting_second_statement_author', 'image-slider-options', 'image-slider-section');
+    add_settings_field('image_for_second_statement', 'Image For First Statement', 'setting_image_for_second_statement', 'image-slider-options', 'image-slider-section');
+    register_setting('image-slider-section', 'second_statement');
+    register_setting('image-slider-section', 'second_statement_author');
+    register_setting('image-slider-section', 'image_for_second_statement');
+
+
+
+
+}
+
+add_action('admin_init', 'image_slider_settings_page_setup');
+
+
+
+
+
