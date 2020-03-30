@@ -1,0 +1,112 @@
+
+.site-footer .main-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+.site-footer .main-footer .subscription-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-footer .main-footer .subscription-section form input[type="email"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #ffffff;
+
+}
+
+.site-footer .main-footer .subscription-section form input[type="submit"] {
+    padding: 10px;
+    width: 50%;
+    color: #ffffff;
+}
+
+.site-footer .main-footer .subscription-section form input {
+    background: #242323;
+    border: 1px  solid #a3a3a3;
+}
+
+.site-footer .footer-navigation {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+}
+
+.site-footer .footer-navigation nav {
+    width: 100%;
+}
+
+#menu-footer-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+#menu-footer-menu li a:hover {
+    color: #242323;
+}
+
+#menu-footer-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu-footer-menu li {
+    padding-right: 20px;
+}
+
+
+
+
+
+/* Styles  for header in mobile screen */
+
+/* mobile small*/
+@media only screen and (max-width: 320px) {
+}
+
+/* mobile medium */
+@media only screen and (max-width: 375px) {
+
+}
+
+/* mobile  Large */
+@media only screen and (max-width: 425px) {
+
+    .site-footer .main-footer {
+        flex-direction: column;
+    }
+
+    .quickcontacts, .site-visits,.subscription-section {
+        text-align: center;
+    }
+    .subscription-section, .quickcontacts {
+        border-bottom: 1px solid #3c3e3e;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Laptop 1024 */
+@media only screen and (max-width: 1024px) {
+
+}
+
+/* Laptop 1440 */
+@media only screen and (max-width: 1440px) {
+
+}
+
+/* Laptop 2560 */
+@media only screen and (max-width: 2560px) {
+
+}
+
+
+

@@ -1,0 +1,211 @@
+.slideshow-container * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 62vh;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #c6c9c9;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px 12px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 0.8em;
+    bottom: 0;
+    left: 0;
+    min-height: 20vh;
+    width: 100%;
+    text-align: center;
+}
+
+.caption-text {
+    width: 90%;
+    margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+/* Media Queries*/
+
+
+/* mobile small*/
+
+@media only screen and (max-width: 320px) {
+    .text {
+        color: #ffffff;
+        background-color: #0054a0;
+        line-height: 1.6;
+        font-size: 0.7em;
+        position: absolute;
+        letter-spacing: 1px;
+        min-height: 22vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .prev, .next {
+        top: 25%;
+    }
+
+    .mySlides {
+        min-height: 94vh;
+    }
+
+    .mySlides img {
+        height: 240px;
+        width: 100%;
+    }
+}
+
+/* mobile medium */
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .text {
+        color: #ffffff;
+        background-color: #0054a0;
+        line-height: 1.6;
+        position: absolute;
+        letter-spacing: 1px;
+        min-height: 22vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .prev, .next {
+        top: 25%;
+    }
+
+    .mySlides {
+        min-height: 100vh;
+    }
+
+    .mySlides img {
+        height: 300px;
+        width: 100%;
+    }
+}
+
+/* mobile  Large */
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+
+    .text {
+        color: #ffffff;
+        background-color: #0054a0;
+        line-height: 1.6;
+        position: absolute;
+        letter-spacing: 1px;
+        min-height: 22vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .prev, .next {
+        top: 25%;
+    }
+
+    .mySlides {
+        min-height: 70vh;
+    }
+
+    .mySlides img {
+        height: 240px;
+        width: 100%;
+    }
+}
+
+/* Tablet */
+@media only screen and  (min-width: 426px) and (max-width: 768px) {
+    .text {
+        font-size: 0.7em;
+    }
+}
+
+/* Laptop small */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .text {
+        font-size: 0.8em;
+    }
+}
+
+/* Laptop medium */
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {}
+
+/* Laptop Large */
+@media only screen and (min-width: 2560px) {}

@@ -1,0 +1,173 @@
+
+/* colors*/
+.greysh-background {
+    background: #f7f8f8 !important;
+}
+
+.dark-grey-background {
+    background: #636363 !important;
+}
+
+.black-background {
+    background: #242323 !important;
+}
+.bluish-text-color {
+    color: #0054a0 !important;
+}
+
+.white-text-color {
+    color: #ffffff;
+}
+
+.dark-white-color {
+    color: #a3a3a3;
+}
+
+/*custom font sizes*/
+.small-text {
+    font-size: 1em;
+}
+
+/*dividers*/
+.vertical-divider {
+    border-right: 2px solid #0054a0;
+    padding: 0 10px 0 10px;
+}
+ .bg-blue{
+    background-color: #00A3DD;
+    padding: 1em 0;
+}
+
+
+/* style active menu item */
+/*.active {*/
+/*    border-bottom: 3px solid #0054a0;*/
+/*    padding: 0 5px 4px 5px;*/
+/*}*/
+
+
+.related-link {
+    text-transform: uppercase;
+    color: #00A3DD;
+    padding-inline-start: 1em;
+}
+.links {
+    padding-inline-start: 1em;
+}
+h2, h3{
+    letter-spacing: 1px;
+}
+
+/* page intro */
+.page-intro-section {
+    background-image:  url('../images/zanzibar-arial.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page-intro-section h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.page-intro-section p {
+    font-size: 1.2em;
+}
+
+.page-intro-section article {
+    margin: auto;
+    text-align: center;
+    line-height: 1.7;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding:20px 80px 120px 80px;
+}
+
+
+/* Styles for  menu icon (hamburger menu)*/
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0px;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -6px);
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.fas{
+    margin-left: 3px;
+}
+/* new button */
+/*.new {*/
+/*    border: 1px solid #0054a0;*/
+/*    display: inline-block;*/
+/*    font-size: 0.6em;*/
+/*    padding: 1%;*/
+/*    margin: 2%;*/
+/*    color: #ffffff;*/
+/*    background: #0054a0;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+.new {
+    position: relative;
+    top: 6px;
+    left: 5px;
+}
+
+@media only screen and (max-width: 425px) {
+    .layout-content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        position: relative;
+        justify-content: space-between;
+    }
+    .page-intro-section article {
+        padding: 3em 2em;
+    }
+    .page-intro-section h1 {
+        font-size: 1.5em;
+    }
+    .page-intro-section p {
+        font-size: 1em;
+    }
+    .related-link {
+        background-color: #00A3DD;
+        padding: 1em 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Laptop 1024 */
+@media only screen and (min-width: 1024px) {
+    .layout-content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        position: relative;
+        justify-content: space-between;
+    }
+}

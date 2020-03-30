@@ -1,0 +1,148 @@
+.contact, .contact-info {
+    margin: auto;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.contact h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    padding-block-start: 1.5em;
+}
+
+.contact p {
+    font-size: 1.2em;
+    padding-block-end: 1.5em;
+    padding-block-start: 0;
+}
+
+.contact-info {
+    padding-top: 2em;
+}
+
+.contact-info h3 {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 300;
+}
+
+.contact-info p {
+    font-size: 1em;
+}
+
+#contact-title {
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+
+.form-field input, .form-field textarea {
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.form-field label {
+    font-weight: 500;
+}
+
+.form-field .wpcf7-submit {
+    background-color: #00A3DD;
+    border: 1px solid #00A3DD;
+    color: #ffffff;
+}
+
+/* Styles  for header in mobile screen */
+
+/* mobile small*/
+
+@media only screen and (max-width: 320px) {}
+
+/* mobile medium */
+
+@media only screen and (max-width: 375px) {}
+
+/* mobile  Large */
+
+@media only screen and (max-width: 425px) {
+    .contact-us{
+        background-color: #f7f8f8;
+    }
+    .form-field {
+        margin: 0 2em;
+    }
+    .form-field input, .form-field textarea {
+        width: 90%;
+    }
+    .form-field .wpcf7-submit {
+        width: 100%;
+        font-size: 18px;
+    }
+    .form-field input, .form-field textarea {
+        margin-top: 0;
+    }
+}
+
+/* Tablet */
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .contact-us{
+        background-color: #f7f8f8;
+    }
+    .form-field {
+        margin: 0 4em;
+    }
+    .form-field input, .form-field textarea {
+        width: 95%;
+    }
+    .form-field .wpcf7-submit {
+        width: 100%;
+        font-size: 18px;
+    }
+}
+
+/* Laptop 1024 */
+
+@media only screen and (min-width: 1024px) {
+    .form-field {
+        margin: 0 4em;
+    }
+
+    .form-field input, .form-field textarea {
+        width: 100%;
+
+    }
+
+    .form-field label{
+        font-size: 20px;
+    }
+    .form-field .wpcf7-submit {
+        width: 33%;
+        font-size: 20px;
+    }
+}
+
+/* Laptop 1440 */
+
+@media only screen and (min-width: 1440px) {
+    .form-field {
+        margin: 0 6em;
+    }
+    .form-field .wpcf7-submit {
+        width: 25%;
+    }
+}
+
+/* Laptop 2560 */
+
+@media only screen and (min-width: 2560px) {
+    .form-field {
+        margin: 0 8em;
+    }
+}
+
+/* .contact-form {
+    display: flex;
+    justify-content: center;
+} */
