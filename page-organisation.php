@@ -5,10 +5,9 @@
         </div>
         <div class="col-4">
             <div class="related-link">
-                <h3>RELATED LINKS</h3>
+                <?php get_template_part( 'includes/related-links' , get_post_format()); ?>
             </div>
             
-<?php get_template_part( 'includes/related-links' , get_post_format()); ?>
         </div>
     </section>
 <?php get_footer(); ?>
