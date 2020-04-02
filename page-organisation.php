@@ -7,20 +7,8 @@
             <div class="related-link">
                 <h3>RELATED LINKS</h3>
             </div>
-            <div class="links">
-                <?php
-                $bookmarks = get_bookmarks( array(
-                    'orderby'        => 'name',
-                    'order'          => 'ASC',
-                    'category_name'  => 'RELATED LINKS'
-                ) );
-
-                // Loop through each bookmark and print formatted output
-                foreach ( $bookmarks as $bookmark ) {
-                    printf('<div><h4><a href="%1$s">%2$s</a></h4><hr></div>',esc_attr( $bookmark->link_url ), $bookmark->link_name);
-                }
-                ?>
-            </div>
+            
+<?php get_template_part( 'includes/related-links' , get_post_format()); ?>
         </div>
     </section>
 <?php get_footer(); ?>
