@@ -16,9 +16,14 @@ background-color: #f7f8f8;
 /* center site contents*/
 .site-contents {
     margin: auto;
-    width: 60%;
+    width: 70%;
     background-color: #fff;
 }
+@media only screen and (max-width: 1440px) {
+    .site-contents {
+        width: 75%;
+    }
+  }
 @media only screen and (max-width: 1280px) {
     .site-contents {
         width: 90%;
