@@ -15,14 +15,13 @@
                 </div>
                 <div class="col-4">
                     <h3>Visit our offices</h3>
-                    <p>P.O.Box 874/1154,</p>
+                    <p>Zanzibar Planning Commission</p>
                     <p>Vuga-Zanzibar</p>
                 </div>
                 <div class="col-4">
                     <h3>Write to us</h3>
                     <p>P.O.Box 874/1154,</p>
-                    <p>Vuga-Zanzibar</p>
-                    <p>info@pppnode.go.tz</p>
+                    <p>info@zppp.go.tz</p>
                 </div>
             </div>
 

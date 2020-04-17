@@ -34,7 +34,7 @@
     padding: 0 10px 0 10px;
 }
  .bg-blue{
-    background-color: #00A3DD;
+    background-color: #0054a0;
     padding: 1em 0;
 }
 
@@ -48,7 +48,7 @@
 
 .related-link {
     text-transform: uppercase;
-    color: #00A3DD;
+    color: #0054a0;
     padding-inline-start: 1em;
 }
 .links {
@@ -154,7 +154,7 @@ h2, h3{
         font-size: 1em;
     }
     .related-link {
-        background-color: #00A3DD;
+        background-color: #0054a0;
         padding: 1em 0;
     }
 }

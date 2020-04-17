@@ -18,3 +18,12 @@
 .project-card .contents-section {
     padding-left: 2%;
 }
+
+/* Templates styles  */
+.title {
+    text-align: center;
+    padding-top: 30px;
+}
+.title h1 {
+    text-transform: uppercase;
+}

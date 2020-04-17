@@ -1,0 +1,21 @@
+aside ul {
+    list-style: none;
+    padding-inline-start: 5px;
+    margin-block-start: 0px;;
+}
+aside ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+aside ul li a {
+    text-decoration: none;
+}
+
+.widget-title {
+    padding: 15px 5px;
+}
+
+#sidebar-primary {
+    padding-right: 20px;
+}
