@@ -1,10 +1,10 @@
 <?php get_header(); ?>
-<div class="site-container">
     <section>
     <div class="bluish-text-color">
         <h2 id="news">E - LIBRARY</h2>
     </div>
     <div class="documents">
+    <div class="site-container">
     <table>
   <tr class="table-header">
     <th>Name</th>

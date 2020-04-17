@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section>
+<section class="site-container">
     <div>
         <?php
         $ids = array(); // ids of first 4 latest posts
