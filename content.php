@@ -1,4 +1,5 @@
 <?php get_template_part('includes/slideshow', get_post_format()); ?>
+<div class="site-container">
 <section class="layout-content home-latest">
     <div class="col-8 ">
         <div>
@@ -133,3 +134,4 @@
         </div>
     </div>
 </section>
+</div>

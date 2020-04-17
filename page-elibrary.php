@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="site-container">
     <section>
         <div class="bluish-text-color">
             <h2 id="news"> E- library</h2>
@@ -23,4 +24,5 @@
             </table>
         </div>
     </section>
+</div>
 <?php get_footer(); ?>

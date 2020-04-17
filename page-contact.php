@@ -6,6 +6,7 @@
                 We would like to here from you
             </p>
         </div>
+        <div class="site-container">
         <article class="contact-us">
             <div class="layout-content contact-info">
                 <div class="col-4 ">
@@ -36,6 +37,7 @@
                 </div>
 
         </article>
+        </div>
         </div>
     </section>
 <?php get_footer(); ?>

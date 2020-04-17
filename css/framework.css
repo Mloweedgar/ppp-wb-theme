@@ -41,16 +41,18 @@
     content: "-";
 }
 .ppp-legal-framework article h2,
+#relevant,
 .ppp-public-communications-strategy h2 {
-    padding: 0 1.4em;
+    padding: 0 1em;
 }
 .ppp-legal-framework article p, 
-.ppp-legal-framework article h4, 
+.ppp-legal-framework article h4,
 .ppp-legal-framework article ul, 
 .ppp-public-communications-strategy p, 
 .ppp-public-communications-strategy h5, 
-.ppp-public-communications-strategy ul {
-    padding: 0 2em;
+.ppp-public-communications-strategy ul,
+.ppp-public-communications-strategy h4 {
+    padding: 0 1.2em;
 }
 
 /* Styles  for header in mobile screen */

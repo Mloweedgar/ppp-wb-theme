@@ -17,6 +17,7 @@
     <p>To implement a robust and transparent framework for public and private sector collaboration in Zanzibar through a competitive and transparent PPP process.</p>
     </div> 
 </section>
+<div class="site-container">
 <section class="layout-content about-overview">
     <div class="col-8">
    
@@ -71,4 +72,5 @@
         </div>
     </div>
 </section>
+</div>
 <?php get_footer(); ?>

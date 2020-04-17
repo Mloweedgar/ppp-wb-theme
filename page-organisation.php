@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="site-container">
     <section class="layout-content organization">
         <div class="col-8">
            <img src="<?php echo get_bloginfo('template_directory'); ?>/images/organisation-structure.gif">
@@ -10,4 +11,5 @@
             
         </div>
     </section>
+</div>
 <?php get_footer(); ?>

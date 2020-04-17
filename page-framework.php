@@ -7,6 +7,7 @@
                 </p>
             </article>
         </section>
+        <div class="site-container">
         <section class="ppp-legal-framework">
             <article>
                 <h2 class="bluish-text-color">PPP Legal Framework</h2>
@@ -88,7 +89,7 @@
                 </article>
                
             </section>
-            <p>Each sector has its own laws and regulatory frameworks, please visit the ministry websites and offices of the sector in for more details.</p>
+            <p id="relevant">Each sector has its own laws and regulatory frameworks, please visit the ministry websites and offices of the sector in for more details.</p>
         </section>
         <section class="ppp-public-communications-strategy">
             <article>
@@ -112,4 +113,5 @@
             </article>
         </section>
     </div>
+</div>
 <?php get_footer(); ?>

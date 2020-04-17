@@ -55,6 +55,9 @@
     margin: 0;
     font-size: 1em;
 }
+.site-container,.slideshow-container {
+    padding: 0 18px;
+}
 
 .project-content h4 {
     color: #636363;
