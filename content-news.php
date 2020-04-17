@@ -2,7 +2,8 @@
     <div class="news-box">
 <img src="<?php if ( has_post_thumbnail() ) {
         the_post_thumbnail_url();
-    } ?>" alt="posts image"></div>
+    } ?>" alt="posts image">
+    </div>
 </div>
 <div class="col-9">
     <span class="news-date"><?php echo get_the_date(); ?></span>
