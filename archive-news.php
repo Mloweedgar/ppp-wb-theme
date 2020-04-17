@@ -28,6 +28,7 @@
                 'post__not_in' => $ids
             );
             $custom_query = new WP_Query($args);
+            
             while ($custom_query->have_posts()) : $custom_query->the_post();
                 get_template_part('content-news-card-small', get_post_format());
             endwhile; ?>
