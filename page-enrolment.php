@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="site-container">
   <section class="training bg-blue">
             <div class="white-text-color">
                 <h2>PPP TRAINING ENROLMENT</h2>
@@ -10,4 +11,5 @@
                 </p>
             </div>
   </section>
+</div>
   <?php get_footer(); ?>

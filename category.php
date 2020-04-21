@@ -9,6 +9,7 @@ $category_name = array_reverse($uri_parts)[1];
         <div class="bluish-text-color">
             <h2 id="news"><?php echo  $category_name ?></h2>
         </div>
+        <div class="site-container">
         <div class="documents">
             <table>
                 <tr class="table-header">
@@ -52,6 +53,7 @@ $category_name = array_reverse($uri_parts)[1];
 
                 ?>
             </table>
+            </div>
         </div>
     </section>
 <?php get_footer(); ?>

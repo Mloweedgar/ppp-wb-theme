@@ -18,7 +18,7 @@
   }
   
   .table-header{
-      background-color: #00A3DD;
+      background-color: #0054a0;
   }
   .e_library td:nth-child(3),
   .e_library th:nth-child(3){
@@ -26,7 +26,7 @@
   }
   .e_library td:nth-child(3)> a{
       cursor: pointer;
-      color: #00A3DD;
+      color: #0054a0;
       text-decoration: underline;
   }
 .th-name {

@@ -9,6 +9,7 @@
                 </p>
             </article>
         </section>
+        <div class="site-container">
         <section class="ppp-tools">
             <article>
                 <h2 class="bluish-text-color">PPP tools kit</h2>
@@ -56,4 +57,5 @@
             </article>
         </section>
     </div>
+</div>
 <?php get_footer(); ?>

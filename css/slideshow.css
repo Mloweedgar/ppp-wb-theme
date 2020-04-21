@@ -47,7 +47,7 @@
 .text {
     color: #c6c9c9;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 8px 12px;
+    padding: 8px 18px;
     line-height: 1.6;
     letter-spacing: 1px;
     position: absolute;
@@ -58,7 +58,9 @@
     width: 100%;
     text-align: center;
 }
-
+.caption-text{
+    
+}
 .caption-text {
     width: 90%;
     margin: auto;

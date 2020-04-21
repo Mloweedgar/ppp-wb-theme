@@ -1,3 +1,5 @@
+
+<div class="site-container">
 <section class="project-card">
     <img src="<?php if ( has_post_thumbnail() ) {
         the_post_thumbnail_url();
@@ -8,3 +10,4 @@
         <p class="project-content"><?php the_excerpt(); ?></p>
     </div>
 </section>
+</div>

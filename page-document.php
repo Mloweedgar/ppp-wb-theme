@@ -4,6 +4,7 @@
         <h2 id="news">E - LIBRARY</h2>
     </div>
     <div class="documents">
+    <div class="site-container">
     <table>
   <tr class="table-header">
     <th>Name</th>
@@ -43,4 +44,5 @@
 </table>
 </div>
     </section>
+</div>
 <?php get_footer(); ?>

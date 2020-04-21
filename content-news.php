@@ -1,5 +1,9 @@
 <div class="col-3">
-    <div class="news-box" style="background: #E6E6E6;"></div>
+    <div class="news-box">
+<img src="<?php if ( has_post_thumbnail() ) {
+        the_post_thumbnail_url();
+    } ?>" alt="posts image">
+    </div>
 </div>
 <div class="col-9">
     <span class="news-date"><?php echo get_the_date(); ?></span>

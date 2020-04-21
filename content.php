@@ -1,4 +1,5 @@
 <?php get_template_part('includes/slideshow', get_post_format()); ?>
+<div class="site-container">
 <section class="layout-content home-latest">
     <div class="col-8 ">
         <div>
@@ -93,7 +94,7 @@
             ?>
         </div>
     </div>
-    <div class="col-4 ">
+    <!-- <div class="col-4 ">
         <div class="latest-docs bg-blue">
             <h3>RELATED LINKS</h3>
         </div>
@@ -114,7 +115,7 @@
             }
             ?>
         </div>
-    </div>
+    </div> -->
     <div class="col-4 ">
         <div class="latest-docs bg-blue">
             <h3>LEGISLATION</h3>
@@ -133,3 +134,4 @@
         </div>
     </div>
 </section>
+</div>

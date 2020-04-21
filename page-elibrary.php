@@ -1,8 +1,10 @@
 <?php get_header(); ?>
+<div class="site-container">
     <section>
         <div class="bluish-text-color">
             <h2 id="news"> E- library</h2>
         </div>
+        <div class="site-container">
         <div class="e_library">
             <table>
                 <tr class="table-header">
@@ -22,5 +24,7 @@
                 <?php } ?>
             </table>
         </div>
+    </div>
     </section>
+</div>
 <?php get_footer(); ?>

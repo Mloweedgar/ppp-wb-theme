@@ -10,6 +10,7 @@
                 </p>
             </div>
   </section>
+  <div class="site-container">
   <section class="layout-content training-program">
   <div class="program col-4">
         <div class="training-module">
@@ -111,4 +112,5 @@
       
     </div>
 </section>
+</div>
 <?php get_footer(); ?>

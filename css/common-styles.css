@@ -35,7 +35,7 @@
 }
  .bg-blue{
     background-color: #0054a0;
-    padding: 1em 0;
+    padding: 3em 0;
 }
 
 
@@ -57,6 +57,9 @@
 h2, h3{
     letter-spacing: 1px;
 }
+#paragraph p{
+    margin: 0;
+    }
 
 /* page intro */
 .page-intro-section {
@@ -80,7 +83,7 @@ h2, h3{
     text-align: center;
     line-height: 1.7;
     background-color: rgba(0, 0, 0, 0.7);
-    padding:20px 80px 120px 80px;
+    padding:60px 80px 120px 80px;
 }
 
 
