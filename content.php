@@ -94,7 +94,7 @@
             ?>
         </div>
     </div>
-    <div class="col-4 ">
+    <!-- <div class="col-4 ">
         <div class="latest-docs bg-blue">
             <h3>RELATED LINKS</h3>
         </div>
@@ -115,7 +115,7 @@
             }
             ?>
         </div>
-    </div>
+    </div> -->
     <div class="col-4 ">
         <div class="latest-docs bg-blue">
             <h3>LEGISLATION</h3>
